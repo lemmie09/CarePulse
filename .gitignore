@@ -1,0 +1,8 @@
+data/raw/
+data/processed/
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+__pycache__/
+.venv/
