@@ -2,12 +2,15 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 import joblib
+import torch
+from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
 
 DATA_PATH = Path("data/processed/healthcare_reviews_min20_labeled.csv")
 ASPECT_PATH = Path("data/processed/healthcare_reviews_min20_aspects.csv")
 BIZ_PATH = Path("data/processed/healthcare_businesses_min20.csv")
 MODEL_PATH = Path("models/logreg_model.pkl")
 VECTORIZER_PATH = Path("models/tfidf_vectorizer.pkl")
+DISTILBERT_DIR = Path("models/distilbert_sentiment")
 
 @st.cache_data
 def load_data():
@@ -25,11 +28,41 @@ def load_model_artifacts():
     vectorizer = joblib.load(VECTORIZER_PATH)
     return model, vectorizer
 
+@st.cache_resource
+def load_distilbert_artifacts():
+    tokenizer = DistilBertTokenizerFast.from_pretrained(DISTILBERT_DIR)
+    model = DistilBertForSequenceClassification.from_pretrained(DISTILBERT_DIR)
+    model.eval()
+    return tokenizer, model
+
+def predict_distilbert_sentiment(text: str):
+    tokenizer, model = load_distilbert_artifacts()
+
+    inputs = tokenizer(
+        text,
+        return_tensors="pt",
+        truncation=True,
+        padding=True,
+        max_length=128
+    )
+
+    with torch.no_grad():
+        outputs = model(**inputs)
+        probs = torch.softmax(outputs.logits, dim=1)[0]
+        pred = torch.argmax(probs).item()
+
+    return {
+        "label": "positive" if pred == 1 else "negative",
+        "negative": float(probs[0]),
+        "positive": float(probs[1]),
+        "confidence": float(probs[pred])
+    }
+
 def inject_css():
     st.markdown("""
     <style>
     .stApp {
-        background: linear-gradient(180deg, #f7fcfb 0%, #eff8f6 45%, #f9fcfb 100%);
+        background: #f4f8f7;
     }
 
     .main > div {
@@ -48,11 +81,11 @@ def inject_css():
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background: rgba(255,255,255,0.84);
+        background: rgba(255,255,255,0.88);
         border: 1px solid rgba(148,163,184,0.14);
         backdrop-filter: blur(10px);
         padding: 14px 18px;
-        border-radius: 22px;
+        border-radius: 20px;
         margin-bottom: 18px;
         box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
     }
@@ -72,9 +105,9 @@ def inject_css():
         align-items: center;
         justify-content: center;
         color: white;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 800;
-        box-shadow: 0 6px 18px rgba(20,184,166,0.28);
+        box-shadow: 0 6px 18px rgba(20,184,166,0.20);
     }
 
     .cp-logo-text {
@@ -91,12 +124,12 @@ def inject_css():
     }
 
     .hero {
-        background: linear-gradient(135deg, #0f766e, #115e59 45%, #0ea5a4 100%);
+        background: #0f766e;
         padding: 34px 36px;
         border-radius: 28px;
         color: white;
         margin-bottom: 22px;
-        box-shadow: 0 14px 34px rgba(15, 118, 110, 0.16);
+        box-shadow: 0 14px 34px rgba(15, 118, 110, 0.14);
     }
 
     .hero h1 {
@@ -116,7 +149,7 @@ def inject_css():
     }
 
     .metric-card {
-        background: rgba(255,255,255,0.95);
+        background: rgba(255,255,255,0.96);
         backdrop-filter: blur(6px);
         padding: 18px 20px;
         border-radius: 20px;
@@ -144,42 +177,8 @@ def inject_css():
         color: #94a3b8;
     }
 
-    .soft-card {
-        background: rgba(255,255,255,0.9);
-        padding: 18px;
-        border-radius: 20px;
-        border: 1px solid rgba(148,163,184,0.13);
-        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
-    }
-
-    .badge {
-        display: inline-block;
-        padding: 6px 12px;
-        border-radius: 999px;
-        font-size: 0.82rem;
-        font-weight: 700;
-        margin-right: 8px;
-        margin-bottom: 8px;
-    }
-
-    .badge-green { background: rgba(34,197,94,0.14); color: #15803d; }
-    .badge-yellow { background: rgba(250,204,21,0.18); color: #a16207; }
-    .badge-orange { background: rgba(249,115,22,0.16); color: #c2410c; }
-    .badge-red { background: rgba(239,68,68,0.16); color: #b91c1c; }
-
-    .chip {
-        display: inline-block;
-        background: #dff7f4;
-        color: #115e59;
-        padding: 7px 11px;
-        margin: 4px 6px 4px 0;
-        border-radius: 999px;
-        font-size: 0.84rem;
-        font-weight: 700;
-    }
-
     .feature-card {
-        background: rgba(255,255,255,0.95);
+        background: rgba(255,255,255,0.96);
         border-radius: 22px;
         padding: 22px;
         border: 1px solid rgba(148,163,184,0.12);
@@ -201,18 +200,33 @@ def inject_css():
     }
 
     div[data-testid="stButton"] > button {
-        background: linear-gradient(135deg, #0f766e, #14b8a6);
+        background: #0f766e;
         color: white;
         border: none;
         border-radius: 14px;
         padding: 0.6rem 1rem;
         font-weight: 700;
-        box-shadow: 0 8px 18px rgba(20,184,166,0.18);
+        box-shadow: 0 8px 18px rgba(20,184,166,0.14);
     }
 
     div[data-testid="stButton"] > button:hover {
-        background: linear-gradient(135deg, #115e59, #0f766e);
+        background: #115e59;
         color: white;
+    }
+
+    div[data-testid="stPageLink"] a {
+        background: rgba(255,255,255,0.92);
+        border: 1px solid rgba(148,163,184,0.14);
+        border-radius: 14px;
+        padding: 10px 14px;
+        color: #0f172a !important;
+        font-weight: 700;
+        text-decoration: none !important;
+    }
+
+    div[data-testid="stPageLink"] a:hover {
+        border-color: rgba(15,118,110,0.28);
+        color: #0f766e !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -221,7 +235,7 @@ def render_top_nav(current="Home"):
     st.markdown("""
     <div class="cp-nav">
         <div class="cp-logo-wrap">
-            <div class="cp-logo-icon">✚</div>
+            <div class="cp-logo-icon">CP</div>
             <div>
                 <div class="cp-logo-text">CarePulse</div>
                 <div class="cp-logo-sub">Healthcare review intelligence</div>
@@ -232,11 +246,11 @@ def render_top_nav(current="Home"):
 
     c1, c2, c3 = st.columns([1,1,1])
     with c1:
-        st.page_link("Home.py", label="Home", icon="🏠")
+        st.page_link("Home.py", label="Home")
     with c2:
-        st.page_link("pages/1_Provider_Analysis.py", label="Provider Details", icon="🏥")
+        st.page_link("pages/1_Provider_Analysis.py", label="Provider Details")
     with c3:
-        st.page_link("pages/2_Find_the_One_for_You.py", label="Find the One for You", icon="🧭")
+        st.page_link("pages/2_Find_the_One_for_You.py", label="Find the One for You")
 
 def metric_card(label, value, sub=""):
     st.markdown(f"""

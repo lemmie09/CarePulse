@@ -1,14 +1,13 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import inject_css, render_top_nav, hero, metric_card, load_aspect_data, load_model_artifacts, calculate_cqi, quality_badge, quality_label
+from utils import inject_css, render_top_nav, hero, metric_card, load_aspect_data, predict_distilbert_sentiment, calculate_cqi, quality_badge, quality_label
 
-st.set_page_config(page_title="CarePulse", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="CarePulse", page_icon="C", layout="wide")
 inject_css()
 render_top_nav("Home")
 
 reviews_df = load_aspect_data()
-model, vectorizer = load_model_artifacts()
 
 ASPECT_LABELS = {
     "aspect_doctor_care": "Doctor Care",
@@ -203,7 +202,7 @@ st.plotly_chart(fig_state, use_container_width=True)
 st.markdown("---")
 
 st.markdown("## Live sentiment analyzer")
-st.caption("Enter a healthcare review and get a quick model-driven sentiment estimate.")
+st.caption("This analyzer now uses a DistilBERT transformer model.")
 
 predict_col1, predict_col2 = st.columns([1.1, 1])
 
@@ -218,21 +217,23 @@ with predict_col1:
         if not review_text.strip():
             st.warning("Please enter a review first.")
         else:
-            review_vec = vectorizer.transform([review_text])
-            prediction = model.predict(review_vec)[0]
-            probabilities = model.predict_proba(review_vec)[0]
-            class_probs = dict(zip(model.classes_, probabilities))
-
-            st.session_state["cp_prediction"] = prediction
-            st.session_state["cp_probs"] = class_probs
+            result = predict_distilbert_sentiment(review_text)
+            st.session_state["cp_prediction"] = result["label"]
+            st.session_state["cp_negative"] = result["negative"]
+            st.session_state["cp_positive"] = result["positive"]
+            st.session_state["cp_confidence"] = result["confidence"]
 
 with predict_col2:
     if "cp_prediction" in st.session_state:
-        metric_card("Predicted Sentiment", st.session_state["cp_prediction"].upper(), "Live inference from saved sentiment model")
+        metric_card(
+            "Predicted Sentiment",
+            st.session_state["cp_prediction"].upper(),
+            f"Confidence: {st.session_state['cp_confidence']:.3f}"
+        )
 
         prob_df = pd.DataFrame({
-            "label": list(st.session_state["cp_probs"].keys()),
-            "score": list(st.session_state["cp_probs"].values())
+            "label": ["negative", "positive"],
+            "score": [st.session_state["cp_negative"], st.session_state["cp_positive"]]
         })
         fig_prob = px.bar(prob_df, x="label", y="score", text="score", title="Confidence Scores")
         fig_prob.update_traces(texttemplate="%{text:.3f}", textposition="outside")

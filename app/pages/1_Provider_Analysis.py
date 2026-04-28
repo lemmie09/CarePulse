@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import pydeck as pdk
 from utils import inject_css, render_top_nav, hero, metric_card, load_aspect_data, calculate_cqi, quality_badge, quality_label
 
-st.set_page_config(page_title="Provider Details", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Provider Details", page_icon="C", layout="wide")
 inject_css()
 render_top_nav("Provider Details")
 
@@ -132,7 +132,13 @@ with tab1:
 
 with tab2:
     st.markdown("### Patient Reviews")
-    filtered_reviews = provider_df.sort_values("date", ascending=False).head(10)
+
+    if sort_reviews == "Highest stars":
+        filtered_reviews = provider_df.sort_values(["stars", "date"], ascending=[False, False]).head(10)
+    elif sort_reviews == "Lowest stars":
+        filtered_reviews = provider_df.sort_values(["stars", "date"], ascending=[True, False]).head(10)
+    else:
+        filtered_reviews = provider_df.sort_values("date", ascending=False).head(10)
 
     for _, row in filtered_reviews.iterrows():
         full_text = str(row.get("text_clean", ""))
@@ -140,7 +146,7 @@ with tab2:
         st.markdown(
             f"""
             <div style="background:rgba(255,255,255,0.94); border:1px solid rgba(148,163,184,0.12); border-radius:18px; padding:16px; margin-bottom:14px;">
-                <div style="font-weight:700; color:#0f172a;">⭐ {row.get("stars", "")} • {row.get("date", "")}</div>
+                <div style="font-weight:700; color:#0f172a;">{row.get("stars", "")} stars • {row.get("date", "")}</div>
                 <div style="color:#334155; margin-top:8px;">{preview}</div>
             </div>
             """,
@@ -205,3 +211,5 @@ with tab4:
                 }
             )
         )
+    else:
+        st.info("Location data is not available for this provider.")
