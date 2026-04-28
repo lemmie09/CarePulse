@@ -10,6 +10,7 @@ st.set_page_config(page_title="CarePulse", page_icon="C", layout="wide")
 inject_css()
 render_top_nav("Home")
 
+
 reviews_df = load_aspect_data()
 
 ASPECT_LABELS = {
@@ -25,6 +26,13 @@ hero(
     "Find healthcare insights that actually help",
     "Explore provider quality, review themes, patient sentiment, and trust signals to make better care decisions with more clarity and confidence."
 )
+
+st.markdown("""
+<div class="home-section-note">
+    <span class="home-mini-label">Healthcare review intelligence</span><br>
+    CarePulse turns patient reviews into structured provider insights using sentiment analysis, aspect extraction, quality scoring, and location-based exploration.
+</div>
+""", unsafe_allow_html=True)
 
 top1, top2 = st.columns([1, 2])
 
@@ -78,44 +86,41 @@ if not map_provider_df.empty:
         ascending=[False, False]
     ).head(300)
 
-    map_left, map_right = st.columns([1.45, 1])
+    center_lat = map_provider_df["latitude"].mean()
+    center_lon = map_provider_df["longitude"].mean()
 
-    with map_left:
-        center_lat = map_provider_df["latitude"].mean()
-        center_lon = map_provider_df["longitude"].mean()
+    m = folium.Map(
+        location=[center_lat, center_lon],
+        zoom_start=5 if selected_state != "All" else 4,
+        tiles="CartoDB positron"
+    )
 
-        m = folium.Map(
-            location=[center_lat, center_lon],
-            zoom_start=5 if selected_state != "All" else 4,
-            tiles="CartoDB positron"
-        )
+    for _, row in map_provider_df.iterrows():
+        popup_html = f"""
+        <b>{row['business_name']}</b><br>
+        {row['city']}, {row['state']}<br>
+        Stars: {row['avg_stars']} | Reviews: {int(row['total_reviews'])}
+        """
 
-        for _, row in map_provider_df.iterrows():
-            popup_html = f"""
-            <b>{row['business_name']}</b><br>
-            {row['city']}, {row['state']}<br>
-            Stars: {row['avg_stars']} | Reviews: {int(row['total_reviews'])}
-            """
+        radius = min(15, 5 + int(row["total_reviews"]) / 45)
 
-            radius = min(15, 5 + int(row["total_reviews"]) / 45)
+        folium.CircleMarker(
+            location=[row["latitude"], row["longitude"]],
+            radius=radius,
+            color="#0f766e",
+            fill=True,
+            fill_color="#0f766e",
+            fill_opacity=0.72,
+            popup=folium.Popup(popup_html, max_width=280),
+            tooltip=row["business_name"]
+        ).add_to(m)
 
-            folium.CircleMarker(
-                location=[row["latitude"], row["longitude"]],
-                radius=radius,
-                color="#0f766e",
-                fill=True,
-                fill_color="#0f766e",
-                fill_opacity=0.72,
-                popup=folium.Popup(popup_html, max_width=280),
-                tooltip=row["business_name"]
-            ).add_to(m)
-
-        map_data = st_folium(
-            m,
-            width=850,
-            height=560,
-            returned_objects=["last_object_clicked_tooltip"]
-        )
+    map_data = st_folium(
+        m,
+        width=1300,
+        height=560,
+        returned_objects=["last_object_clicked_tooltip"]
+    )
 
     clicked_provider = None
     if map_data and map_data.get("last_object_clicked_tooltip"):
@@ -133,48 +138,48 @@ if not map_provider_df.empty:
     else:
         selected_row = selected_rows.iloc[0]
 
-    with map_right:
-        st.markdown("### Selected provider")
+    st.markdown("### Selected provider from map")
 
-        st.markdown(
-            f"""
-            <div style="background:white; border-radius:20px; padding:18px; margin-bottom:18px; border:1px solid #e2e8f0; box-shadow:0 10px 24px rgba(15,23,42,0.05);">
-                <div style="font-weight:900; color:#0f172a; font-size:1.1rem;">{selected_row['business_name']}</div>
-                <div style="color:#64748b; font-size:0.95rem; margin-top:5px;">{selected_row['city']}, {selected_row['state']}</div>
-                <div style="color:#334155; font-size:0.95rem; margin-top:10px;">
-                    <b>Stars:</b> {selected_row['avg_stars']} &nbsp; <b>Reviews:</b> {int(selected_row['total_reviews'])}
-                </div>
-                <div style="color:#64748b; font-size:0.86rem; margin-top:10px;">
-                    Click a marker on the map to update this provider.
-                </div>
+    st.markdown(
+        f"""
+        <div style="background:rgba(255,255,255,0.92); border-radius:18px; padding:16px; margin-bottom:20px; border:1px solid rgba(148,163,184,0.16); box-shadow:0 10px 24px rgba(15,23,42,0.05);">
+            <div style="font-weight:900; color:#0f172a; font-size:1.12rem;">{selected_row['business_name']}</div>
+            <div style="color:#64748b; font-size:0.95rem; margin-top:5px;">{selected_row['city']}, {selected_row['state']}</div>
+            <div style="color:#334155; font-size:0.95rem; margin-top:10px;">
+                <b>Stars:</b> {selected_row['avg_stars']} &nbsp; <b>Reviews:</b> {int(selected_row['total_reviews'])}
             </div>
-            """,
-            unsafe_allow_html=True
-        )
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
-        if st.button("View Details", key=f"selected_map_details_{selected_row['business_name']}"):
-            st.session_state["selected_provider"] = selected_row["business_name"]
-            st.switch_page("pages/1_Provider_Analysis.py")
+    if st.button("View Selected Provider Details", key=f"selected_map_details_{selected_row['business_name']}"):
+        st.session_state["selected_provider"] = selected_row["business_name"]
+        st.switch_page("pages/1_Provider_Analysis.py")
 
-        st.markdown("### Top providers in this area")
+    st.markdown("### Top providers in this map view")
 
-        top_location_providers = map_provider_df.head(5)
+    top_location_providers = map_provider_df.head(6)
+    card_rows = [top_location_providers.iloc[i:i+3] for i in range(0, len(top_location_providers), 3)]
 
-        for _, row in top_location_providers.iterrows():
-            st.markdown(
-                f"""
-                <div style="background:white; border-radius:16px; padding:14px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 6px 14px rgba(15,23,42,0.04);">
-                    <div style="font-weight:850; color:#0f172a;">{row['business_name']}</div>
-                    <div style="color:#64748b; font-size:0.88rem;">{row['city']}, {row['state']}</div>
-                    <div style="color:#334155; font-size:0.9rem; margin-top:6px;"><b>Stars:</b> {row['avg_stars']} &nbsp; <b>Reviews:</b> {int(row['total_reviews'])}</div>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+    for row_df in card_rows:
+        cols = st.columns(3)
+        for col, (_, row) in zip(cols, row_df.iterrows()):
+            with col:
+                st.markdown(
+                    f"""
+                    <div style="background:rgba(255,255,255,0.92); border-radius:18px; padding:16px; margin-bottom:12px; border:1px solid rgba(148,163,184,0.16); box-shadow:0 8px 18px rgba(15,23,42,0.04); min-height:135px;">
+                        <div style="font-weight:850; color:#0f172a;">{row['business_name']}</div>
+                        <div style="color:#64748b; font-size:0.88rem; margin-top:4px;">{row['city']}, {row['state']}</div>
+                        <div style="color:#334155; font-size:0.9rem; margin-top:8px;"><b>Stars:</b> {row['avg_stars']} &nbsp; <b>Reviews:</b> {int(row['total_reviews'])}</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
-            if st.button("View Details", key=f"home_location_{row['business_name']}_{row['city']}_{row['state']}"):
-                st.session_state["selected_provider"] = row["business_name"]
-                st.switch_page("pages/1_Provider_Analysis.py")
+                if st.button("View Details", key=f"home_location_{row['business_name']}_{row['city']}_{row['state']}"):
+                    st.session_state["selected_provider"] = row["business_name"]
+                    st.switch_page("pages/1_Provider_Analysis.py")
 else:
     st.info("No location data available for the selected filter.")
 
