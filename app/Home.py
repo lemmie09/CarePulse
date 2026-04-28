@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from streamlit_folium import st_folium
+import folium
+import pydeck as pdk
 from utils import inject_css, render_top_nav, hero, metric_card, load_aspect_data, predict_distilbert_sentiment, calculate_cqi, quality_badge, quality_label
 
 st.set_page_config(page_title="CarePulse", page_icon="C", layout="wide")
@@ -23,15 +26,16 @@ hero(
     "Explore provider quality, review themes, patient sentiment, and trust signals to make better care decisions with more clarity and confidence."
 )
 
-top1, top2 = st.columns([2.2, 1])
+top1, top2 = st.columns([1, 2])
 
-provider_names = sorted(reviews_df["business_name"].dropna().unique().tolist())
 state_options = ["All"] + sorted(reviews_df["state"].dropna().unique().tolist())
 
 with top1:
-    selected_provider = st.selectbox("Search provider", ["None"] + provider_names, index=0)
-with top2:
     selected_state = st.selectbox("Filter by state", state_options, index=0)
+
+with top2:
+    pass
+    
 
 filtered_df = reviews_df.copy()
 if selected_state != "All":
@@ -51,6 +55,128 @@ with c3:
     metric_card("Average Stars", avg_star, "Average provider rating")
 with c4:
     metric_card("Positive Share", f"{positive_rate}%", "Positive review proportion")
+
+st.markdown("---")
+
+st.markdown("## Provider location")
+
+map_provider_df = (
+    filtered_df.dropna(subset=["latitude", "longitude"])
+    .groupby(["business_name", "city", "state", "latitude", "longitude"])
+    .agg(
+        total_reviews=("review_id", "count"),
+        avg_stars=("stars", "mean")
+    )
+    .reset_index()
+)
+
+map_provider_df["avg_stars"] = map_provider_df["avg_stars"].round(2)
+
+if not map_provider_df.empty:
+    map_provider_df = map_provider_df.sort_values(
+        ["total_reviews", "avg_stars"],
+        ascending=[False, False]
+    ).head(300)
+
+    map_left, map_right = st.columns([1.45, 1])
+
+    with map_left:
+        center_lat = map_provider_df["latitude"].mean()
+        center_lon = map_provider_df["longitude"].mean()
+
+        m = folium.Map(
+            location=[center_lat, center_lon],
+            zoom_start=5 if selected_state != "All" else 4,
+            tiles="CartoDB positron"
+        )
+
+        for _, row in map_provider_df.iterrows():
+            popup_html = f"""
+            <b>{row['business_name']}</b><br>
+            {row['city']}, {row['state']}<br>
+            Stars: {row['avg_stars']} | Reviews: {int(row['total_reviews'])}
+            """
+
+            radius = min(15, 5 + int(row["total_reviews"]) / 45)
+
+            folium.CircleMarker(
+                location=[row["latitude"], row["longitude"]],
+                radius=radius,
+                color="#0f766e",
+                fill=True,
+                fill_color="#0f766e",
+                fill_opacity=0.72,
+                popup=folium.Popup(popup_html, max_width=280),
+                tooltip=row["business_name"]
+            ).add_to(m)
+
+        map_data = st_folium(
+            m,
+            width=850,
+            height=560,
+            returned_objects=["last_object_clicked_tooltip"]
+        )
+
+    clicked_provider = None
+    if map_data and map_data.get("last_object_clicked_tooltip"):
+        clicked_provider = map_data.get("last_object_clicked_tooltip")
+        st.session_state["map_selected_provider"] = clicked_provider
+
+    selected_map_provider = st.session_state.get(
+        "map_selected_provider",
+        map_provider_df.iloc[0]["business_name"]
+    )
+
+    selected_rows = map_provider_df[map_provider_df["business_name"] == selected_map_provider]
+    if selected_rows.empty:
+        selected_row = map_provider_df.iloc[0]
+    else:
+        selected_row = selected_rows.iloc[0]
+
+    with map_right:
+        st.markdown("### Selected provider")
+
+        st.markdown(
+            f"""
+            <div style="background:white; border-radius:20px; padding:18px; margin-bottom:18px; border:1px solid #e2e8f0; box-shadow:0 10px 24px rgba(15,23,42,0.05);">
+                <div style="font-weight:900; color:#0f172a; font-size:1.1rem;">{selected_row['business_name']}</div>
+                <div style="color:#64748b; font-size:0.95rem; margin-top:5px;">{selected_row['city']}, {selected_row['state']}</div>
+                <div style="color:#334155; font-size:0.95rem; margin-top:10px;">
+                    <b>Stars:</b> {selected_row['avg_stars']} &nbsp; <b>Reviews:</b> {int(selected_row['total_reviews'])}
+                </div>
+                <div style="color:#64748b; font-size:0.86rem; margin-top:10px;">
+                    Click a marker on the map to update this provider.
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        if st.button("View Details", key=f"selected_map_details_{selected_row['business_name']}"):
+            st.session_state["selected_provider"] = selected_row["business_name"]
+            st.switch_page("pages/1_Provider_Analysis.py")
+
+        st.markdown("### Top providers in this area")
+
+        top_location_providers = map_provider_df.head(5)
+
+        for _, row in top_location_providers.iterrows():
+            st.markdown(
+                f"""
+                <div style="background:white; border-radius:16px; padding:14px; margin-bottom:10px; border:1px solid #e2e8f0; box-shadow:0 6px 14px rgba(15,23,42,0.04);">
+                    <div style="font-weight:850; color:#0f172a;">{row['business_name']}</div>
+                    <div style="color:#64748b; font-size:0.88rem;">{row['city']}, {row['state']}</div>
+                    <div style="color:#334155; font-size:0.9rem; margin-top:6px;"><b>Stars:</b> {row['avg_stars']} &nbsp; <b>Reviews:</b> {int(row['total_reviews'])}</div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+            if st.button("View Details", key=f"home_location_{row['business_name']}_{row['city']}_{row['state']}"):
+                st.session_state["selected_provider"] = row["business_name"]
+                st.switch_page("pages/1_Provider_Analysis.py")
+else:
+    st.info("No location data available for the selected filter.")
 
 st.markdown("---")
 
@@ -134,6 +260,10 @@ for row_df in card_rows:
                 """,
                 unsafe_allow_html=True
             )
+
+            if st.button("View Details", key=f"view_details_{row['business_name']}_{row['city']}_{row['state']}"):
+                st.session_state["selected_provider"] = row["business_name"]
+                st.switch_page("pages/1_Provider_Analysis.py")
 
 st.markdown("---")
 
@@ -242,28 +372,3 @@ with predict_col2:
     else:
         st.info("Run a review through the analyzer to see prediction output here.")
 
-st.markdown("---")
-
-if selected_provider != "None":
-    st.markdown("## Selected provider quick summary")
-
-    selected_df = filtered_df[filtered_df["business_name"] == selected_provider].copy()
-
-    if not selected_df.empty:
-        cqi, _, _, _ = calculate_cqi(selected_df)
-        selected_city = selected_df["city"].mode()[0] if not selected_df["city"].mode().empty else "N/A"
-        selected_state_real = selected_df["state"].mode()[0] if not selected_df["state"].mode().empty else "N/A"
-        selected_avg_star = round(selected_df["stars"].mean(), 2)
-        selected_count = len(selected_df)
-
-        q1, q2, q3, q4 = st.columns(4)
-        with q1:
-            metric_card("Provider", selected_provider, f"{selected_city}, {selected_state_real}")
-        with q2:
-            metric_card("CQI", cqi, f"Band: {quality_label(cqi)}")
-        with q3:
-            metric_card("Avg Stars", selected_avg_star, "Provider rating average")
-        with q4:
-            metric_card("Reviews", f"{selected_count:,}", "Provider review volume")
-
-        st.caption("Use Provider Details from the top navigation to view full provider review analysis.")

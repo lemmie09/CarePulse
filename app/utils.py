@@ -4,6 +4,7 @@ from pathlib import Path
 import joblib
 import torch
 from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
+from healthcare_filter import is_healthcare_category
 
 DATA_PATH = Path("data/processed/healthcare_reviews_min20_labeled.csv")
 ASPECT_PATH = Path("data/processed/healthcare_reviews_min20_aspects.csv")
@@ -16,11 +17,27 @@ DISTILBERT_DIR = Path("models/distilbert_sentiment")
 def load_data():
     reviews = pd.read_csv(DATA_PATH)
     businesses = pd.read_csv(BIZ_PATH)
+
+    if "categories" in businesses.columns:
+        businesses = businesses[businesses["categories"].apply(is_healthcare_category)].copy()
+
+    if "business_id" in reviews.columns and "business_id" in businesses.columns:
+        reviews = reviews[reviews["business_id"].isin(businesses["business_id"])].copy()
+
     return reviews, businesses
 
 @st.cache_data
 def load_aspect_data():
-    return pd.read_csv(ASPECT_PATH)
+    df = pd.read_csv(ASPECT_PATH)
+    businesses = pd.read_csv(BIZ_PATH)
+
+    if "categories" in businesses.columns:
+        businesses = businesses[businesses["categories"].apply(is_healthcare_category)].copy()
+
+    if "business_id" in df.columns and "business_id" in businesses.columns:
+        df = df[df["business_id"].isin(businesses["business_id"])].copy()
+
+    return df
 
 @st.cache_resource
 def load_model_artifacts():
