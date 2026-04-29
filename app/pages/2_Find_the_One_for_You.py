@@ -4,13 +4,13 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st
 import pandas as pd
-from utils import inject_css, render_top_nav, hero, metric_card, load_data, load_aspect_data
+from utils import PEER_FEATURES_PATH, PROVIDER_SCORES_PATH, inject_css, render_top_nav, hero, metric_card, load_data, load_aspect_data
 
 st.set_page_config(page_title="Find the One for You", page_icon="C", layout="wide")
 inject_css()
 render_top_nav("Find the One for You")
 
-peer_path = Path("data/processed/provider_peer_features.csv")
+peer_path = PEER_FEATURES_PATH
 if not peer_path.exists():
     st.error("provider_peer_features.csv not found. Run the peer feature script first.")
     st.stop()

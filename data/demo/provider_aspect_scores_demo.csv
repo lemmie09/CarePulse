@@ -1,0 +1,2116 @@
+business_name,city,state,total_reviews,avg_stars,positive_review_ratio,doctor_care_score,staff_behavior_score,billing_cost_score,wait_time_score,communication_score,cleanliness_facility_score
+12 South Dental Studio,Nashville,TN,20,4.85,95.0,0.45,0.5,0.1,0.05,0.2,0.75
+18|8 Fine Men's Salons - Carmel ,Carmel,IN,34,4.41,85.29,0.1471,0.2941,0.0588,0.1176,0.0294,0.1176
+20/20 Vision,Sparks,NV,23,4.43,86.96,0.3043,0.6957,0.1304,0.1304,0.0,0.2609
+212 Cafe and Wellness Center,Nashville,TN,102,3.71,68.63,0.0098,0.1078,0.049,0.0196,0.0588,0.0882
+24/7 Healthcare - Downtown Urgent Care,Saint Louis,MO,84,3.74,66.67,0.369,0.3571,0.0714,0.2024,0.1548,0.1548
+3000BC - Chestnut Hill,Philadelphia,PA,43,3.74,72.09,0.1395,0.2093,0.0233,-0.0698,-0.0233,0.093
+3D Keepsake Imaging,Reno,NV,40,4.58,90.0,0.175,0.45,0.2,0.3,0.225,0.45
+4U Fitness St Pete,St. Petersburg,FL,33,4.85,96.97,0.0303,0.2424,0.0303,0.0909,0.1818,0.1818
+61Five Health & Wellness,Nashville,TN,85,4.91,98.82,0.3882,0.4706,0.1294,0.2235,0.1882,0.1647
+7 O'Clock Dental,New Orleans,LA,28,4.21,78.57,0.25,0.5357,0.1429,0.2857,0.1429,0.2857
+7th Sense Wellness & Massage,New Orleans,LA,44,4.61,90.91,0.25,0.1591,0.0682,0.1364,0.0682,0.0909
+805 Rolfing and Massage,Santa Barbara,CA,53,4.77,94.34,0.1698,0.2075,0.0189,0.0755,0.1887,0.0377
+9th Street Family Dentistry,Philadelphia,PA,33,4.36,84.85,0.2424,0.5758,0.303,0.1212,0.2121,0.5758
+A Balanced Life Massage,Wilmington,DE,39,3.21,51.28,-0.1026,-0.0513,-0.1538,-0.1282,-0.1795,-0.0513
+A Caring Dentist,Tampa,FL,28,4.61,89.29,0.3214,0.6429,0.0714,0.1429,0.1429,0.25
+A Magical Escape Therapeutic Bodyworks,Wilmington,DE,22,4.73,90.91,0.0,0.4091,0.3182,0.0909,0.0455,0.2273
+A New Hope Hypnosis,Philadelphia,PA,21,4.19,80.95,0.0476,0.0476,-0.0952,0.0,0.0476,-0.0476
+A Place For Women,Seminole,FL,35,2.77,40.0,-0.0857,-0.0571,-0.1714,-0.0857,-0.0857,-0.1714
+A Place To Float,Indianapolis,IN,47,4.77,95.74,0.1064,0.4681,0.0426,0.1915,0.1915,0.6383
+A+ Family Urgent Care,Tampa,FL,44,4.7,93.18,0.5455,0.5227,0.0455,0.3182,0.1364,0.25
+AA Foot spa,Nashville,TN,36,4.56,94.44,0.0278,0.1389,0.2778,0.2222,0.0,0.4167
+AAA Foot Reflexology,Tucson,AZ,22,4.23,81.82,0.0,0.0909,0.0455,0.0455,-0.0455,0.2273
+ADA West Dermatology,Meridian,ID,51,3.71,66.67,0.2549,0.3137,-0.098,0.2157,0.0784,0.1373
+AFC Fitness,Jenkintown,PA,26,2.62,38.46,-0.0385,0.1538,-0.1923,-0.1154,-0.1923,-0.0769
+AFC URGENT CARE SEMINOLE,Seminole,FL,37,1.97,24.32,-0.1622,-0.2973,-0.3243,-0.3514,-0.3243,-0.1622
+AFC Urgent Care,Clearwater,FL,38,3.74,65.79,0.2632,0.2895,0.0789,0.1579,0.1316,0.2632
+AFC Urgent Care,Havertown,PA,20,2.9,45.0,-0.05,0.1,-0.1,-0.05,-0.1,-0.1
+AFC Urgent Care,Narberth,PA,49,3.37,57.14,0.1837,0.1633,-0.0204,0.1224,-0.0408,0.0408
+AFC Urgent Care,Phoenixville,PA,25,3.68,64.0,0.28,0.36,0.12,0.16,0.0,0.08
+AFC Urgent Care,St. Petersburg,FL,62,3.47,58.06,0.2097,0.1935,0.0968,0.1774,0.0323,0.1774
+AFC Urgent Care - Garden City,Garden City,ID,26,3.92,73.08,0.1923,0.5,-0.1154,0.0769,-0.0769,0.0769
+AFC Urgent Care - Pinellas Park,Pinellas Park,FL,54,2.65,37.04,0.0,0.0,-0.037,-0.1111,-0.0556,-0.0185
+AFC Urgent Care - West Chester,West Chester,PA,21,3.81,71.43,0.381,0.381,0.0476,0.2381,0.0476,0.0952
+AFC Urgent Care Downingtown,Downingtown,PA,26,3.42,61.54,0.3077,0.3077,0.0385,-0.0769,-0.1154,0.0385
+AFC Urgent Care South Philadelphia,Philadelphia,PA,98,3.33,60.2,0.2653,0.3061,0.1122,0.1122,-0.0204,0.2041
+AFC Urgent Care Tyrone,St. Petersburg,FL,28,2.43,35.71,-0.25,-0.1786,-0.4286,-0.3929,-0.3571,-0.2857
+AVA Wellness,Philadelphia,PA,32,3.56,59.38,0.0,0.2188,-0.0938,0.0312,0.0625,0.0625
+AZ Core Nutrition,Tucson,AZ,22,3.68,68.18,0.0455,0.3636,0.1364,0.0455,0.0909,-0.0909
+Ability Prosthetics & Orthotics,Reno,NV,21,5.0,100.0,0.3333,0.5714,0.0476,0.2381,0.3333,0.1429
+Abington - Lansdale Hospital,Lansdale,PA,33,2.12,27.27,-0.2727,-0.1212,-0.2121,-0.3939,-0.3636,-0.2121
+Abington Aesthetic & Laser Medical Center,Philadelphia,PA,30,4.7,93.33,0.5667,0.2667,0.2333,0.1667,0.2667,0.1333
+Abington Health Center - Blue Bell,Abington,PA,31,3.23,54.84,0.1935,0.2258,0.0,0.0323,-0.129,-0.0645
+Abington Pediatric Associates,Abington,PA,20,3.45,60.0,0.05,0.0,-0.15,0.1,-0.05,-0.05
+Abington Primary Women's Healthcare Group,Willow Grove,PA,44,1.89,11.36,-0.5909,-0.3864,-0.1591,-0.4318,-0.3864,-0.3636
+About Face Skin Care,Philadelphia,PA,106,4.68,91.51,0.5943,0.5,0.066,0.1226,0.3679,0.217
+Absolute Dental,Reno,NV,96,2.43,35.42,-0.1667,-0.1979,-0.3125,-0.1354,-0.2188,-0.2292
+Absolute Dental,Sparks,NV,75,2.55,37.33,-0.1467,-0.0667,-0.24,-0.2667,-0.16,-0.1333
+Absolute Dental - Reno,Reno,NV,64,2.83,46.88,-0.1094,0.1875,-0.2188,-0.25,-0.1875,-0.1562
+Academic Alliance in Dermatology,Tampa,FL,86,2.93,46.51,-0.0814,0.0,-0.1744,-0.093,-0.1163,-0.093
+Accent On Vision,Tucson,AZ,80,3.48,58.75,0.1875,0.1625,0.075,-0.1125,-0.0375,0.0625
+Acne Specialists of Nashville,Nashville,TN,28,5.0,100.0,0.9643,0.1429,0.0357,0.3571,0.7143,0.1429
+Action Spine & Joint,Nashville,TN,50,4.56,88.0,0.44,0.48,-0.02,0.12,0.04,0.2
+Active Health Spine & Sport,Reno,NV,30,5.0,100.0,0.4,0.2667,0.1,0.2,0.3,0.5
+Ada Vision Center,Boise,ID,37,4.38,89.19,0.2973,0.6486,0.0811,0.2432,0.2973,0.2703
+Adagio Massage Co & Spa,Nashville,TN,109,3.88,72.48,0.0459,0.211,0.0275,0.1376,0.0092,0.2294
+Adler Fit,Tucson,AZ,21,5.0,100.0,0.1905,0.0952,0.0,0.0952,0.1905,0.0952
+Adlington Eye Center,Reno,NV,45,4.56,88.89,0.3556,0.5778,0.1778,0.1778,0.2444,0.2222
+"Adobe Gastroenterology, PC",Tucson,AZ,31,3.48,61.29,0.0968,0.0645,-0.0645,-0.0968,0.0645,0.0323
+Adrian King Massage Arts,Philadelphia,PA,27,4.85,96.3,0.1111,0.2222,0.0741,0.1111,0.2222,0.1111
+"Adrian Lo, MD",Philadelphia,PA,24,4.67,91.67,0.5,0.75,0.0417,0.1667,0.5,0.375
+Advanced Chiropractic Group,Santa Barbara,CA,28,4.61,89.29,0.3929,0.4643,0.0714,0.0714,0.2143,0.2857
+Advanced Chiropractic of Philadelphia,Philadelphia,PA,79,4.46,86.08,0.3924,0.3291,0.1013,0.1646,0.0759,0.2785
+Advanced Dental Esthetics,Abington,PA,22,2.82,40.91,-0.1818,-0.1818,-0.2273,-0.0909,-0.2273,-0.1364
+Advanced Dentistry of Center City,Philadelphia,PA,55,4.04,74.55,0.1818,0.3636,0.0545,0.2,0.0909,0.2545
+Advanced Dentistry of Collegeville,Collegeville,PA,30,2.53,36.67,-0.1667,-0.0333,-0.3333,-0.1,-0.2667,-0.2333
+Advanced ENT Sinus Center,Reno,NV,22,3.77,68.18,0.1364,0.2727,-0.0909,0.0909,0.1364,0.2273
+Advanced Family Smiles - Philadelphia Dentist,Philadelphia,PA,31,3.1,54.84,0.0323,0.2258,-0.0645,0.0645,-0.2258,0.2258
+Advanced Health Chiropractic,Reno,NV,59,4.75,93.22,0.3051,0.4915,0.0678,0.1186,0.1695,0.2881
+Advanced Podiatry,Tampa,FL,22,4.59,86.36,0.4091,0.5455,0.0,0.0909,0.2273,0.2273
+Advanced Skin Care Solutions,Philadelphia,PA,102,4.7,93.14,0.5098,0.2549,0.2941,0.098,0.3137,0.2451
+Advanced Ultrasound Services,Tampa,FL,21,5.0,100.0,0.0952,0.2381,0.1905,0.1905,0.7143,0.2857
+Advanced Urgent Care,Montgomeryville,PA,20,1.2,5.0,-0.8,-0.5,-0.2,-0.35,-0.35,-0.55
+Advanced Urgent Care,Philadelphia,PA,35,1.89,20.0,-0.4857,-0.1429,-0.2857,-0.2857,-0.3714,-0.4571
+Advanced Vision Care and Dry Eye Spa,Tucson,AZ,55,3.55,67.27,0.1091,0.3636,0.0182,0.0,-0.0545,0.1273
+AdventHealth Carrollwood,Tampa,FL,25,3.36,60.0,0.24,0.2,-0.04,0.04,0.04,0.28
+AdventHealth Centra Care Brandon,Riverview,FL,51,1.75,13.73,-0.549,-0.4118,-0.2745,-0.4902,-0.3529,-0.2549
+AdventHealth Centra Care South Tampa,Tampa,FL,30,3.17,53.33,0.1667,0.1,0.0,0.0667,-0.1333,0.0667
+AdventHealth Centra Care Temple Terrace,Temple Terrace,FL,26,2.19,26.92,-0.1538,-0.3077,-0.0769,-0.5,-0.3462,-0.1538
+AdventHealth Centra Care Wesley Chapel,Wesley Chapel,FL,30,2.13,26.67,-0.2667,-0.2333,-0.1,-0.2333,-0.2667,-0.1
+AdventHealth North Pinellas,Tarpon Springs,FL,30,3.37,60.0,0.1333,0.1667,-0.1,-0.1333,-0.1333,0.0
+AdventHealth Tampa,Tampa,FL,85,2.04,23.53,-0.2941,-0.2588,-0.2353,-0.3294,-0.2118,-0.3529
+AdventHealth Wesley Chapel,Wesley Chapel,FL,50,2.84,46.0,-0.22,0.02,-0.1,-0.18,-0.12,-0.08
+Advocare Fairmount Pediatrics and Adolescent Medicine,Philadelphia,PA,27,3.7,62.96,0.037,0.1111,0.037,0.2593,0.3333,0.1852
+Advocare Society Hill Pediatrics,Philadelphia,PA,42,3.86,73.81,0.4286,0.381,0.0238,0.2381,0.3095,0.2381
+Advocare The Women's Group For OB/GYN,Voorhees Township,NJ,27,1.7,11.11,-0.5926,-0.4444,-0.1852,-0.5926,-0.2593,-0.4444
+Aegis Labs,Nashville,TN,40,1.15,2.5,-0.025,-0.1,-0.2,-0.65,-0.175,-0.075
+Aesthetics Med Spa,Reno,NV,34,4.68,91.18,0.5,0.5,-0.0882,0.0588,0.1176,0.1176
+Affinity Eye Care,Tucson,AZ,46,3.83,71.74,0.3478,0.5217,0.1087,0.0435,0.1304,0.2826
+Afton Family Dental,Philadelphia,PA,27,3.63,66.67,0.2222,0.2593,0.0741,0.2222,0.037,0.2222
+Ageless Aesthetics and Salt Lounge,Indianapolis,IN,27,4.48,85.19,0.4444,0.2963,0.0741,0.1111,0.1481,0.2222
+Ahhh! Massage,Sparks,NV,96,3.41,58.33,-0.0625,-0.0104,-0.1042,-0.0521,-0.1042,0.1042
+"Alan Moelleken, MD - The Spine and Orthopedic Center",Santa Barbara,CA,27,3.67,70.37,0.2593,0.4444,0.0,-0.1111,0.1481,0.0741
+Aland Family Dentistry,Reno,NV,25,4.64,92.0,0.32,0.8,0.12,0.12,0.36,0.64
+Alberta Momentum Massage Therapy South,Edmonton,AB,45,4.44,88.89,0.2,0.4667,0.1778,0.2444,0.1778,0.2444
+Albertsons,Carpinteria,CA,62,3.06,45.16,-0.0161,0.1129,0.0806,0.0,-0.0161,0.0968
+Alchemy Wellness Spa,Santa Barbara,CA,60,4.15,76.67,0.1833,0.2167,0.0,0.1,-0.0333,0.15
+"Alejandro Roberto Soffici, MD",Santa Barbara,CA,26,3.38,53.85,0.0385,0.1923,-0.0385,0.1538,0.1538,0.0769
+Alford Pediatric & General Dentistry,Reno,NV,35,4.91,97.14,0.3429,0.8286,0.1714,0.2286,0.4286,0.7143
+AlignLife - Chiropractic & Natural Health Center,Reno,NV,33,4.82,96.97,0.3636,0.6667,0.0606,0.1515,0.2424,0.5455
+Alki Art & Wellness Institute,Santa Barbara,CA,38,5.0,100.0,0.5,0.2632,0.1053,0.1316,0.3421,0.2895
+All About You Dental - Boise Dentist,Boise,ID,27,4.74,92.59,0.3704,0.6667,0.1852,0.2593,0.1852,0.5926
+All American Healthcare New Orleans,New Orleans,LA,25,4.4,84.0,0.4,0.68,0.08,0.12,0.08,0.12
+All Florida Orthopaedic Associates,Saint Petersburg,FL,42,2.17,28.57,-0.3571,-0.1667,-0.2143,-0.3333,-0.2381,-0.2381
+All My Relations,Indianapolis,IN,20,3.5,60.0,0.0,0.25,0.0,0.05,-0.05,0.0
+AllVitae Health & Chiropractic,Tampa,FL,67,5.0,100.0,0.4179,0.2537,0.0746,0.0746,0.1642,0.2985
+Allergy & Asthma Associates,Sparks,NV,25,2.52,36.0,-0.2,-0.16,-0.12,-0.16,-0.24,-0.16
+Allevia Spa,Blue Bell,PA,45,4.07,77.78,0.0222,0.1778,0.2667,0.0889,0.0222,0.2222
+Allied Chiropractic and Wellness,Metairie,LA,26,4.85,96.15,0.6538,0.7308,0.0769,0.1538,0.1923,0.1538
+Allure Medical,Tucson,AZ,23,4.43,86.96,0.5652,0.3478,0.1739,0.3043,0.3043,0.2609
+Aloe Dermatology,Santa Barbara,CA,29,3.69,65.52,0.1724,0.2759,-0.1034,0.1379,0.2759,0.1724
+Alpha Dental Excellence,Langhorne,PA,26,1.42,7.69,-0.2692,-0.2692,-0.7308,-0.3462,-0.4231,-0.4231
+Alpine Family Medicine,Sparks,NV,25,1.88,20.0,-0.52,-0.4,-0.2,-0.08,-0.32,-0.28
+Alpine Women's Health,Reno,NV,22,3.86,63.64,0.3182,0.3182,-0.0455,0.0455,0.2727,0.2273
+Alta Orthopaedics,Santa Barbara,CA,71,3.58,61.97,0.1268,0.1408,-0.0423,-0.0563,0.0845,0.0423
+Alvernon Optical,Tucson,AZ,50,3.48,60.0,-0.04,0.26,0.1,0.0,0.02,0.04
+Amara Dental - Cherry Hill,Cherry Hill,NJ,27,2.89,44.44,-0.037,0.2222,-0.2222,-0.1852,-0.2222,0.0741
+America's Best Contacts & Eyeglasses,Abington,PA,22,3.45,59.09,0.0455,0.1818,0.0909,-0.0455,0.0455,0.0
+America's Best Contacts & Eyeglasses,Boise,ID,31,3.23,54.84,0.0645,0.2903,-0.0968,-0.0645,0.0968,-0.0968
+America's Best Contacts & Eyeglasses,Brandon,FL,24,2.25,25.0,-0.0417,0.0,-0.2083,-0.25,-0.4167,-0.0417
+America's Best Contacts & Eyeglasses,Deptford,NJ,31,3.06,48.39,0.0645,0.129,0.0323,0.0968,-0.0968,0.0
+America's Best Contacts & Eyeglasses,Fairless Hills,PA,48,2.15,25.0,-0.125,-0.1458,-0.25,-0.2292,-0.2708,-0.0833
+America's Best Contacts & Eyeglasses,Harahan,LA,36,3.19,50.0,-0.0556,0.1667,0.0,0.0556,-0.0833,-0.0278
+America's Best Contacts & Eyeglasses,King Of Prussia,PA,51,2.69,41.18,-0.0784,-0.098,-0.0196,-0.098,0.0196,0.0196
+America's Best Contacts & Eyeglasses,Largo,FL,36,2.14,27.78,-0.1111,-0.1944,-0.1667,-0.0833,-0.3611,-0.0833
+America's Best Contacts & Eyeglasses,Metairie,LA,24,2.58,33.33,-0.125,-0.1667,-0.0417,-0.125,0.0,0.0
+America's Best Contacts & Eyeglasses,Moorestown,NJ,25,2.48,32.0,-0.28,-0.08,0.0,-0.32,-0.2,-0.16
+America's Best Contacts & Eyeglasses,Philadelphia,PA,109,2.66,37.61,-0.055,0.0183,-0.156,-0.0826,-0.1376,-0.0642
+America's Best Contacts & Eyeglasses,Springfield,PA,25,2.32,32.0,-0.08,-0.16,0.04,-0.16,-0.28,0.0
+America's Best Contacts & Eyeglasses,Tampa,FL,27,1.78,14.81,-0.2963,-0.4444,-0.2593,-0.2963,-0.2963,-0.2222
+America's Best Contacts & Eyeglasses,Tucson,AZ,68,3.19,55.88,0.0588,0.1912,0.0147,0.0,-0.0441,-0.0147
+American Dental Care,Doylestown,PA,25,2.04,28.0,-0.12,-0.2,-0.44,-0.04,-0.32,-0.28
+American Dental Solutions,Pottstown,PA,31,2.23,22.58,-0.2903,-0.0323,-0.5484,-0.3226,-0.5484,-0.4839
+American Family Care,Nashville,TN,28,2.93,50.0,-0.0714,0.1071,-0.25,0.0714,-0.25,-0.0357
+American Family Care Nashville South,Nashville,TN,32,2.03,21.88,-0.1562,-0.0938,-0.2188,-0.2812,-0.25,-0.1875
+American Family Care Providence,Mt Juliet,TN,26,2.81,42.31,-0.1154,0.0385,-0.0769,-0.2308,-0.2308,-0.0385
+American Family Care Smyrna,Smyrna,TN,39,2.79,43.59,-0.0256,0.1795,-0.1795,-0.1538,-0.1282,-0.0769
+American Vision at the Court,King of Prussia,PA,24,4.12,75.0,0.2083,0.5833,0.0417,0.0,-0.125,0.0
+Ameriflex,Cherry Hill,NJ,51,1.18,3.92,-0.3529,-0.0784,-0.6078,-0.2745,-0.1961,-0.0588
+Amrita Yoga & Wellness,Philadelphia,PA,104,4.5,84.62,0.0192,0.25,0.1154,0.1346,0.1058,0.2692
+Ananda Massage Therapy,Reno,NV,29,5.0,100.0,0.1379,0.3103,0.0,0.1724,0.1379,0.0345
+Anderson Hospital,Maryville,IL,27,2.26,29.63,-0.2593,-0.1852,-0.1481,-0.1481,-0.1852,-0.2593
+"Aneesh Garg, DO - Hughston Clinic",Nashville,TN,20,3.7,65.0,0.15,0.2,-0.15,-0.1,0.4,-0.05
+Ang Thai Massage NVMT 7084,Reno,NV,32,4.97,100.0,0.125,0.2812,0.0938,0.0938,0.125,0.0938
+"Anjali Sahai, MD",Nashville,TN,21,4.33,80.95,0.4762,0.1905,-0.0476,0.0476,0.5238,0.0476
+Anshul Gambhir MD - Couture,Exton,PA,65,3.46,60.0,0.1385,0.2769,0.0,-0.0308,0.1385,0.1385
+Anthropologie,Philadelphia,PA,158,4.03,75.95,0.0316,0.2152,0.1962,0.0949,0.0253,0.1772
+AppleOne Employment Services,Santa Barbara,CA,22,4.45,86.36,0.3182,0.4545,0.0,0.2273,0.4091,0.1364
+Aquarius Wellness Center For Healing Arts,Richmond Heights,MO,79,4.78,94.94,0.3418,0.3418,0.038,0.2911,0.1139,0.3165
+Archer Chiropractic,New Orleans,LA,35,4.8,94.29,0.4,0.6571,0.2286,0.2,0.1429,0.3714
+Ardmore Eye Care,Ardmore,PA,23,4.43,86.96,0.3043,0.6087,0.2609,0.0435,0.087,0.2174
+Arizona Gastroenterology,Tucson,AZ,27,2.26,29.63,-0.4444,-0.2222,-0.3704,-0.3704,-0.1481,-0.3704
+Arizona Oral and Maxillofacial Surgeons,Tucson,AZ,22,4.14,72.73,0.1818,0.4091,0.0,0.2727,0.0455,0.1818
+Arizona Primary Eye Care,Tucson,AZ,40,3.4,57.5,0.075,0.325,-0.125,0.025,0.025,0.0
+Arlene Thompson Clinical Hypnotherapist,Meridian,ID,24,4.83,95.83,0.1667,0.25,0.0,0.125,0.3333,0.0833
+Arnett Gunson Facial Reconstruction,Santa Barbara,CA,35,4.11,77.14,0.4286,0.4857,0.0571,0.2286,0.3143,0.1714
+Arnold Smiles,Arnold,MO,26,5.0,100.0,0.1923,0.7308,0.0769,0.2308,0.1538,0.6923
+AromaG's Botanica - The Aromagregory Company,Nashville,TN,27,4.78,92.59,0.0,0.4815,0.1852,0.1111,0.037,0.1111
+Art & Eyes,New Orleans,LA,25,4.44,88.0,0.08,0.52,0.12,0.12,0.04,0.04
+Artisan Optics,Boise,ID,25,3.28,52.0,-0.04,0.04,-0.12,-0.12,-0.04,0.04
+Artistic Lipo & Plastic Surgery,Tampa,FL,22,3.64,63.64,0.0455,0.1364,-0.0455,0.1364,0.1818,-0.0455
+Artistre Salon & Spa,Mount Laurel,NJ,20,4.8,95.0,0.25,0.45,0.0,0.2,0.05,0.1
+Artiva Hair Salon,Philadelphia,PA,163,4.19,77.3,0.0982,0.0982,0.2577,0.092,0.0859,0.0491
+Arviv Medical Aesthetics,Tampa,FL,39,4.38,82.05,0.359,0.4359,0.1538,0.0769,0.2821,0.2308
+Ascension Saint Thomas Hospital,Nashville,TN,66,2.68,42.42,-0.0758,-0.0152,-0.0606,-0.1667,-0.2121,-0.0303
+Asia Nail 2 & Spa,Philadelphia,PA,27,3.67,66.67,0.0,0.4074,-0.0741,0.0,-0.1111,0.2963
+Aspen Dental,Nashville,TN,34,1.91,23.53,-0.3824,-0.0588,-0.5588,-0.2353,-0.3824,-0.4412
+Aspen Dental,Saint Petersburg,FL,30,2.07,26.67,-0.2667,-0.2333,-0.4667,-0.2,-0.4333,-0.4667
+Aspen Dental,Tampa,FL,48,2.23,29.17,-0.25,-0.0625,-0.4375,-0.2292,-0.1667,-0.25
+Aspen Dental,Tucson,AZ,80,2.52,35.0,-0.1625,0.0,-0.3,-0.1625,-0.25,-0.175
+Aspen Dental - Pinellas Park,Pinellas Park,FL,34,2.56,38.24,-0.0294,-0.0588,-0.1471,-0.1176,-0.2059,-0.2353
+Aspen Dental - Ruskin,Ruskin,FL,22,1.5,9.09,-0.4545,-0.3636,-0.4091,-0.2727,-0.5,-0.5455
+Aspen Pediatrics,Reno,NV,30,4.07,80.0,0.4333,0.2667,-0.0333,0.2667,0.0,0.4667
+Assisted Home Health & Hospice,Santa Barbara,CA,27,4.85,96.3,0.4815,0.6296,0.1111,0.1852,0.1481,0.1481
+Associated Dental Care - Tucson N Campbell,Tucson,AZ,33,2.18,30.3,-0.1212,-0.1212,-0.4242,-0.2727,-0.3333,-0.1818
+Associated Hand Surgeons,Santa Barbara,CA,37,3.19,51.35,-0.0811,0.0541,-0.1351,-0.1892,-0.1081,-0.0541
+Associates In Oral & Maxillofacial Surgery,Tucson,AZ,27,3.85,74.07,0.1481,0.4074,0.0741,0.2222,0.2963,0.2222
+AtlantiCare Urgent Care - Mount Laurel,Mount Laurel,NJ,31,3.71,64.52,0.3226,0.3871,0.0968,0.2258,0.0645,0.2581
+Atlantic Physical Therapy,Philadelphia,PA,25,4.8,92.0,0.4,0.44,0.16,0.12,0.2,0.36
+Atlas Chiropractic,Philadelphia,PA,39,4.82,94.87,0.2821,0.2821,0.0769,0.2564,0.1538,0.2051
+Au Bon Pain,Nashville,TN,65,2.31,21.54,-0.1692,-0.2,-0.2154,-0.1846,-0.0615,-0.1077
+Audubon Dental Group,New Orleans,LA,126,4.39,84.13,0.1667,0.5635,0.1667,0.2143,0.1825,0.3889
+Aurora Medical Spa,Des Peres,MO,40,4.38,85.0,0.25,0.375,0.0,0.075,0.25,0.025
+Auto Dentist,Goleta,CA,43,5.0,100.0,0.093,0.3023,0.5581,0.186,0.186,0.0698
+Avalon Massage,Reno,NV,35,4.46,88.57,0.0857,0.2571,0.0571,0.0571,-0.0286,0.0571
+Avia Spa,Indianapolis,IN,42,3.79,69.05,0.1429,0.4048,0.1667,0.1905,0.0,0.1429
+Awaken The Glow with Jourdan Rystrom,Nashville,TN,27,5.0,100.0,0.1111,0.037,0.0741,0.2963,0.3704,0.2593
+Axiom,Meridian,ID,26,2.77,34.62,-0.0385,0.0385,-0.2692,-0.0385,-0.1154,0.0
+Back In Touch Wellness Center,Nashville,TN,24,4.67,87.5,0.0417,0.2083,0.0417,0.0,0.1667,0.1667
+Back To Balance Massage,Santa Barbara,CA,21,5.0,100.0,0.2381,0.2857,0.0,0.0476,0.0952,0.0476
+"Back to Health Chiropractic and Wellness Center: Randy Mantz, DC",Reno,NV,22,4.91,95.45,0.5455,0.4091,0.0455,0.2727,0.2273,0.3182
+Backiel & Associates,Philadelphia,PA,81,3.36,58.02,0.0494,0.2099,-0.1481,0.0617,0.0,0.2099
+Bailey Institute,Metairie,LA,30,4.07,76.67,0.1,0.2,0.1333,0.0667,0.0667,0.1667
+Baker Cosmetic & Family Dentistry of Clearwater,Clearwater,FL,28,4.21,78.57,0.1071,0.6786,-0.0714,0.0714,0.0357,0.3929
+Bala Eye Care,Bala Cynwyd,PA,31,4.23,80.65,0.4516,0.6129,0.0645,0.1935,0.1613,0.2581
+Balance Chiropractic Health Center & Spa,Philadelphia,PA,118,3.98,76.27,0.0847,0.1525,0.0763,0.0763,0.0,0.0593
+Balance Spa & Fitness,Philadelphia,PA,46,3.91,65.22,0.1304,0.1087,0.0652,0.0435,-0.0217,0.2609
+Ballwin Dental Care,Ballwin,MO,23,4.48,86.96,0.4348,0.4783,0.087,0.2609,0.1739,0.5652
+Banner Health - University Medical Center Tucson Campus,Tucson,AZ,231,1.99,21.65,-0.4156,-0.2294,-0.3463,-0.3723,-0.2597,-0.2424
+Banner University Medical Center - South,Tucson,AZ,80,1.86,17.5,-0.4,-0.2875,-0.3,-0.4125,-0.2625,-0.275
+Banner Urgent Care,Tucson,AZ,103,2.24,29.13,-0.2524,-0.2621,-0.1845,-0.3495,-0.3592,-0.1553
+Barefoot Doctor Community Acupuncture Clinic,Philadelphia,PA,34,4.76,97.06,0.6471,0.2647,0.2059,0.1471,0.2353,0.2353
+Barnes-Jewish West County Hospital,Saint Louis,MO,22,2.27,31.82,-0.1818,-0.2273,-0.1818,-0.0909,-0.1364,-0.2273
+Barnet Dulaney Perkins Eye Center,Tucson,AZ,48,3.81,68.75,0.1667,0.375,-0.0833,0.1458,0.0625,0.1042
+Barry Family Chiropractic,Santa Barbara,CA,28,4.71,92.86,0.2857,0.4643,0.0714,0.1429,0.1071,0.1429
+"Barry Kusman, MD, FACS - Facial Artistry & Aesthetics",Tucson,AZ,24,4.83,95.83,0.625,0.6667,0.0,0.0,0.2083,0.125
+Basic Kneads,Nashville,TN,47,4.81,95.74,0.1277,0.234,0.0638,0.1702,0.1915,0.1277
+Battle Born Eye Care,Reno,NV,22,4.91,95.45,0.8636,0.7273,0.1364,0.0909,0.2727,0.3182
+Bay Dermatology & Cosmetic Surgery,Palm Harbor,FL,22,2.73,40.91,-0.3182,0.1364,-0.1818,-0.0455,-0.1818,-0.0909
+Bay Pines Va Medical Center,Saint Petersburg,FL,39,2.69,41.03,-0.2308,-0.1026,-0.0769,-0.2308,-0.3333,0.0
+BayCare Urgent Care,Clearwater,FL,23,1.87,21.74,-0.4783,-0.2174,-0.1739,-0.3913,-0.1304,-0.1304
+BayCare Urgent Care,Largo,FL,29,3.17,55.17,0.2759,0.1724,-0.0345,0.1034,0.0345,0.069
+BayCare Urgent Care,Saint Petersburg,FL,23,2.52,34.78,-0.3043,-0.1304,0.0,-0.2609,-0.1739,-0.0435
+BayCare Urgent Care,Tampa,FL,31,2.68,38.71,-0.1935,-0.0323,-0.1613,-0.2581,-0.0968,-0.1935
+Bayfront Health - St. Petersburg,Saint Petersburg,FL,43,3.51,60.47,0.2093,0.2326,0.0233,-0.0233,0.0,0.186
+Bayside Urgent Care Center,Clearwater,FL,63,4.08,73.02,0.3492,0.4921,0.0159,0.0317,0.0794,0.1587
+Bayview Radiology,Tampa,FL,20,3.75,70.0,0.05,0.4,-0.15,0.0,0.15,0.25
+Be Bellus Wellness & Aesthetics,Tampa,FL,35,3.14,51.43,0.0286,0.1429,-0.0857,-0.0286,-0.0286,0.0571
+Beau Chateau Day Spa,Reno,NV,27,4.37,85.19,0.0741,0.1852,0.0741,0.037,0.0741,0.1111
+Beijing Foot Spa,Saint Louis,MO,34,3.88,70.59,0.1471,0.2353,0.2353,0.1176,-0.0294,0.1471
+Bella Body,Tucson,AZ,22,4.95,100.0,0.3636,0.1818,0.1818,0.1364,0.1818,0.2727
+Bella Excellence,Wesley Chapel,FL,37,3.84,70.27,-0.027,0.1892,-0.1081,0.0541,0.0,0.027
+Bella Grey Medical Spa,Reno,NV,31,4.26,80.65,0.0645,0.1935,-0.0645,0.0323,0.0645,0.0645
+Bella Michelle Day Spa,Clearwater,FL,21,2.95,47.62,-0.0952,0.0476,-0.4286,-0.2381,-0.2381,-0.0476
+Bella Vista Family Chiropractic,Philadelphia,PA,37,4.81,94.59,0.4324,0.3514,0.1081,0.2432,0.2432,0.2432
+Belle Meade Family Dentistry,Nashville,TN,48,4.75,93.75,0.4167,0.5208,0.125,0.2083,0.1875,0.3333
+Belle Meade Jewelry and Repair,Nashville,TN,39,3.18,53.85,0.0,0.2051,-0.2051,-0.1538,-0.0769,0.0
+Belle Meade Skin & Laser,Nashville,TN,27,2.3,29.63,-0.1481,-0.0741,-0.3333,-0.2593,-0.1852,-0.1481
+"Benjamin Laudig, DDS",Goleta,CA,46,4.93,100.0,0.2609,0.8478,0.2174,0.1739,0.3043,0.6522
+Benjamin's On the Row,Philadelphia,PA,78,4.42,84.62,0.0897,0.1282,0.2051,0.0769,0.141,0.1154
+Bennett Medical Services,Reno,NV,92,1.37,7.61,-0.5326,-0.1739,-0.5543,-0.3696,-0.337,-0.3478
+Berry Hill Chiropractic and Wellness,Nashville,TN,21,5.0,100.0,0.619,0.6667,0.1429,0.1905,0.2857,0.2381
+Best Day Massage,Nashville,TN,27,3.56,62.96,0.0,0.037,0.037,0.1111,-0.1111,0.1481
+Better Life Chiropractic,Meridian,ID,23,3.87,69.57,0.087,0.1739,-0.087,-0.0435,-0.0435,0.0
+Beyond Basic Massage,Tucson,AZ,34,4.53,91.18,0.0588,0.1471,0.0588,0.0294,0.0882,0.1176
+Beyond/Hello,Philadelphia,PA,23,3.52,60.87,0.0435,0.3043,-0.0435,0.0435,-0.087,0.0435
+"Biggers Family Medicine, P.A",Brandon,FL,28,2.46,32.14,-0.2143,-0.1429,-0.3214,-0.1429,0.0357,-0.4286
+Biggest Little Baby,Reno,NV,39,4.64,89.74,0.1282,0.4103,0.0769,-0.0256,0.1795,0.1282
+Biggs-Hansen Orthodontics,Indianapolis,IN,22,4.77,95.45,0.3182,0.7727,0.0,0.0909,0.3182,0.2273
+"Billy G Mendoza, OD",Reno,NV,27,4.81,92.59,0.3704,0.5926,0.2593,-0.037,0.5556,0.1852
+BioLife Plasma Services,Boise,ID,29,2.21,27.59,-0.1034,-0.2759,-0.0345,-0.1724,-0.2069,0.0
+BioLife Plasma Services,Greenwood,IN,30,2.2,26.67,-0.2667,-0.2333,-0.1,-0.3,-0.2,0.0
+BioSpine Institute,Tampa,FL,45,2.56,40.0,-0.2444,0.0222,-0.2222,-0.0889,-0.1333,-0.1111
+Biomat USA,Reno,NV,26,2.38,38.46,-0.0769,-0.0769,-0.1154,-0.2308,-0.3077,0.0
+"Birgit K Toome, MD",Marlton,NJ,22,1.41,4.55,-0.5,-0.5,-0.3636,-0.4545,-0.5909,-0.5455
+Biscardi Vision,Philadelphia,PA,137,4.56,89.05,0.5109,0.5255,0.1095,0.1679,0.2117,0.2701
+Black Rock Vision Center,Reno,NV,24,4.38,79.17,0.4583,0.5,0.125,0.1667,0.0833,0.25
+Blanc Dental Studio,Philadelphia,PA,23,4.83,95.65,0.2609,0.7826,0.2609,0.1304,0.2174,0.7826
+Bloom Dispensary,Tucson,AZ,72,2.64,38.89,-0.1389,0.0139,-0.0556,-0.1389,-0.1528,-0.0278
+BoDo Chiropractic,Boise,ID,49,4.8,95.92,0.3673,0.3673,0.0612,0.0816,0.0816,0.4286
+Bobbi Bullock Medical Esthetics,Boise,ID,24,4.67,87.5,0.2917,0.5417,0.0,0.0417,0.0417,0.1667
+Body & Soul Massage,Tampa,FL,23,3.87,69.57,-0.087,0.1739,0.0435,-0.087,-0.0435,0.1304
+Body Calm,Meridian,ID,20,4.8,95.0,0.15,0.35,0.15,0.1,0.1,0.25
+Body In Knead,Sparks,NV,30,4.87,96.67,0.1333,0.2333,0.1,0.1333,0.1,0.2333
+Body Mechanix Massage & Wellness LLC,Metairie,LA,68,4.65,92.65,0.0588,0.1471,0.0294,0.1618,0.1618,0.1029
+Body Restoration Spa,Philadelphia,PA,192,4.29,85.42,0.125,0.4167,0.2344,0.2708,0.1406,0.3229
+Body+Beauty Lab - Philadelphia,Philadelphia,PA,29,4.52,86.21,0.4483,0.2759,0.0,0.069,0.3448,0.1034
+BodyCentral Physical Therapy - Sports & Wellness Center,Tucson,AZ,26,2.58,38.46,0.0,0.0,-0.2692,-0.1538,-0.1923,-0.0769
+BodyFuel Fitness,Sparks,NV,79,2.32,30.38,-0.1139,0.0127,-0.3291,-0.1772,-0.0886,-0.0253
+Boise City Taxi,Boise,ID,23,2.26,30.43,0.0,-0.087,0.0435,-0.087,-0.1304,0.0
+Boise Juice Company,Boise,ID,67,4.73,95.52,0.0,0.3284,0.1045,0.1194,0.1045,0.1642
+Boise Therapeutic Massage Center,Boise,ID,68,4.18,77.94,0.0735,0.2059,0.25,0.1029,0.0735,0.1618
+Bond Fitness,Santa Barbara,CA,28,4.79,92.86,0.0357,0.3929,-0.0357,0.1429,0.0714,0.0714
+Boost FitClub,Nashville,TN,21,3.81,71.43,0.1905,0.381,0.0476,0.2381,0.0476,0.381
+Botanicals Nola,New Orleans,LA,25,4.8,96.0,0.0,0.4,-0.04,0.2,0.2,0.12
+Brandon Eye Associates,Brandon,FL,26,2.62,34.62,-0.1538,-0.0769,-0.4231,-0.1538,-0.2692,-0.2692
+Brandywine Hospital,Coatesville,PA,41,1.54,9.76,-0.5854,-0.5122,-0.1707,-0.3659,-0.1951,-0.3902
+Bream Optometry,Goleta,CA,54,4.15,77.78,0.2778,0.3889,0.1667,0.1852,0.1296,0.1852
+Breathe Salon & Day Spa,Lansdale,PA,34,4.12,79.41,0.0882,0.2941,0.0,0.1176,0.1471,0.0
+Brent House Hotel,New Orleans,LA,37,3.16,48.65,0.0541,0.0541,-0.0811,0.1081,-0.0811,0.2432
+Brentwood Dental Group,Brentwood,MO,25,4.32,80.0,0.2,0.56,0.04,0.12,0.2,0.28
+"Brian S. Biesman, M.D",Nashville,TN,28,4.57,89.29,0.5,0.7143,0.0,0.0714,0.3214,0.1429
+Bright Eyes Family Vision Care,Tampa,FL,22,4.68,90.91,0.4545,0.7273,0.0909,0.1364,0.3636,0.1818
+Bright Eyes Optique,New Orleans,LA,60,4.4,86.67,0.35,0.4833,0.2833,0.1667,0.2667,0.1667
+Bright Now Dental & Orthodontics,Largo,FL,26,2.65,42.31,-0.0385,0.0,-0.3462,-0.2692,-0.1923,-0.2692
+Bright Now Dental & Orthodontics,Pinellas Park,FL,21,1.48,9.52,-0.381,-0.619,-0.5238,-0.4762,-0.619,-0.5714
+Bright Now! Dental & Orthodontics,Tampa,FL,23,2.61,39.13,-0.0435,0.0435,-0.3913,-0.1739,-0.1304,-0.2609
+Broad Ripple Massage & Wellness,Indianapolis,IN,84,4.3,83.33,0.1071,0.2976,0.0238,0.1667,0.0595,0.2024
+Broadway Smiles Dentistry and Orthodontics,Tucson,AZ,34,3.62,61.76,0.2647,0.2353,0.0882,0.0,0.1471,0.2059
+Bronze de beaut,Reno,NV,36,4.67,91.67,0.0,0.2222,0.0556,0.0833,-0.0278,0.0278
+Brosy Family Dentistry,Reno,NV,24,5.0,100.0,0.2917,0.875,0.125,0.2083,0.1667,0.9167
+Brow Spa Galleria,Saint Louis,MO,32,2.81,43.75,-0.0625,0.0,-0.0312,-0.0625,-0.1875,-0.1562
+Bryn Mawr Dermatology,Villanova,PA,21,2.67,42.86,-0.1905,-0.1429,-0.1429,0.0476,-0.0476,0.0476
+Bryn Mawr Hospital Thrift Shop,Bryn Mawr,PA,37,3.81,64.86,0.0,0.2432,0.2973,0.0811,-0.027,0.1351
+Bryn Mawr Rehab Hospital,Malvern,PA,20,3.9,70.0,0.35,0.5,0.0,0.05,0.1,0.2
+Bucca Reflexology And Foot Spa,Nashville,TN,77,4.79,94.81,0.0909,0.3766,0.1169,0.1039,0.0,0.2078
+Buddha Belly,Tampa,FL,35,5.0,100.0,0.2571,0.4,0.0857,0.2571,0.4,0.2
+Butler University,Indianapolis,IN,20,4.75,95.0,0.2,0.05,0.05,0.1,0.1,0.15
+Butwin Chiropractic,Carmel,IN,22,5.0,100.0,0.3636,0.3182,0.0909,0.0909,0.3636,0.1364
+CBD Dental Care,New Orleans,LA,42,3.88,73.81,0.119,0.3333,0.0,0.0952,0.0,0.1667
+CBD Kratom,St Louis,MO,22,3.86,68.18,-0.0455,0.3636,0.0455,0.0,0.3182,0.1364
+"CHOP Primary Care, Flourtown",Erdenheim,PA,24,2.67,29.17,-0.2083,-0.1667,0.0417,-0.0833,-0.0833,-0.2917
+CPAP & More,Sparks,NV,26,4.65,92.31,0.5385,0.4615,0.4615,0.1538,0.2308,0.1154
+CSL Plasma,Reno,NV,30,3.97,73.33,0.1333,0.4,0.0333,-0.0333,0.1,0.1667
+CURE de Repos,Philadelphia,PA,27,4.52,88.89,0.2222,0.2593,0.0,0.1481,0.1481,0.1111
+CVS Optical,PHILADELPHIA,PA,29,2.21,24.14,-0.1724,-0.1379,-0.069,-0.1034,-0.2069,0.0
+CVS Optical,Philadelphia,PA,35,2.49,31.43,-0.0571,-0.1429,0.0571,-0.1429,-0.0857,-0.0286
+CVS Pharmacy,Apollo Beach,FL,35,2.11,20.0,-0.1714,-0.0857,-0.1429,-0.1429,-0.1143,-0.0571
+CVS Pharmacy,Ardmore,PA,37,2.43,35.14,-0.0541,-0.1351,-0.0541,-0.3243,-0.1622,0.1351
+CVS Pharmacy,Ballwin,MO,23,2.83,43.48,0.0,0.0435,-0.0435,-0.1739,-0.2174,0.0
+CVS Pharmacy,Carmel,IN,34,2.71,35.29,-0.0294,-0.0294,0.0,-0.2353,-0.1471,0.0882
+CVS Pharmacy,Carpinteria,CA,20,2.45,30.0,-0.15,0.0,0.0,-0.25,-0.2,0.0
+CVS Pharmacy,Cherry Hill,NJ,49,2.1,24.49,-0.102,-0.2449,-0.1224,-0.1633,-0.3265,-0.0816
+CVS Pharmacy,Conshohocken,PA,26,2.27,23.08,-0.2308,-0.1923,-0.1154,-0.1538,-0.1154,0.1923
+CVS Pharmacy,Drexel Hill,PA,26,1.96,15.38,-0.2692,-0.3077,0.0,-0.3462,-0.0769,-0.0385
+CVS Pharmacy,Goleta,CA,146,2.06,21.92,-0.0822,-0.137,-0.1233,-0.3151,-0.226,0.0274
+CVS Pharmacy,Indianapolis,IN,50,2.22,24.0,-0.12,-0.12,-0.14,-0.24,-0.06,0.04
+CVS Pharmacy,King Of Prussia,PA,27,1.56,7.41,-0.0741,-0.5926,-0.2593,-0.3704,-0.2222,-0.037
+CVS Pharmacy,Mount Laurel,NJ,23,1.83,17.39,-0.2174,-0.087,-0.1304,-0.4348,-0.2609,0.0435
+CVS Pharmacy,Nashville,TN,26,3.08,50.0,0.1154,0.0769,0.0385,0.0769,-0.1154,0.0385
+CVS Pharmacy,New Orleans,LA,137,2.96,40.15,-0.0292,0.0292,0.0438,-0.073,-0.073,0.0073
+CVS Pharmacy,Newtown,PA,22,2.32,27.27,-0.1364,-0.1818,-0.2273,-0.1818,-0.2273,-0.2273
+CVS Pharmacy,Paoli,PA,27,1.67,11.11,-0.1852,-0.2593,-0.1111,-0.4815,-0.0741,-0.1111
+CVS Pharmacy,Philadelphia,PA,429,2.67,33.33,-0.0466,-0.0466,-0.0373,-0.1119,-0.1026,0.021
+CVS Pharmacy,Phoenixville,PA,24,1.46,8.33,-0.1667,-0.5833,-0.2083,-0.25,-0.25,-0.125
+CVS Pharmacy,Reno,NV,363,2.18,25.62,-0.1322,-0.1736,-0.1405,-0.2617,-0.2149,-0.0634
+CVS Pharmacy,Riverview,FL,25,1.88,20.0,-0.12,-0.16,-0.2,-0.36,-0.24,-0.08
+CVS Pharmacy,Saint Louis,MO,24,3.04,50.0,-0.0417,0.125,0.0833,-0.0417,-0.0417,-0.0417
+CVS Pharmacy,Santa Barbara,CA,235,2.06,23.83,-0.1362,-0.1702,-0.1106,-0.2553,-0.217,-0.0511
+CVS Pharmacy,Sparks,NV,97,1.95,21.65,-0.1649,-0.3196,-0.134,-0.3608,-0.3196,-0.0515
+CVS Pharmacy,St. Louis,MO,21,2.43,33.33,-0.1429,-0.0476,-0.0952,-0.0476,0.0476,0.1429
+CVS Pharmacy,Wesley Chapel,FL,20,2.45,30.0,-0.15,-0.15,-0.05,0.0,-0.1,0.15
+California Trike,Santa Barbara,CA,23,4.83,95.65,0.0435,0.3478,0.3043,0.1739,0.1304,0.0
+"Calvin Kim, DMD",Goleta,CA,56,4.46,83.93,0.3036,0.5179,0.125,0.125,0.2143,0.5714
+"Calvin Van Reken, MD",Reno,NV,25,2.16,28.0,-0.44,-0.16,-0.24,-0.04,-0.12,-0.24
+Camenzuli Dental Excellence,New Orleans,LA,39,4.33,82.05,0.2051,0.6667,0.2308,0.2051,0.1538,0.4615
+Canatella Dental - New Orleans,New Orleans,LA,27,3.41,59.26,0.0,0.4074,-0.2222,-0.037,-0.2222,0.1111
+Cancer Care Specialists,Reno,NV,20,2.05,25.0,-0.45,-0.35,-0.25,-0.3,-0.3,-0.25
+Canyon Ranch Tucson,Tucson,AZ,46,4.02,71.74,0.1522,0.3261,0.1087,0.2609,0.0435,0.1304
+Capital Health Medical Center - Hopewell,Pennington,NJ,74,2.7,41.89,-0.1486,-0.0135,-0.1081,-0.1892,-0.1216,-0.0405
+Capitol Dental,Boise,ID,23,4.48,86.96,0.2609,0.5652,0.1739,0.2174,0.3043,0.3478
+Carbon Health Urgent Care Galena,Reno,NV,52,2.96,44.23,-0.0769,0.0769,-0.0962,-0.0385,-0.1154,-0.0769
+Carbon Health Urgent Care Northwest Reno,Reno,NV,104,2.82,43.27,-0.1154,-0.0673,-0.1346,-0.1442,-0.2115,-0.125
+Carbon Health Urgent Care Sparks,Sparks,NV,63,2.51,38.1,-0.1587,-0.0159,-0.1111,-0.0635,-0.1746,-0.0476
+Cardio Kickfit,Reno,NV,20,4.75,95.0,0.1,0.15,0.0,0.1,0.0,0.05
+CareFirst Specialty Pharmacy,Cinnaminson,NJ,20,4.05,75.0,0.2,0.25,0.25,0.0,0.1,-0.05
+CareNow,Hendersonville,TN,25,3.28,56.0,0.08,0.16,-0.16,0.04,-0.12,-0.04
+CareNow,Hermitage,TN,30,3.43,60.0,0.2,0.1667,-0.0333,0.0667,0.0333,0.0
+CareNow,Nashville,TN,96,3.78,69.79,0.3333,0.4271,-0.0417,0.125,0.0104,0.1458
+CareNow Urgent Care,Franklin,TN,25,2.84,44.0,-0.12,0.16,-0.08,-0.28,-0.2,-0.04
+CareSTAT Urgent Care,Abington,PA,30,2.7,33.33,-0.0333,0.0333,0.0,-0.2,-0.0667,0.1333
+CareSpot,Nashville,TN,50,3.26,54.0,0.08,0.18,-0.06,-0.06,-0.18,0.04
+CareStat Urgent Care,Havertown,PA,40,3.18,55.0,0.125,0.25,-0.075,0.025,-0.05,0.0
+Carillon Sports & Family Medicine,Saint Petersburg,FL,24,2.62,37.5,-0.25,-0.25,-0.3333,-0.2083,-0.2083,-0.4167
+Carol's About Face,Tucson,AZ,34,4.94,100.0,0.4412,0.1765,0.0294,0.1765,0.2059,0.2059
+Carondelet St Joseph's Hospital,Tucson,AZ,118,2.67,39.83,-0.0254,-0.0593,-0.1186,-0.2034,-0.1017,-0.1356
+Carondelet St. Mary's Hospital,Tucson,AZ,55,2.18,29.09,-0.2909,-0.1636,-0.2909,-0.1818,-0.1818,-0.2909
+Casa Bella Salon and Spa,Meridian,ID,52,4.56,88.46,0.0385,0.2885,0.0962,0.0962,0.1346,0.1346
+Castellano Cosmetic Surgery Center,Tampa,FL,34,4.12,70.59,0.3235,0.4118,0.0294,0.0294,0.2353,0.4412
+Castle Dental & Orthodontics - Nashville,Nashville,TN,21,2.29,33.33,-0.2381,0.1905,-0.2381,-0.381,-0.4286,-0.4286
+Catalina Eye Care,Tucson,AZ,23,2.83,43.48,0.087,0.0,-0.0435,-0.1739,-0.0435,0.0
+Catalina Foothills Family Dental,Tucson,AZ,32,4.72,93.75,0.3438,0.75,0.25,0.1562,0.25,0.5312
+Catalina Pediatrics,Tucson,AZ,28,3.93,71.43,0.3929,0.3929,-0.0357,0.25,0.3214,0.3571
+Catalina Smiles Dentistry,Oro Valley,AZ,29,2.38,31.03,-0.2069,0.0345,-0.2759,-0.2069,-0.3103,-0.4483
+Cavi Medspa,Nashville,TN,31,3.97,70.97,0.2258,0.3226,0.0645,-0.0323,-0.0323,0.129
+Cavi Spa,Tampa,FL,42,4.52,83.33,0.3095,0.4048,0.0714,0.1429,0.1667,0.2381
+Celebrity Massage,Conshohocken,PA,25,3.48,64.0,0.08,0.12,0.32,0.04,0.08,0.16
+Center City Dermatology,Philadelphia,PA,61,3.52,63.93,0.2787,0.1967,0.0,-0.0492,0.1475,0.1639
+Center City Emergency Dentist,Philadelphia,PA,124,3.73,66.94,0.1129,0.3226,0.0081,0.1532,0.0565,0.1774
+Center City Orthodontics,Philadelphia,PA,39,4.85,92.31,0.5641,0.6667,0.2051,0.2308,0.359,0.6154
+Center City Pediatrics,Philadelphia,PA,35,3.29,51.43,0.0,0.0857,-0.0286,-0.0571,-0.1429,0.0
+Center For Neurosciences,Tucson,AZ,68,2.24,29.41,-0.3382,-0.3088,-0.1029,-0.2941,-0.2941,-0.25
+Center For Restorative Breast Surgery,New Orleans,LA,24,4.5,87.5,0.4583,0.3333,0.0417,0.125,0.3333,0.25
+Center for Women's Health - Langhorne,Langhorne,PA,38,2.08,26.32,-0.2632,-0.3158,-0.2105,-0.1053,-0.2105,-0.2895
+Chad Michael,Limerick,PA,22,3.09,50.0,-0.0455,-0.0455,-0.3182,-0.0455,-0.2273,0.0455
+Champagne Family Dentistry,Sparks,NV,94,3.96,72.34,0.117,0.3404,-0.0638,0.1064,0.0213,0.1383
+Channel Islands Chiropractic,Santa Barbara,CA,29,4.48,86.21,0.1034,0.2759,-0.0345,0.2759,0.1034,0.1034
+"Charles P. Virden, MD",Reno,NV,27,4.15,77.78,0.1111,0.2963,0.037,0.037,0.2963,0.1111
+Cherry Hill Family Dental,Cherry Hill,NJ,25,2.24,28.0,-0.04,-0.24,-0.24,-0.24,-0.2,-0.24
+Cheryl's Herbs,St Louis,MO,36,4.19,77.78,0.3889,0.4167,0.1944,0.0556,0.1389,0.0833
+Chester County OB/GYN - West Chester,West Chester,PA,44,1.68,15.91,-0.5455,-0.4545,-0.1818,-0.5,-0.4318,-0.3182
+Chestnut Hill Hospital,Philadelphia,PA,41,2.51,31.71,-0.3415,-0.122,-0.2439,-0.2195,-0.1951,0.0244
+Chi Massage Therapy,Santa Barbara,CA,40,4.9,97.5,0.175,0.175,0.025,0.075,0.225,0.15
+Chiara Dental,Tucson,AZ,36,4.42,86.11,0.3333,0.5833,0.25,0.2778,0.2222,0.4722
+Chiarello Robert M Dr,Tucson,AZ,29,4.72,93.1,0.6552,0.4483,-0.0345,0.1379,0.2069,0.2759
+Children's Hospital New Orleans,New Orleans,LA,21,3.95,71.43,0.3333,0.4286,0.0476,0.2381,0.0952,0.2857
+Children's Hospital of Philadelphia,Philadelphia,PA,80,3.74,66.25,0.2625,0.3375,0.15,0.1,0.1125,0.2125
+Children's Hospital of Philadelphia Cafeteria,Philadelphia,PA,28,3.29,53.57,0.0357,0.0714,0.0714,0.0,-0.0357,0.0357
+Children's Regional Hospital At Cooper,Camden,NJ,32,2.81,43.75,-0.125,0.0625,-0.2188,-0.0312,-0.1562,-0.0312
+China Happy Feet,Indianapolis,IN,36,4.08,77.78,0.0833,0.3611,0.2778,-0.0556,-0.0278,0.1944
+Chiropractic Care Centre,Tampa,FL,21,5.0,100.0,0.4286,0.7619,0.0476,0.2381,0.1429,0.4762
+ChristianaCare Christiana Hospital,Newark,DE,91,2.15,28.57,-0.3297,-0.2198,-0.1429,-0.3516,-0.2527,-0.2527
+"Chronos Body, Health & Wellness",Metairie,LA,55,4.29,81.82,0.1273,0.5091,-0.0182,0.1273,0.1091,0.2909
+Chung Dam Spa & Fitness,Cheltenham,PA,104,3.66,64.42,0.0673,0.0673,0.1154,0.1346,-0.0192,0.2788
+Citrus Endodontics,Tampa,FL,36,4.33,83.33,0.3333,0.5278,0.0833,0.0833,0.2222,0.2778
+Citrus Park,Tampa,FL,45,1.73,15.56,-0.4444,-0.1333,-0.6222,-0.2889,-0.2889,-0.2667
+Citrus Park Eyecare,Tampa,FL,23,4.74,95.65,0.7826,0.8261,0.1739,0.2174,0.1739,0.3478
+City Hydration,Philadelphia,PA,26,4.69,88.46,0.1538,0.3077,0.0385,0.1538,0.1923,0.1923
+City Smiles,Saint Louis,MO,20,3.55,60.0,0.1,0.3,-0.2,-0.05,-0.2,0.35
+Clarkson Eyecare,Brentwood,MO,33,3.7,63.64,0.2121,0.2121,-0.1212,-0.0606,0.0,0.0
+Clarkson Eyecare,St Louis,MO,21,3.24,52.38,-0.0952,0.0,-0.0952,-0.0476,-0.1429,-0.0476
+Clarkson Eyecare,St. Louis,MO,33,2.33,36.36,-0.0909,0.0303,-0.1818,-0.1515,-0.2121,-0.1515
+Claybrooke Commons Kroger,Indianapolis,IN,29,3.79,72.41,0.069,0.2414,0.069,0.1034,0.1034,0.2759
+Clayman Thyroid Center,Town 'n' Country,FL,69,4.99,100.0,0.8551,0.6522,0.1014,0.3333,0.3768,0.2899
+Clayton Med Spa,Saint Louis,MO,65,2.51,29.23,-0.1538,-0.0462,-0.1692,-0.3385,-0.1385,-0.1538
+Clear Vision Express - Marana,Marana,AZ,27,4.11,77.78,0.2963,0.6667,0.1481,0.2222,0.4074,0.1111
+Clearwater Dental Associates,Clearwater,FL,58,4.66,91.38,0.2931,0.6897,0.0517,0.1379,0.4655,0.5172
+Clearwater Family Dental,Clearwater,FL,78,4.38,83.33,0.3462,0.5513,0.0513,0.0513,0.2692,0.3205
+Clever Training,Indian Rocks Beach,FL,31,3.0,48.39,0.0,0.0968,0.0,-0.1613,-0.0645,-0.0323
+Club La Maison Health & Fitness Complex,Wayne,PA,40,3.7,62.5,0.025,0.4,-0.025,0.025,0.0,0.25
+Club Metro - Marlton,Marlton,NJ,20,2.8,40.0,-0.05,0.05,-0.3,-0.1,-0.25,0.2
+Coast Dental,Brandon,FL,22,1.91,22.73,-0.2273,-0.5,-0.3182,-0.2727,-0.2727,-0.3182
+Coast Dental,Clearwater,FL,27,1.81,18.52,-0.1481,-0.3333,-0.4815,-0.4074,-0.3333,-0.5556
+Coast Dental,St. Petersburg,FL,27,1.74,14.81,-0.3704,-0.3333,-0.5185,-0.4815,-0.4815,-0.6296
+Coast Dental,Tampa,FL,92,2.1,27.17,-0.2391,-0.1304,-0.4348,-0.3261,-0.3587,-0.5109
+Coast Dental,Wesley Chapel,FL,25,1.64,12.0,-0.24,-0.16,-0.44,-0.16,-0.36,-0.52
+Coastal Jaw Surgery at Palm Harbor,Palm Harbor,FL,27,3.96,74.07,0.2593,0.4815,0.0741,0.1852,0.1111,0.1852
+Cobblestone Kids,Philadelphia,PA,41,4.17,80.49,0.1463,0.4146,-0.0244,0.1707,0.0244,0.561
+Community Acupuncture,Saint Louis,MO,23,4.52,95.65,0.3913,0.2174,0.3913,0.0435,0.2174,0.3913
+Community Health Alliance,Reno,NV,34,3.32,55.88,-0.0294,0.2059,0.0588,-0.0294,-0.1471,0.0
+Community Hospital North,Indianapolis,IN,42,3.4,61.9,0.1667,0.2619,-0.0238,0.119,0.0,0.2381
+Community Hospital South,Indianapolis,IN,35,2.29,28.57,-0.3714,-0.3143,-0.1714,-0.2571,-0.2571,-0.1143
+Compass Chiropractic,Indianapolis,IN,22,4.82,95.45,0.5,0.5,0.1818,0.1364,0.1364,0.2273
+Complete Health Partners at 3rd & Church,Nashville,TN,33,4.64,90.91,0.6364,0.8182,0.1818,0.1515,0.0606,0.3636
+Complete Health Partners at Nashville West,Nashville,TN,23,3.83,69.57,0.3478,0.4783,0.0435,0.2609,0.0,0.3478
+Concentra Medical Center,Plymouth Meeting,PA,21,1.86,19.05,-0.3333,-0.3333,-0.1905,-0.1905,0.0,-0.1429
+Concentra Medical Center,Reno,NV,76,1.72,17.11,-0.3816,-0.3158,-0.1711,-0.5658,-0.2632,-0.2105
+Concentra Medical Centers,Philadelphia,PA,20,1.35,5.0,-0.25,-0.55,-0.1,-0.7,-0.1,-0.25
+Concentra Medical Centers,Sparks,NV,36,1.67,16.67,-0.2222,-0.25,-0.1111,-0.5833,-0.2778,-0.1944
+Concentra Urgent Care,Cherry Hill,NJ,35,1.54,11.43,-0.5714,-0.4857,-0.1714,-0.6,-0.3429,-0.4286
+Connie Chinese Massage,Dunedin,FL,27,4.56,88.89,0.0741,0.1481,-0.0741,0.1481,0.2222,0.2593
+Conservative Grounds,Largo,FL,67,4.15,79.1,-0.0299,0.2687,0.0,0.0896,-0.0299,0.1493
+Conshohocken Dental Group,Conshohocken,PA,22,4.32,77.27,0.1818,0.5,0.0,0.2273,0.1818,0.5
+Conshohocken Family Practice,Conshohocken,PA,31,1.48,3.23,-0.7742,-0.7097,-0.0645,-0.5161,-0.4194,-0.5161
+Cool Springs EyeCare,Franklin,TN,37,3.68,67.57,0.4054,0.3784,-0.0541,0.1081,-0.027,-0.0541
+Cool Springs Family Medicine,Franklin,TN,29,3.28,55.17,0.2069,-0.1034,-0.1379,-0.069,-0.1034,-0.1724
+Cool Springs Internal Medicine & Pediatrics,Brentwood,TN,31,3.13,54.84,0.0645,-0.0968,-0.0968,-0.129,-0.1935,-0.129
+Cool Springs Plastic Surgery - Franklin,Franklin,TN,27,4.67,92.59,0.4074,0.4815,-0.037,0.1481,0.3333,0.4074
+CoolSprings Laser Aesthetic & Skincare Center,Franklin,TN,25,2.96,48.0,0.0,0.0,-0.28,-0.24,-0.12,-0.08
+Copperstate OB Gyn Associates,Tucson,AZ,46,3.93,73.91,0.3478,0.413,0.0217,0.1739,0.2609,0.2174
+Cornea Associates,Tucson,AZ,22,2.45,36.36,-0.1818,-0.1818,-0.2727,-0.0909,-0.1818,-0.2273
+Corner Dentistry,Philadelphia,PA,41,4.8,95.12,0.1707,0.6098,0.0488,0.0732,0.439,0.561
+Cortaro Smiles Dentistry and Orthodontics,Tucson,AZ,33,2.85,45.45,0.0909,0.0909,-0.2121,-0.1818,-0.0909,-0.1212
+Cosmic Connections,Nashville,TN,40,4.55,92.5,0.05,0.325,0.1,0.175,0.025,0.05
+Costco Pharmacy,Goleta,CA,30,1.87,20.0,-0.2,-0.0333,-0.3333,-0.5667,-0.3667,-0.1
+Costco Wholesale,Tucson,AZ,115,3.42,62.61,0.0087,0.0783,0.2696,0.0174,-0.087,0.1043
+Cottage Children's Medical Center,Santa Barbara,CA,86,3.2,51.16,0.0,0.1163,-0.0349,-0.1395,-0.0698,0.0465
+Cottage Urgent Care - Goleta - Calle Real,Goleta,CA,20,3.25,55.0,0.2,0.15,-0.05,0.0,-0.05,0.0
+Cotton & Snow,Nashville,TN,41,4.1,73.17,-0.0244,0.1463,0.0976,-0.0244,-0.0244,0.0
+Courtney Medical Group,Tucson,AZ,33,1.61,15.15,-0.6061,-0.3939,-0.4545,-0.3636,-0.4848,-0.4242
+"Craig Donn, DDS",Cherry Hill,NJ,24,4.25,79.17,0.2083,0.4167,0.0,0.2083,0.125,0.2917
+Crest Foot Massage,Nashville,TN,23,2.7,39.13,-0.0435,0.0,0.0,-0.1304,-0.2174,-0.087
+Creve Coeur Dental,Creve Coeur,MO,28,3.36,57.14,0.0714,0.4286,-0.1429,0.0,-0.1071,0.2143
+Creve Coeur Urgent Care,Creve Coeur,MO,29,3.62,62.07,0.3103,0.2414,-0.0345,-0.0345,0.0345,0.069
+Cross Keys Family Dental,Turnersville,NJ,24,1.71,16.67,-0.25,-0.3333,-0.25,-0.5,-0.375,-0.375
+CrossFit Santa Barbara,Goleta,CA,39,4.79,94.87,0.0,0.3846,0.0513,0.0513,0.0256,0.2308
+Crozer-Chester Medical Center,Upland,PA,49,1.88,16.33,-0.4898,-0.3673,-0.2245,-0.3469,-0.4082,-0.3469
+Cryo Spa Natural Healing Center,Southampton,PA,23,4.17,78.26,0.1304,0.2609,0.087,-0.0435,0.087,0.1304
+Cryo-Cell International Inc,Oldsmar,FL,36,4.42,88.89,0.0833,0.4444,0.0556,0.2222,0.3889,0.1111
+Curaleaf,Bellmawr,NJ,50,3.36,58.0,-0.04,0.1,0.04,0.02,-0.04,0.06
+Curcio Dermatology,Nashville,TN,37,3.3,54.05,0.0541,0.2432,-0.3243,-0.027,-0.0541,0.1081
+Cypress Dental,Reno,NV,29,4.83,96.55,0.3103,0.6207,0.069,0.1724,0.2759,0.5172
+D2 Dispensary,Tucson,AZ,40,3.15,52.5,0.05,0.2,-0.075,-0.075,0.0,0.075
+DDSNow Urgent Dental Care,Indianapolis,IN,26,4.35,84.62,0.4231,0.3846,0.1538,0.1923,0.3462,0.3462
+DaVinci Skin Care Center,King of Prussia,PA,28,4.46,85.71,0.2857,0.4286,0.1071,0.0714,0.1786,0.0
+"Dale Tylor, MD, MPH",Santa Barbara,CA,21,4.76,95.24,0.619,0.3333,0.0,0.1429,0.4762,0.5238
+"David A Tecosky, DMD",Philadelphia,PA,21,4.38,85.71,0.0,0.5238,0.0,-0.0952,0.1905,0.2381
+"David G Parker, DDS",Brandon,FL,35,3.23,54.29,0.0571,0.2571,0.0286,-0.0286,0.0,0.0286
+"David Gardner, DMD - Rittenhouse Dentistry",Philadelphia,PA,51,4.82,96.08,0.2941,0.3137,0.2157,0.1961,0.5686,0.6863
+"David L Pastrell, DDS",Reno,NV,44,4.36,84.09,0.25,0.4773,-0.0682,0.0909,0.0,0.4545
+"David Pittman, DMD",Nashville,TN,42,4.81,95.24,0.2381,0.6667,0.2381,0.2143,0.0952,0.4048
+"David Reeves, DDS & Randall Iwasiuk, DDS",Reno,NV,28,4.71,92.86,0.2857,0.8929,0.1071,0.25,0.25,0.6071
+Davis Optical Centers,Reno,NV,35,3.34,57.14,-0.0286,0.0571,0.0286,-0.1143,-0.1143,-0.0857
+Dawes Fretzin Dermatology Group,Indianapolis,IN,37,3.11,45.95,-0.0541,0.1081,-0.0541,0.027,-0.2973,0.0811
+"Dawna Ara, DACM, LAc",Santa Barbara,CA,55,4.8,96.36,0.4364,0.0727,0.1091,0.1818,0.2909,0.0545
+DeLozier Cosmetic Surgery Center,Nashville,TN,21,3.71,66.67,0.1429,0.381,-0.1429,-0.0476,0.1905,-0.1905
+DeMers Family Vision Group,Sparks,NV,34,4.38,82.35,0.3529,0.5588,0.1176,-0.0294,0.0882,0.2353
+"Dean G Davis, MD - Davis Facial Plastic Surgery",Tampa,FL,22,4.64,90.91,0.5,0.6364,0.0455,0.1364,0.1818,0.3182
+Dehnert Dental,Tucson,AZ,50,4.18,76.0,0.4,0.46,0.12,0.06,0.26,0.28
+Delacruz Chiropractic,Reno,NV,67,5.0,100.0,0.2687,0.2687,0.2388,0.2537,0.2836,0.209
+Delancey Internal Medicine Washington Square,Philadelphia,PA,21,3.0,42.86,-0.0476,-0.0476,-0.0476,-0.0952,-0.0476,-0.2381
+Delaware County Memorial Hospital,Drexel Hill,PA,32,2.0,28.12,-0.375,-0.2188,-0.1562,-0.4062,-0.1875,-0.2188
+Deme Cosmetic,Philadelphia,PA,38,3.16,52.63,-0.0789,0.1842,-0.1579,0.0263,-0.0526,0.0526
+Dental Arts of Santa Barbara,Santa Barbara,CA,26,2.15,26.92,-0.0385,-0.1538,-0.3462,-0.2692,-0.2692,-0.4615
+Dental Arts of South Jersey,Voorhees,NJ,22,3.27,54.55,0.1364,0.0455,-0.1818,0.0,-0.0909,0.0909
+Dental Bliss Franklin,Franklin,TN,23,3.61,60.87,0.1304,0.2609,-0.087,-0.087,-0.0435,0.087
+Dental Dreams,Philadelphia,PA,23,1.09,0.0,-0.2174,-0.5217,-0.2174,-0.9565,-0.1739,-0.4783
+Dental Health Care Associates,Aston,PA,33,3.76,72.73,0.2727,0.4848,-0.1212,0.0909,-0.0909,0.1212
+Dental Medical Arts,Philadelphia,PA,44,4.14,77.27,0.3409,0.4318,-0.0682,0.0909,0.1818,0.3864
+Dental Solutions Market Street,Philadelphia,PA,30,3.33,60.0,0.1,0.3667,0.1333,0.0,-0.0667,0.1667
+Dental Solutions of Media,Media,PA,20,3.3,55.0,0.15,0.15,-0.15,0.0,-0.1,0.0
+Dental Solutions of Roxborough,Philadelphia,PA,24,2.42,33.33,-0.0417,-0.0417,-0.2083,-0.1667,-0.1667,-0.25
+Dental Walk In Clinic of Tampa Bay,Tampa,FL,42,3.24,52.38,0.0,0.1905,0.0,0.0238,-0.0238,0.0476
+DentalSpa Indianapolis,Indianapolis,IN,21,3.33,61.9,-0.0476,0.2857,0.0,-0.1429,0.0,0.0476
+Denteek,Philadelphia,PA,54,4.69,92.59,0.1296,0.4074,0.0926,0.1852,0.1667,0.6852
+Dentex Dental at Liberty Place,Philadelphia,PA,48,3.35,60.42,0.0417,0.1667,-0.0625,-0.2083,-0.1875,0.0625
+Dentistry For Life,Philadelphia,PA,92,4.62,91.3,0.2826,0.6413,0.0761,0.1739,0.2174,0.5543
+Dentistry at 1818 Market Street,Philadelphia,PA,55,3.78,67.27,0.1091,0.3091,-0.0182,0.0545,0.1455,0.2
+"Dentistry in Paradise-Kevin Miller, DDS",Santa Barbara,CA,41,4.8,95.12,0.2439,0.7317,0.0488,0.2927,0.2927,0.6098
+Dentistry on 1st,Tucson,AZ,22,2.45,31.82,0.0909,-0.1364,-0.1364,-0.1818,-0.2273,-0.4091
+Dentists On The Square,Philadelphia,PA,47,3.64,63.83,0.0851,0.2553,-0.0851,0.0426,0.1064,0.0638
+Dentists On Washington,Philadelphia,PA,45,4.4,82.22,0.2667,0.4667,0.5111,0.1556,0.3556,0.5111
+Dentists of Tucson,Tucson,AZ,24,3.67,62.5,0.0833,0.4583,-0.125,0.0,-0.0417,0.125
+Deptford Family Dental,Deptford Township,NJ,27,2.19,25.93,-0.1852,-0.037,-0.2963,-0.2963,-0.1481,-0.1852
+DermaCenter Medical Spa,Philadelphia,PA,29,4.62,89.66,0.5172,0.2759,0.1379,0.1724,0.1034,0.0345
+Dermatology Associates,Indianapolis,IN,27,3.22,51.85,0.037,0.1852,-0.1481,-0.037,0.037,0.0
+Dermatology Associates of Plymouth Meeting,Plymouth Meeting,PA,21,3.38,57.14,-0.0476,-0.0476,0.0,0.1429,-0.0952,0.1429
+Dermatology and Skin Cancer Institute,Lansdale,PA,22,3.68,63.64,0.1364,0.3182,-0.2273,0.0455,-0.1818,0.1818
+Derrick Joseph Psychic Medium,Philadelphia,PA,28,4.36,82.14,0.0,0.0714,0.0357,0.1071,0.2143,0.0
+Desert Bloom Family Practice,Tucson,AZ,22,3.18,50.0,0.1818,0.0455,-0.0909,-0.0909,0.0455,0.0909
+Desert Bloom Obstetrics,Tucson,AZ,47,2.85,46.81,-0.1277,0.1064,-0.2128,-0.1702,-0.2128,-0.0426
+Desert Bloom Re-Leaf Center,Tucson,AZ,45,3.11,48.89,-0.0222,0.2222,0.0667,0.0222,-0.0444,0.0444
+Desert Palms Physical Therapy Movement Studio Institute,Tucson,AZ,23,4.09,78.26,0.2609,0.2609,-0.0435,0.1739,0.087,0.087
+Desert Valley Dental,Reno,NV,66,3.42,60.61,0.0303,0.2424,0.0303,-0.0152,-0.0455,0.1818
+Designer Eyes,Philadelphia,PA,35,3.74,68.57,0.0857,0.3143,0.1714,-0.1143,0.0,0.0286
+Detweiler Family Medicine,Lansdale,PA,42,3.0,50.0,0.0714,-0.0238,-0.1429,-0.1667,-0.0238,-0.0952
+Diagnostic Clinic Medical Group,Clearwater,FL,85,1.98,22.35,-0.4118,-0.1412,-0.3176,-0.2471,-0.2353,-0.1529
+Diagnostic Clinic Medical Group - Largo,Largo,FL,76,2.53,34.21,-0.2763,-0.0263,-0.1842,-0.2105,-0.2105,-0.1974
+Diamond Eyecare,Tucson,AZ,21,3.29,57.14,0.0476,0.1429,0.0476,0.1429,-0.1905,-0.0476
+Digestive Health Associates,Reno,NV,50,2.08,26.0,-0.42,-0.3,-0.3,-0.24,-0.26,-0.34
+Digestive Health Clinic,Boise,ID,31,3.48,58.06,0.1613,0.3226,-0.0645,0.0323,0.0323,0.129
+Diggerland USA,West Berlin,NJ,160,3.49,51.25,0.025,0.0812,0.0438,0.0625,-0.0562,0.2188
+Discount Cab,Tucson,AZ,96,1.59,12.5,-0.0833,-0.0312,-0.0833,-0.4375,-0.3542,-0.0312
+Divine Align Massage & Yoga,Santa Barbara,CA,41,4.9,97.56,0.1951,0.1951,0.0,0.122,0.122,0.0732
+Divinity Med Spa,Spring Hill,FL,24,4.17,79.17,0.2917,0.5,0.0,0.125,0.0833,0.25
+Doc Bresler's Cavity Busters,Jenkintown,PA,21,3.67,61.9,0.1905,0.0,-0.0476,0.1429,-0.1905,0.1429
+Doc Bresler's Cavity Busters,Philadelphia,PA,64,1.84,20.31,-0.2656,-0.1875,-0.3281,-0.25,-0.3438,-0.4219
+DocMJ,Clearwater,FL,34,3.65,64.71,0.2941,0.0588,0.0,0.0588,0.1471,0.0294
+DocMJ,Tampa,FL,21,3.95,71.43,0.1905,0.1905,0.0,0.1429,0.0952,0.0952
+Doctor's Best Immediate Medical Care,Berwyn,PA,23,3.09,47.83,0.087,0.0,0.0435,-0.2174,-0.087,0.1739
+Doctor's Urgent Care,Palm Harbor,FL,40,3.92,72.5,0.25,0.4,0.125,0.25,0.075,0.1
+Dolce Vita Wellness & Medical Spa,Reno,NV,285,4.51,87.72,0.207,0.3754,0.0456,0.207,0.1228,0.2491
+Donelson EyeCare,Nashville,TN,22,4.27,81.82,0.5,0.4091,0.1364,0.0909,0.0909,0.2273
+Donelson Massage Center,Nashville,TN,115,4.66,92.17,0.0348,0.313,0.1652,0.1217,0.1217,0.2522
+Donelson Smiles Dentistry,Nashville,TN,33,3.0,45.45,0.0606,0.2121,-0.0606,-0.0909,-0.0606,-0.2121
+Double Diamond Athletic Club,Reno,NV,71,3.13,53.52,-0.0141,0.1831,0.0,-0.0141,-0.1408,0.2394
+Double Edge Fitness - Midtown,Reno,NV,34,4.85,97.06,0.0294,0.7059,0.0588,0.2353,0.0294,0.7059
+Doubletree by Hilton Tampa Airport - Westshore,Tampa,FL,69,2.51,28.99,-0.087,-0.1014,-0.0435,-0.1594,-0.087,-0.1739
+"Douglas J Mackenzie, MD, FACS",Santa Barbara,CA,31,3.87,70.97,0.1613,0.4194,-0.0645,0.0,0.129,0.1935
+Douglas Jacobson MD at Sansum Clinic Eye Center,Santa Barbara,CA,24,4.54,87.5,0.5833,0.5833,0.0,0.1667,0.375,0.2083
+Dove Mountain Chiropractic and Massage,Tucson,AZ,23,4.74,91.3,0.2174,0.4348,0.0,0.1304,0.3478,0.2174
+Downtown Community Acupuncture,Santa Barbara,CA,25,4.8,96.0,0.6,0.2,0.24,0.16,0.24,0.12
+Downtown Dental,Nashville,TN,56,4.3,82.14,0.1964,0.5357,-0.0179,0.0714,0.1429,0.375
+Downtown Vision,Reno,NV,31,4.48,90.32,0.4839,0.6129,0.1613,0.0968,0.2581,0.3226
+Doylestown Health - Doylestown Hospital,Doylestown,PA,57,3.02,47.37,-0.0526,0.1053,-0.1053,-0.0702,-0.1579,-0.0351
+Doylestown Health: Urgent Care,Doylestown,PA,30,3.67,66.67,0.2333,0.4667,-0.0333,-0.0333,-0.1,0.2667
+Doylestown Women's Health Center,Doylestown,PA,25,2.68,40.0,-0.2,-0.28,-0.16,-0.16,-0.12,-0.36
+Dr Kori - Chiropractic,Santa Barbara,CA,22,4.82,95.45,0.3182,0.3636,0.1364,0.1364,0.4091,0.1364
+Dr Melman's Eyeland,Voorhees,NJ,25,4.52,88.0,0.36,0.6,0.16,0.24,0.12,0.32
+Dr Reeferalz,Tucson,AZ,40,3.65,65.0,0.15,0.2,0.05,0.0,0.0,0.175
+Dr. JAW Orthodontists,Oro Valley,AZ,34,4.76,94.12,0.4118,0.6471,0.0882,0.0882,0.1176,0.2941
+Dr. JAW Orthodontists,Tucson,AZ,43,4.7,90.7,0.3488,0.7674,0.186,0.2326,0.186,0.2791
+Dr. Jennifer L. Shane & Associates,Reno,NV,23,4.57,86.96,0.1739,0.4348,0.1304,0.087,0.3913,0.3913
+Dr. K's Med Spa,Largo,FL,27,4.15,77.78,0.3704,0.5556,-0.1481,0.0,0.1111,0.1852
+Dr. Urshan Health & Weight Loss Center,Tampa,FL,39,3.31,56.41,-0.1282,0.1282,-0.1538,0.0,-0.0513,0.0256
+Drexel Family Medicine - Tower Health,Philadelphia,PA,25,2.4,36.0,-0.36,0.0,-0.16,-0.16,-0.24,-0.16
+Drexel Medicine Convenient Care Center,Philadelphia,PA,27,3.04,44.44,-0.0741,0.037,0.037,0.1111,-0.0741,0.1111
+Drexel Recreation Center,Philadelphia,PA,29,3.72,68.97,0.0,0.069,-0.0345,0.1034,0.0,0.4138
+Drs Page and Ward,Philadelphia,PA,24,4.71,91.67,0.4583,0.625,0.1667,0.1667,0.4167,0.4167
+Duncan Family Healthcare,Reno,NV,43,2.72,39.53,-0.0698,-0.093,-0.093,-0.186,0.0233,-0.0233
+E Cigs International,Philadelphia,PA,21,4.52,85.71,0.0476,0.381,0.3333,0.0952,0.1429,0.1429
+EXPRESS SCRIPTS,St. Louis,MO,224,1.09,1.34,-0.4821,-0.1786,-0.4955,-0.3527,-0.2812,-0.1161
+Eagle Day Spa,Eagle,ID,35,4.37,82.86,0.0571,0.3714,-0.0286,0.0571,-0.0571,0.1429
+Eagle Eye Vision Care,Tampa,FL,26,4.73,92.31,0.6923,0.5769,0.2692,0.0385,0.2692,0.3077
+Eagle Fitness,Sparks,NV,30,3.07,53.33,0.0667,0.1667,-0.1,0.0,-0.0667,0.1333
+Earth's Healing North,Tucson,AZ,64,3.39,57.81,0.0,0.1875,-0.0156,-0.0781,-0.0469,0.0938
+EarthSavers,New Orleans,LA,60,3.68,63.33,0.0,0.1333,0.1,0.0333,-0.0833,0.0167
+Earthsavers,Metairie,LA,90,3.3,54.44,0.0667,0.1,-0.1222,-0.0111,-0.0778,-0.0333
+East Coast Float Spa,West Chester,PA,25,4.6,92.0,0.12,0.56,0.08,0.28,0.2,0.64
+East Falls Eye Associates,Philadelphia,PA,24,4.38,83.33,0.4583,0.5,0.2917,0.2083,0.125,0.2083
+East Jefferson General Hospital,Metairie,LA,53,2.58,33.96,-0.1132,-0.1509,-0.1887,-0.1698,-0.0943,-0.1132
+East Nashville Family Medicine,Nashville,TN,41,3.54,56.1,0.1707,0.2195,0.0,0.122,-0.0488,0.0488
+East Side Smiles,Nashville,TN,43,4.19,76.74,0.186,0.4419,0.1163,0.1395,0.1628,0.4419
+East To West Massage Therapy,St Petersburg,FL,20,5.0,100.0,0.05,0.45,0.15,0.15,0.15,0.3
+Eastern Dental - Burlington,Cinnaminson,NJ,32,1.84,18.75,-0.25,-0.2188,-0.0938,-0.5312,-0.3438,-0.4375
+Eastern Dental - Ewing,Ewing,NJ,25,1.92,20.0,-0.16,-0.24,-0.28,-0.44,-0.24,-0.36
+Eastern Dental - Laurel Springs,Laurel Springs,NJ,24,4.08,70.83,0.2083,0.4583,0.0417,0.2083,0.25,0.375
+Eastern Dental - Marlton,Marlton,NJ,30,3.23,50.0,-0.0333,0.0667,-0.2333,-0.1,0.0,-0.0333
+Eastern Relax,Maple Shade,NJ,32,3.84,71.88,0.0625,0.0938,0.0938,0.0938,0.0,0.1562
+Eden Medical Spa,Wayne,PA,23,1.43,4.35,-0.3913,-0.2174,-0.2609,-0.2174,-0.2174,-0.1304
+Edmondson Pike Family Practice & Walk-in Clinic,Nashville,TN,33,3.85,69.7,0.303,0.2727,-0.0303,0.1818,0.0303,0.0606
+Eduardo Yibrin,New Orleans,LA,22,5.0,100.0,0.1818,0.1364,0.0,0.1818,0.2273,0.0455
+Einstein Medical Center Montgomery,East Norriton,PA,107,2.21,28.04,-0.2804,-0.2336,-0.1869,-0.3832,-0.215,-0.2617
+Einstein Medical Center Philadelphia,Philadelphia,PA,44,1.84,18.18,-0.3409,-0.3409,-0.2727,-0.3182,-0.3182,-0.25
+El Balconcito,Philadelphia,PA,60,3.43,60.0,0.0,0.0833,0.05,0.0667,-0.0667,0.0167
+Elan Hair & Skin,Nashville,TN,80,4.06,75.0,0.225,0.225,0.0625,0.1125,0.025,0.05
+Elegant Smiles,Havertown,PA,21,4.19,80.95,0.2381,0.381,-0.0952,0.0476,0.1905,0.4286
+Elements Massage,Boise,ID,22,2.95,50.0,-0.0455,-0.0455,-0.2273,-0.1364,-0.1818,-0.0909
+Elements Massage - Boise,Boise,ID,26,3.69,65.38,0.0,0.3462,-0.1538,-0.0385,0.0,0.0769
+Elements Massage - Brentwood,Brentwood,TN,34,4.24,82.35,0.1176,0.3824,0.0882,0.1176,0.1765,0.2059
+Elements Massage - Cherry Hill,Cherry Hill,NJ,57,3.81,68.42,0.1579,0.2982,0.0351,0.0877,-0.0175,0.1754
+Elements Massage - Franklin,Franklin,TN,49,4.14,79.59,0.0612,0.4694,0.102,0.102,0.102,0.1224
+Elements Massage - Horsham,Horsham,PA,31,4.55,87.1,0.0645,0.4516,0.0968,0.129,0.1935,0.3226
+Elements Massage - Indianapolis North,Indianapolis,IN,20,3.85,65.0,0.0,0.3,0.25,0.25,0.1,0.15
+Elevated Wellness,Bryn Mawr,PA,34,5.0,100.0,0.1176,0.1471,0.0294,0.2941,0.2941,0.1471
+"Elliot Diamond, DPM",Philadelphia,PA,26,4.19,76.92,0.3077,0.3462,-0.0385,0.1923,0.1923,0.1923
+Embassy Dental - Cool Springs,Brentwood,TN,20,2.3,30.0,0.0,0.05,-0.45,-0.2,-0.05,-0.3
+Embassy Dental - Donelson,Donelson,TN,35,1.94,25.71,-0.0857,-0.1429,-0.4,-0.1143,-0.2,-0.2286
+Embassy Dental - Hillsboro Village,Nashville,TN,72,1.93,22.22,-0.2361,-0.0556,-0.3472,-0.3333,-0.3611,-0.375
+Empirical Point Acupuncture,Philadelphia,PA,22,5.0,100.0,0.6818,0.4545,0.0455,0.1364,0.3636,0.3182
+En Vogue Medi-Spa,Southampton,PA,24,3.38,62.5,-0.125,0.0833,-0.125,0.0833,0.125,-0.1667
+Encircle Acupuncture,Nashville,TN,35,4.46,85.71,0.4571,0.3143,0.2571,0.0286,0.2,0.2286
+Endless Pools,Aston,PA,31,2.74,38.71,-0.0323,0.0323,-0.1935,-0.1935,-0.1935,-0.0323
+Enigma Medi Spa & Laser Center,Philadelphia,PA,135,3.67,65.19,0.1185,0.2074,0.0741,0.0222,0.0074,0.037
+Enjoy Massage Spa,Metairie,LA,67,4.64,91.04,0.0597,0.2239,0.2836,0.1493,0.0299,0.2537
+Envision Eyecare Center,Tucson,AZ,46,4.22,80.43,0.5435,0.587,0.1304,0.1087,0.3043,0.1957
+Erasable,Tampa,FL,85,4.69,92.94,0.5412,0.5647,0.0706,0.3176,0.4588,0.3765
+"Eric M Wallace, DDS",Santa Barbara,CA,21,4.29,80.95,0.1905,0.3333,0.0952,0.0952,0.1905,0.2857
+"Erik S Wipf, DDS",Santa Barbara,CA,67,4.94,98.51,0.4328,0.7463,0.0597,0.1791,0.2388,0.6269
+Eskenazi Health,Indianapolis,IN,38,3.5,57.89,0.1316,0.3421,-0.0526,0.0263,-0.0263,0.0
+Essent Spa,Bryn Mawr,PA,34,4.44,85.29,0.0882,0.2353,0.1471,0.0294,0.0588,0.1765
+Essentials Massage & Facials,Riverview,FL,90,4.33,82.22,0.0444,0.2333,0.0778,0.1333,-0.0222,0.2111
+Essentials Massage & Facials South Tampa,Tampa,FL,106,3.82,68.87,0.0094,0.1887,0.1038,0.0472,-0.0283,0.1321
+Essentials Massage & Facials of Brandon,Brandon,FL,62,4.06,75.81,0.0323,0.3226,0.0968,0.0323,-0.0806,0.0806
+Essentials Massage & Facials of Trinity,Trinity,FL,59,3.95,72.88,0.0678,0.2542,0.0339,0.0339,-0.0169,0.0678
+Essentials Massage & Facials of Wesley Chapel,Wesley Chapel,FL,36,4.22,77.78,0.0278,0.1944,0.25,0.0556,0.0556,0.2222
+Essentials Massage and Facials of Clearwater,Clearwater,FL,31,4.74,93.55,0.0645,0.4839,0.2258,0.0968,0.2258,0.3548
+Essentials Retreat,Seminole,FL,26,2.96,46.15,0.0385,0.1538,-0.0769,-0.0769,-0.1538,-0.1154
+Essentials Spa & Salon,St. Petersburg,FL,37,3.89,75.68,0.027,0.1081,0.2162,0.0541,-0.027,0.1081
+Esteem Medical Spa & Salon,Reno,NV,109,4.7,91.74,0.4128,0.6055,0.0917,0.1651,0.156,0.0826
+Etavele Day Spa,Sparks,NV,115,4.7,92.17,0.3478,0.2609,0.1304,0.2261,0.1565,0.2435
+Eternity Med Spa,Creve Coeur,MO,22,4.32,81.82,0.2727,0.4091,-0.0909,0.0455,0.2727,0.0909
+Ethos Aveda Salon,Clayton,MO,63,4.27,82.54,0.2063,0.3175,0.127,0.1111,0.127,0.0635
+Euphorbia Kava Bar,New Orleans,LA,34,4.71,88.24,0.0294,0.1471,0.0882,0.0882,0.0588,0.0588
+European Fitness Center,Reno,NV,100,2.31,31.0,-0.14,-0.19,-0.2,-0.11,-0.23,-0.23
+European Spa,Edmonton,AB,25,4.52,88.0,0.28,0.52,0.16,0.36,0.12,0.48
+Eveline Charles,Edmonton,AB,48,2.31,31.25,-0.125,-0.1875,-0.0417,-0.1667,-0.1875,0.0208
+Eviama Life Spa,Philadelphia,PA,97,4.35,82.47,0.1443,0.268,0.1031,0.1443,0.0,0.2062
+Evolution Primary Care,Riverview,FL,24,4.33,83.33,0.625,0.4583,-0.0417,0.4167,0.2917,0.4583
+Evolutions Medical & Day Spa,Santa Barbara,CA,112,4.38,82.14,0.375,0.4464,0.0089,0.0625,0.0446,0.2232
+Evolve Wellness & Aesthetics Center,Franklin,TN,37,3.22,56.76,0.0811,0.1081,-0.0811,0.027,0.0,0.0
+Excel Physical Therapy - Center City,Philadelphia,PA,49,4.71,91.84,0.2449,0.6122,0.0204,0.1633,0.3061,0.3469
+Excel Physical Therapy - Queens Village,Philadelphia,PA,27,4.74,92.59,0.4444,0.6296,0.0,0.037,0.3333,0.2222
+Exceptional Dental,St. Petersburg,FL,63,2.78,42.86,-0.1746,0.0794,-0.2698,-0.1111,-0.1429,-0.0952
+Exceptional Dental of Mid City,New Orleans,LA,37,3.65,64.86,0.1081,0.2703,0.0,0.0,-0.027,0.1351
+Exodus Women's Center,Tampa,FL,25,1.08,0.0,-0.84,-0.84,-0.08,-0.48,-0.48,-0.68
+Experience A Hair Spa,Indianapolis,IN,47,4.66,91.49,0.1277,0.3617,0.0851,0.0638,0.2553,0.0851
+Express Care of Tampa Bay,Apollo Beach,FL,24,2.58,37.5,-0.0417,0.0,-0.125,-0.0833,-0.2083,-0.125
+Express Med of King of Prussia,King of Prussia,PA,40,3.45,62.5,0.2,0.225,-0.125,0.1,-0.025,0.175
+Eye & Vision Care,Santa Barbara,CA,67,4.06,74.63,0.4627,0.4627,0.0746,0.0448,0.1642,0.1791
+Eye Bar,Saint Louis,MO,56,4.62,92.86,0.1786,0.5179,0.25,0.2143,0.2143,0.0893
+Eye Candy Vision,Philadelphia,PA,20,3.9,70.0,0.15,0.4,0.25,-0.1,-0.1,-0.1
+Eye Encounters,Philadelphia,PA,101,2.61,40.59,-0.0792,-0.0792,-0.099,-0.099,-0.2772,-0.0693
+"Eye Innovations: Archima Major, OD, FAAO",Drexel Hill,PA,31,2.48,35.48,-0.2581,-0.1935,-0.3226,-0.2258,-0.3548,-0.0645
+Eye Site Center,Riverview,FL,23,4.39,82.61,0.3043,0.4783,0.0435,0.0435,0.3043,0.4348
+Eyecare Associates,Metairie,LA,33,4.15,78.79,0.5152,0.5455,-0.0303,0.1515,0.1515,0.1818
+Eyecare Plus - Cool Springs,Franklin,TN,24,3.58,66.67,0.25,0.25,0.0417,0.125,0.0,0.0833
+Eyecare Plus - Green Hills,Nashville,TN,27,3.48,62.96,0.2963,0.3333,-0.1111,-0.037,0.0,-0.0741
+Eyecare Plus - Hickory Hollow,Antioch,TN,23,2.83,47.83,0.0435,0.087,-0.1304,-0.2174,-0.1304,0.1739
+Eyeglass Factory,Santa Barbara,CA,74,4.28,83.78,0.0811,0.3108,0.4054,0.1081,0.0811,0.027
+Eyeglass Repair,Reno,NV,51,4.51,88.24,0.0,0.1373,0.4118,0.098,0.0196,0.0392
+Eyeglass World,St Petersburg,FL,30,3.37,56.67,-0.0333,0.0333,0.0667,-0.1,-0.1,0.0
+Eyeglass World,Tampa,FL,31,2.81,41.94,0.0968,-0.0323,-0.0323,-0.129,-0.1935,-0.1613
+Eyeglass World,Tucson,AZ,39,3.1,46.15,-0.0769,0.0769,0.1026,-0.1282,-0.1026,-0.0769
+Eyeglass World,Wesley Chapel,FL,23,2.78,47.83,-0.1739,0.1304,-0.087,-0.2174,-0.087,-0.0435
+Eyemart Express,Boise,ID,23,2.91,43.48,-0.1304,-0.1739,-0.087,-0.0435,0.087,-0.1739
+Eyemart Express,Reno,NV,75,4.43,84.0,0.1333,0.3867,0.2933,0.1733,0.08,0.0667
+Eyes on Canal,New Orleans,LA,26,4.54,88.46,0.3846,0.6923,0.1154,0.1154,0.2692,0.1538
+Eyetech Visioncare,Reno,NV,20,4.4,85.0,0.25,0.75,0.15,0.15,0.25,0.35
+Eyewearhaus,Creve Coeur,MO,27,4.15,81.48,0.1111,0.3333,0.1111,0.1111,0.1111,0.1111
+Eyezone - Midtown,Reno,NV,23,3.78,69.57,0.1304,0.4348,0.0,-0.0435,-0.0435,-0.0435
+Eyezone Nevada - South Reno,Reno,NV,30,3.8,70.0,0.2,0.3667,-0.0667,0.0,0.0667,0.2
+FIT n TAN,Saint Louis,MO,25,3.48,60.0,0.08,0.32,0.24,0.04,0.04,0.16
+FLOAT STL - Midtown,Saint Louis,MO,47,4.87,95.74,0.0638,0.5745,0.0851,0.2553,0.2979,0.4043
+Fairmount Behavioral Health,Philadelphia,PA,24,1.33,8.33,-0.4583,-0.7083,-0.2083,-0.4167,-0.2917,-0.4583
+Family Dermatology Specialists,Metairie,LA,26,4.5,92.31,0.4615,0.3846,0.0385,0.1538,0.1923,0.1538
+Family Eyecare Associates,Sparks,NV,88,4.51,85.23,0.5227,0.6591,0.125,0.1818,0.2273,0.4205
+Family First Chiropractic,Sparks,NV,23,4.7,91.3,0.3478,0.5652,0.0,0.0435,0.2174,0.2609
+Family Quick Care Clinic,Reno,NV,28,4.25,78.57,0.6071,0.5357,0.4643,0.1071,0.1429,0.3214
+Family Vision Center,Tucson,AZ,121,4.69,92.56,0.4876,0.6942,0.1901,0.1983,0.1901,0.3967
+"Family, Implant & Cosmetic Dentistry",Brandon,FL,23,4.13,78.26,0.2174,0.3478,-0.0435,0.087,0.1739,0.087
+Farkas Chiropractic Clinic,Saint Petersburg,FL,28,4.61,89.29,0.5,0.5714,0.0357,0.1071,0.2143,0.2857
+Fashion Eye Center,Tucson,AZ,62,3.42,59.68,0.129,0.3065,-0.0806,0.0484,0.0484,0.0161
+Fast Track Urgent Care,Saint Louis,MO,31,2.87,48.39,0.0323,0.129,-0.0323,0.0,0.0323,0.0323
+FastMed Urgent Care,Tucson,AZ,26,3.5,61.54,0.2692,0.2308,0.0769,0.0385,0.0385,-0.0385
+Feet Fetish Foot Spa,Indianapolis,IN,23,4.04,73.91,0.1304,0.1304,0.2174,0.087,0.0,0.3043
+Feet First,St. Petersburg,FL,30,4.53,86.67,0.0333,0.4667,0.1667,0.0333,0.2333,0.0
+Ferrara Dental,Tampa,FL,26,3.5,61.54,-0.0385,0.4231,-0.1923,-0.0385,-0.0769,0.2308
+Ferris Orthodontic Group,Santa Barbara,CA,43,4.91,100.0,0.4419,0.814,0.186,0.3488,0.3023,0.5116
+Fetal Vision Imaging,Levittown,PA,31,4.0,70.97,0.0645,0.2581,0.0645,0.2903,0.2903,0.1935
+Fingeret Dental,Newtown,PA,32,4.88,96.88,0.3125,0.7812,0.0625,0.2188,0.3125,0.6562
+First Glimpse Ultrasound,Tucson,AZ,22,4.09,77.27,-0.1364,0.0455,-0.0455,0.0455,0.0455,0.2273
+Fishtown Nails Bar Cafe,Philadelphia,PA,84,4.45,85.71,0.0952,0.4643,0.1905,0.1071,0.0357,0.2381
+Fit City Gym,Saint Louis,MO,35,4.09,74.29,0.0286,0.3429,0.1714,0.1143,0.0286,0.4571
+Fit N Tan Salon and Spa,Saint Louis,MO,25,3.36,60.0,0.0,0.16,0.08,0.08,-0.08,0.08
+Fit-Flavors,Chesterfield,MO,33,4.52,81.82,0.0606,0.303,0.0606,0.1818,0.0606,0.0606
+Fit-Flavors,Saint Louis,MO,71,4.21,78.87,0.0282,0.2113,0.1831,0.1549,0.0563,0.169
+Fitlife Foods - Brandon,Brandon,FL,37,4.46,83.78,0.0,0.2703,0.2162,0.1892,0.0811,0.0811
+Fitlife Foods - Countryside,Clearwater,FL,22,4.05,72.73,0.0,0.4545,0.0909,0.0455,0.2273,0.0455
+Fitlife Foods - South Tampa,Tampa,FL,88,4.12,77.27,0.0227,0.2955,0.25,0.0795,0.1136,0.1136
+Fitness 360 - Clearwater,Clearwater,FL,31,2.16,22.58,0.0,-0.1613,-0.3226,-0.0645,-0.1613,-0.2258
+Fitness For $10,Brandon,FL,25,4.08,80.0,0.0,0.32,0.28,0.2,0.04,0.64
+Flex Appeal,Reno,NV,38,4.24,81.58,-0.0263,0.5,0.0,0.2368,0.0789,0.6316
+Float Luxury Spa,Santa Barbara,CA,277,4.29,78.34,0.1372,0.2455,0.0217,0.1155,0.0542,0.213
+Float Nashville,Nashville,TN,57,4.88,98.25,0.0526,0.4561,0.0877,0.2982,0.4211,0.2807
+Float Nola,New Orleans,LA,29,4.45,86.21,0.2069,0.3103,0.0345,0.069,0.0345,0.5862
+Float SNJ,Marlton,NJ,49,4.8,95.92,0.0816,0.3469,0.0408,0.3061,0.1633,0.551
+Florida Behavioral Medicine,Largo,FL,43,1.6,9.3,-0.4419,-0.6512,-0.2791,-0.1163,-0.2093,-0.3488
+Florida Blue - Tampa Weshore,Tampa,FL,26,1.77,19.23,-0.3462,-0.0385,-0.3846,-0.1154,-0.1923,0.0385
+"Florida Dental Implants & Oral Surgery - Barry C Levine, DMD",Tampa,FL,21,4.43,85.71,0.1905,0.381,-0.0476,0.1905,0.2381,0.2857
+Florida Eye Specialists & Cataract Institute - Brandon,Brandon,FL,26,3.08,53.85,0.0385,0.0769,-0.1923,0.0,-0.0385,-0.0769
+Florida Medical Clinic,Tampa,FL,41,2.41,34.15,-0.0732,-0.0488,-0.2195,-0.1951,-0.122,-0.122
+Florida Medical Clinic,Wesley Chapel,FL,22,2.77,45.45,-0.0909,0.0,-0.0909,0.0,-0.1818,-0.2273
+Florida Orthopaedic Institute,Brandon,FL,41,2.12,26.83,-0.1951,-0.1951,-0.3171,-0.3902,-0.2439,-0.122
+Florida Orthopaedic Institute,Tampa,FL,202,2.5,34.16,-0.2277,-0.0545,-0.1931,-0.2079,-0.1733,-0.0792
+Florida Spine Institute,Clearwater,FL,54,2.33,33.33,-0.2593,-0.2222,-0.1667,-0.2593,-0.1852,-0.3519
+Foot & Ankle Concepts,Santa Barbara,CA,37,3.59,62.16,0.1892,0.1081,-0.1351,-0.1081,-0.027,-0.1351
+Foot & Salt Spa,Nashville,TN,44,3.52,63.64,0.0455,0.1364,-0.0227,0.0455,-0.0682,0.1591
+Foot Dynamics,Boise,ID,29,4.34,82.76,0.1379,0.1724,0.1724,0.1034,0.069,0.0345
+Foot Euphoria,Indianapolis,IN,32,3.69,68.75,0.125,0.0938,0.1562,-0.0312,-0.0312,0.0625
+Foot Reflexology Center,New Orleans,LA,34,3.94,79.41,0.0,0.0588,0.1765,0.0882,-0.0588,0.0882
+For Eyes,Philadelphia,PA,67,4.12,74.63,0.1194,0.4627,0.2239,0.1642,0.1194,0.1493
+For Your Eyes Only 20/20,New Orleans,LA,45,3.0,48.89,0.0,0.1778,-0.0889,-0.1556,-0.1556,0.0
+ForCare Medical Center,Tampa,FL,33,4.15,78.79,0.4545,0.4242,0.1212,0.2727,0.303,0.4242
+Forefront Dermatology,Carmel,IN,33,2.55,33.33,-0.303,-0.0606,-0.1818,-0.2424,-0.1818,-0.0909
+Forest Park Dental,Saint Louis,MO,36,3.64,63.89,0.2778,0.3333,-0.0556,-0.0278,0.0,0.25
+Four Seasons Massage,Warminster,PA,34,4.35,82.35,0.0588,0.3529,0.1471,0.0882,0.0294,0.4412
+Fox Chase Cancer Center,Philadelphia,PA,70,3.23,51.43,0.0714,0.2,-0.0286,0.0143,0.0143,0.0857
+Fox Chase Family Eye Care,Philadelphia,PA,22,4.45,86.36,0.5,0.7273,0.0,0.2727,0.0909,0.4091
+Francis Park Dentistry,St. Louis,MO,60,4.55,88.33,0.2333,0.6167,0.1667,0.0667,0.2167,0.5
+Franklin Dental Care,Franklin,TN,22,3.82,72.73,0.2727,0.3182,-0.0455,-0.0909,0.0,0.0909
+Fresh Vitality Medical Spa & Center for Health,St. Petersburg,FL,38,4.45,86.84,0.3158,0.7368,0.0,0.0789,0.0526,0.1316
+FuWa Foot Massage,Tucson,AZ,22,4.14,77.27,0.0455,0.0909,0.0909,0.1364,0.0455,0.1818
+Fusion Gyms,Philadelphia,PA,30,3.1,53.33,0.0,0.0667,-0.1667,0.0667,-0.2,0.2667
+Fusion Medispa,Odessa,FL,25,4.08,76.0,0.32,0.52,0.12,-0.04,0.08,-0.04
+Future Fitness,Mount Laurel,NJ,36,1.75,11.11,-0.1111,-0.2778,-0.4167,-0.1944,-0.2778,-0.2222
+Future Fitness Centers,West Berlin,NJ,29,1.48,6.9,-0.1379,-0.4138,-0.4138,-0.2759,-0.3448,-0.3103
+Fuwa Massage Reflexology,Tucson,AZ,45,4.02,77.78,-0.0222,0.1333,0.3111,0.0889,-0.0667,0.1333
+GA Foods,Saint Petersburg,FL,25,1.16,4.0,-0.16,-0.12,-0.44,-0.24,-0.44,-0.04
+Gambhir Cosmetic Medicine,King of Prussia,PA,21,3.05,47.62,0.0,0.0952,-0.0952,0.0952,-0.0952,0.1429
+Garces Dental Group,Philadelphia,PA,27,4.37,85.19,0.2593,0.6296,0.1481,0.1852,0.1481,0.5926
+Garden State OB/GYN - Voorhees,Voorhees,NJ,28,2.64,35.71,-0.0357,-0.2143,-0.1071,0.0,-0.2143,-0.1071
+Gastroenterology Consultants,Reno,NV,76,3.12,51.32,0.1974,0.1711,-0.0658,-0.0526,0.0,0.0132
+Gemini Chiropractic and Rehab,New Orleans,LA,21,4.57,90.48,0.2857,0.7143,0.0476,0.1905,0.1429,0.2857
+"Genesis OB Gyn, PC",Tucson,AZ,42,2.17,28.57,-0.2857,-0.2381,-0.1667,-0.3333,-0.3333,-0.2143
+Genesis OB/GYN Northwest,Tucson,AZ,23,2.61,34.78,-0.3478,-0.1304,-0.2609,-0.2609,-0.2174,-0.2174
+Genesis Weight and Age Management,Nashville,TN,30,2.9,46.67,-0.0333,0.0667,-0.1,-0.2,-0.2333,-0.3
+Gentle Dental Broadway,Tucson,AZ,29,3.45,58.62,0.0345,0.3448,-0.1034,0.0,0.0345,0.3448
+Gentle Dental Reno,Reno,NV,41,2.27,29.27,-0.0732,-0.1951,-0.2927,-0.2683,-0.3415,-0.3171
+Gentle Dental Reno South,Reno,NV,44,2.98,45.45,-0.1818,0.0909,-0.1818,-0.2045,-0.1818,0.0
+Gentle Dental Santa Barbara,Santa Barbara,CA,59,2.05,25.42,-0.1864,-0.2373,-0.322,-0.2881,-0.322,-0.322
+Gentle Dental of Center City,Philadelphia,PA,59,1.71,15.25,-0.2373,-0.3559,-0.3729,-0.3729,-0.3898,-0.4746
+Gentle Dental of West Chester,West Chester,PA,23,2.7,43.48,-0.087,0.087,-0.1304,-0.2174,-0.2174,-0.2174
+"Gerald Regni, DMD",Philadelphia,PA,29,2.17,31.03,-0.1379,0.0345,-0.2414,0.0,-0.2414,-0.2414
+Get Fitness,Largo,FL,44,3.02,50.0,-0.0909,0.1136,-0.1136,0.0,-0.1136,0.0
+Gold Skin Care Center,Nashville,TN,54,2.93,44.44,-0.1481,-0.0926,-0.1296,-0.1481,-0.1296,-0.2037
+Golden Massage Spa,Meridian,ID,22,4.27,72.73,0.0909,0.1818,0.0455,0.1364,0.0909,0.1364
+Goleta Dental Care,Goleta,CA,26,2.62,34.62,-0.1154,-0.1923,-0.1923,-0.0769,-0.3077,-0.1923
+Goleta Valley Cottage Hospital,Santa Barbara,CA,28,2.86,46.43,0.0,0.0357,0.0,-0.0714,-0.1429,0.1429
+Good Shepherd Penn Partners,Bryn Mawr,PA,29,2.0,27.59,-0.1724,-0.069,-0.4828,-0.1034,-0.2414,-0.1724
+Goodlettsville Family Dental,Goodlettsville,TN,20,4.4,85.0,0.3,0.5,-0.05,-0.05,0.2,0.2
+Grand View Health,Sellersville,PA,37,2.3,35.14,-0.2432,-0.027,-0.1892,-0.1892,-0.2973,-0.1351
+Grateful Plate,Philadelphia,PA,25,5.0,100.0,0.08,0.08,0.08,0.68,0.16,0.2
+Graves Vaughan MD,Philadelphia,PA,25,1.0,0.0,-0.68,-0.76,-0.44,-0.92,-0.4,-0.6
+Great Basin Orthopaedic,Reno,NV,62,3.68,64.52,0.1129,0.2903,-0.0484,0.0161,-0.0161,0.0645
+Great Expressions Dental Centers - Feather Sound,Saint Petersburg,FL,24,1.62,12.5,-0.1667,-0.25,-0.5417,-0.2917,-0.2917,-0.4167
+Great Expressions Dental Centers - Riverview,Riverview,FL,24,1.42,8.33,-0.2917,-0.4583,-0.4167,-0.2917,-0.6667,-0.4167
+Great Grins Children's Dentistry,Tucson,AZ,20,4.75,95.0,0.25,0.65,0.05,0.15,0.2,0.6
+Green City Beauty,Philadelphia,PA,39,4.95,100.0,0.2308,0.2051,0.1026,0.3077,0.1795,0.3846
+Green Hills Smiles,Nashville,TN,28,3.79,67.86,0.1071,0.3571,-0.0357,-0.1071,0.0357,0.1429
+Green Life Spa,Exton,PA,36,3.64,66.67,-0.0278,0.1111,0.0278,-0.0278,-0.0556,0.0833
+Green Touch Reflexology,Tucson,AZ,21,4.43,85.71,0.0952,0.1905,0.2857,0.0,0.0,0.1905
+Greenberg Dental & Orthodontics,Tampa,FL,21,2.1,23.81,-0.3333,-0.381,-0.2381,-0.2857,-0.2857,-0.3333
+Greenberg Dental and Orthodontics,Tampa,FL,32,3.34,59.38,-0.0312,0.1562,0.0625,0.0312,0.2188,0.0625
+Greenroots Cafe,Tampa,FL,21,3.95,76.19,0.0,0.3333,0.0952,0.0476,0.0476,0.0476
+Greenspring Rejuvenation,Tucson,AZ,123,3.72,68.29,0.0732,0.2683,0.0,0.0163,-0.0163,0.1138
+Greentoes North,Tucson,AZ,29,4.45,82.76,0.2069,0.4483,0.069,0.1724,0.0345,0.3103
+"Gregg Welsh, Oral & Maxillofacial Surgery",Santa Barbara,CA,23,3.0,52.17,-0.2609,0.0435,-0.1304,-0.1739,-0.0435,-0.087
+Grey Nuns Community Hospital,Edmonton,AB,30,2.43,36.67,-0.2333,-0.1333,0.0,-0.1667,-0.3,-0.0333
+Grin Dentistry,Fishers,IN,24,4.12,79.17,0.375,0.5,0.0,0.0417,0.125,0.1667
+GrowHealthy - Brandon,Brandon,FL,36,3.81,66.67,0.0278,0.25,0.0556,0.0,-0.0278,0.0556
+GymMatrix,New Orleans,LA,21,4.52,90.48,0.0476,0.5714,0.2857,0.3333,0.0952,0.619
+Gynecology Specialists of Philadelphia,Philadelphia,PA,46,3.46,60.87,0.1087,0.1957,-0.1522,0.0217,0.0652,0.1087
+Gynecology Specialists of Philadelphia,Philadephia,PA,37,3.3,51.35,0.0811,0.0811,-0.0541,0.027,0.0811,-0.027
+HAPPY Nails & Spa,Doylestown,PA,36,2.47,30.56,-0.0278,-0.2222,-0.0833,-0.2778,-0.1111,-0.1389
+HCA Florida Brandon Hospital,Brandon,FL,134,1.93,20.9,-0.3806,-0.3284,-0.2463,-0.4328,-0.291,-0.3806
+HCA Florida South Tampa Hospital,Tampa,FL,38,2.79,44.74,-0.0789,0.1579,-0.3158,-0.2368,-0.1579,0.1316
+HCC Medical Insurance Services,Indianapolis,IN,68,1.04,1.47,-0.4853,-0.0735,-0.8529,-0.1912,-0.1765,-0.0735
+HCI Alternatives,Collinsville,IL,49,2.57,36.73,-0.0408,-0.0204,-0.0816,-0.2857,-0.0816,-0.0408
+HOTBOX Fitness,Nashville,TN,52,4.42,88.46,0.0192,0.4808,0.0769,0.0769,0.1154,0.2308
+Hahnemann University Hospital,Philadelphia,PA,49,1.88,20.41,-0.2041,-0.2653,-0.2449,-0.3265,-0.2449,-0.2653
+Halcyon Floats,Philadelphia,PA,67,4.46,85.07,0.0746,0.3582,0.1194,0.1791,0.1642,0.4328
+Hall and Wrye Plastic Surgeons,Reno,NV,46,3.83,67.39,0.1957,0.3261,0.0217,0.1522,0.0652,0.1522
+Hand & Stone Massage and Facial Spa,Blue Bell,PA,29,2.55,34.48,0.0345,-0.0345,-0.3103,-0.1724,-0.2759,-0.0345
+Hand & Stone Massage and Facial Spa,Cherry Hill,NJ,55,3.2,52.73,0.0545,-0.0364,-0.0727,-0.0364,-0.0545,-0.0364
+Hand & Stone Massage and Facial Spa,Philadelphia,PA,21,2.43,38.1,-0.0476,0.1905,-0.3333,-0.0952,-0.1905,0.0476
+Hand & Stone Massage and Facial Spa,St. Petersburg,FL,62,3.77,70.97,0.0806,0.2581,0.0484,0.0323,0.0323,0.1452
+Handcrafted Healing,Saint Petersburg,FL,28,5.0,100.0,0.2143,0.4643,0.1786,0.25,0.1429,0.1786
+Happy Feet Chinese Reflexology,Tucson,AZ,58,4.29,79.31,0.1034,0.0862,0.1379,0.1379,0.0345,0.0862
+Happy Feet Day Spa,Brentwood,MO,23,3.61,56.52,0.0,0.1739,0.1739,-0.0435,-0.087,0.087
+Happy Feet Foot & Body Massage,Fishers,IN,24,3.62,66.67,0.0,0.2083,0.125,0.0417,0.0,0.2917
+Happy Foot Spa,Tampa,FL,60,4.12,80.0,0.0333,0.1333,0.1667,0.15,0.0,0.3333
+Harmony Eco Spa,Saint Petersburg,FL,28,4.39,85.71,0.0357,0.2143,0.0714,0.0714,0.0714,0.0357
+Harmony Mental Health Services,Philadelphia,PA,29,1.24,0.0,-0.5862,-0.5172,-0.3448,-0.3448,-0.5172,-0.3448
+Harmony Spa,Newark,DE,47,3.72,70.21,-0.0213,0.1277,0.0,0.0,-0.0638,0.0851
+Harmony Wellness Center,Saint Louis,MO,76,2.22,27.63,-0.0921,-0.2237,-0.1316,-0.2895,-0.2237,-0.1184
+"Harold Farber, MD",Philadelphia,PA,31,1.94,19.35,-0.3548,-0.1613,-0.3226,-0.4194,-0.2581,-0.3226
+Harvest HOC of Tucson Dispensary,Tucson,AZ,56,2.45,32.14,-0.0893,-0.125,-0.1607,-0.125,-0.0179,-0.0536
+Hashani Spa,Tucson,AZ,21,3.9,71.43,0.1905,0.2857,0.0,0.1905,0.0952,0.381
+Hatboro Medical Associates,Hatboro,PA,22,2.91,40.91,-0.1364,-0.0455,-0.0909,-0.1364,-0.1818,-0.1364
+Healing Hands Massage,Media,PA,26,4.23,80.77,0.0769,0.1154,-0.0385,0.0,0.0,0.1538
+Healing Hands Therapy,Philadelphia,PA,55,4.64,92.73,0.0727,0.2,0.1273,0.1636,0.0,0.1818
+Healing Hands of Newtown,Newtown,PA,27,4.07,74.07,0.1481,0.2963,0.037,0.1111,0.1481,0.2593
+Healing One,Reno,NV,53,4.85,96.23,0.0566,0.566,0.0566,0.2453,0.2453,0.5283
+Healing Wizdom Salon & Spa,Reno,NV,188,4.68,94.15,0.1968,0.383,0.1809,0.133,0.1383,0.1277
+Health & Psychiatry,Oldsmar,FL,21,1.57,9.52,-0.5714,-0.3333,-0.381,-0.4762,-0.2381,-0.4286
+Health Advocate,Plymouth Meeting,PA,24,1.71,12.5,-0.1667,-0.1667,-0.4167,-0.3333,-0.3333,-0.0833
+"Health Benefits Associates, Inc",Reno,NV,32,5.0,100.0,0.375,0.5938,0.75,0.0625,0.4688,0.125
+Health Grad Advantage,Philadelphia,PA,42,5.0,100.0,0.4286,0.4762,0.0952,0.119,0.5476,0.0476
+Health and MedSpa,Oldsmar,FL,22,3.5,63.64,0.1364,0.2273,-0.0909,0.0909,0.0,0.2273
+Healthy Asian Massage,Tucson,AZ,54,4.19,79.63,0.0741,0.1667,0.1296,0.0741,0.0741,0.2037
+Healthy Habits Nutrition,Florissant,MO,24,4.12,79.17,0.0417,0.0,0.0,-0.0417,-0.0417,0.1667
+Healthy Smiles Dentistry,Reno,NV,56,4.61,89.29,0.3393,0.6071,0.1786,0.2679,0.1786,0.5893
+HealthySkin Medical & Cosmetic Dermatology,Tucson,AZ,53,3.62,64.15,0.1132,0.2075,-0.1321,0.0566,0.0,0.1132
+Heath Montgomery DMD,SANTA BARBARA,CA,20,4.2,80.0,0.2,0.4,0.15,0.0,0.35,0.3
+Heather Brown Face and Body Studio,Fishers,IN,59,4.81,94.92,0.2373,0.3559,0.1356,0.2034,0.2203,0.1525
+Heavenly Feet Reflexology,Tucson,AZ,34,3.74,67.65,0.0882,0.0294,0.1765,0.0294,-0.0882,0.0294
+Heavenly Spa,East Norriton,PA,77,4.73,92.21,0.1558,0.1299,0.1688,0.0779,0.026,0.2078
+"Helene M Koch, DO",Bala Cynwyd,PA,26,2.42,34.62,-0.2308,-0.1923,-0.2692,-0.1538,0.0385,-0.4231
+Herbaria,Saint Louis,MO,33,4.85,93.94,0.0909,0.3333,0.1818,0.0909,0.1212,0.1818
+Herculean Meal Prep,Indianapolis,IN,26,4.54,88.46,0.0,0.0,0.0385,0.0769,-0.0385,0.1923
+Heritage Medical Associates,Nashville,TN,34,2.29,29.41,-0.1765,-0.1765,-0.3235,-0.1176,-0.3824,-0.3529
+High Desert Endodontic Specialists,Reno,NV,22,5.0,100.0,0.2727,0.8182,0.0909,0.0909,0.5,0.3182
+Hillside Dental,Tucson,AZ,23,4.83,95.65,0.4348,0.6957,0.0435,0.0435,0.3043,0.4348
+Hodges Eye Care & Surgical Center,Tucson,AZ,26,3.54,57.69,0.1923,0.2308,-0.1538,0.1923,0.0385,0.0769
+Hollister Optometric Center,Goleta,CA,25,4.44,88.0,0.4,0.68,0.24,0.0,0.16,0.36
+"Holly Ashley Cothern, MD",Reno,NV,23,2.74,43.48,-0.087,-0.1739,-0.2609,-0.1304,-0.2609,-0.1739
+Hollywood Nails & Spa,Clearwater,FL,29,2.03,24.14,-0.1379,-0.2759,-0.0345,-0.1724,-0.2414,-0.1724
+Hollywood Nails & Spa,Tucson,AZ,140,2.54,35.0,-0.0714,-0.1071,-0.1714,-0.15,-0.2,-0.0786
+Holy Redeemer Hospital,Meadowbrook,PA,44,2.86,40.91,0.0455,-0.0455,-0.1136,-0.0909,-0.2045,-0.0682
+Hometown Health,Reno,NV,45,1.51,13.33,-0.3111,-0.0667,-0.5556,-0.3111,-0.2,-0.0222
+HonorHealth | FastMed Urgent Care,Marana,AZ,52,2.58,32.69,-0.1538,-0.0577,-0.1154,-0.1923,-0.3077,-0.1538
+HonorHealth | FastMed Urgent Care,Tucson,AZ,74,2.01,21.62,-0.3514,-0.3378,-0.2162,-0.3649,-0.2973,-0.2973
+"Hornstein, Platt and Associates",Philadelphia,PA,25,2.04,20.0,-0.4,-0.2,-0.4,-0.32,-0.24,-0.36
+Horsham Clinic,Ambler,PA,24,2.5,37.5,0.0417,0.0417,-0.2917,-0.0833,-0.0417,-0.0417
+Hospital of the University of Pennsylvania,Philadelphia,PA,139,2.55,34.53,-0.0935,-0.1942,-0.1511,-0.223,-0.2014,-0.1583
+Hot Green Tea Nails & Spa,Feasterville Trevose,PA,53,3.3,52.83,-0.0189,0.1509,0.0943,0.0377,-0.0377,-0.0189
+Hot Spot Tanning,Nashville,TN,21,4.19,80.95,0.0476,0.5238,0.2381,0.1905,0.0952,0.1905
+Hot Stones Spa,Cherry Hill,NJ,49,3.29,55.1,0.0408,0.0,-0.0408,-0.102,-0.1633,-0.0408
+Houghton Family Dental Care,Tucson,AZ,22,1.91,22.73,-0.3636,-0.1818,-0.3636,-0.2727,-0.4091,-0.4091
+IU Health Methodist Hospital,Indianapolis,IN,72,2.51,36.11,-0.2083,-0.0417,-0.1111,-0.3056,-0.1944,-0.1528
+IU Health North Hospital,Carmel,IN,28,3.82,75.0,0.2857,0.4286,-0.0357,-0.0714,-0.1071,0.1429
+IU Health University Hospital,Indianapolis,IN,23,3.22,52.17,0.0,0.0435,-0.087,0.087,-0.2609,0.0
+IU Health Urgent Care - Broadripple,Indianapolis,IN,24,1.83,20.83,-0.375,-0.3333,-0.125,-0.0833,-0.25,-0.1667
+IU Health West Hospital,Avon,IN,40,2.6,40.0,-0.25,0.1,-0.05,-0.175,-0.1,-0.05
+Idaho Eyecare Center,Boise,ID,21,4.62,90.48,0.619,0.7619,0.0476,0.1905,0.381,0.2857
+Ideal Image Liberty Place,Philadelphia,PA,36,2.81,41.67,0.0833,0.0,-0.2778,-0.0556,-0.2222,-0.0278
+Ideal Image Reno,Reno,NV,35,2.77,42.86,-0.1429,0.0857,-0.3143,-0.0857,-0.0857,0.0286
+Ideal Image Tampa,Tampa,FL,41,2.39,31.71,-0.122,0.0244,-0.2439,-0.1951,-0.2439,-0.0488
+Ideal Image Tucson,Tucson,AZ,23,3.22,52.17,0.0,0.0,-0.1304,-0.1304,0.0435,-0.087
+Ilera Healthcare,Plymouth Meeting,PA,25,2.44,36.0,-0.12,0.08,-0.12,-0.12,-0.16,-0.12
+Illusion Day Spa ,Glenside,PA,31,3.77,61.29,0.0323,0.1613,0.0,0.0968,0.0645,0.129
+Imagine X Functional Neurology,Santa Barbara,CA,42,4.67,90.48,0.5476,0.3571,0.0,0.1429,0.1667,0.2619
+Imagine You New Premier Skin and Permanent Makeup Center,St. Petersburg,FL,51,2.37,29.41,0.098,-0.2157,-0.1176,-0.1961,-0.1569,0.0196
+ImmediaDent - Urgent Dental Care,Indianapolis,IN,23,2.17,26.09,0.0,-0.087,-0.2174,-0.3913,-0.3043,-0.2609
+Imo's Pizza,Fairview Heights,IL,23,2.65,43.48,-0.087,-0.1304,-0.1304,-0.0435,-0.1304,0.1304
+In & Out Urgent Care -New Orleans,New Orleans,LA,47,3.6,65.96,0.1915,0.2553,0.0,0.1489,0.0213,0.1064
+In and Out Urgent Care - Metairie,Metairie,LA,26,3.62,61.54,0.1923,0.3846,-0.0769,0.1538,0.0,0.1154
+Independence Blue Cross,Philadelphia,PA,125,1.13,2.4,-0.528,-0.152,-0.824,-0.472,-0.368,-0.12
+Indiana University-Purdue University Indianapolis,Indianapolis,IN,26,4.08,80.77,0.0385,0.1923,0.1538,0.1923,0.0,0.3077
+Indiana Wellness College,Indianapolis,IN,37,4.51,91.89,0.2162,0.4865,0.4054,0.2432,0.1622,0.4865
+Indianapolis Salt Cave And Halotherapy Center,Indianapolis,IN,31,4.71,96.77,0.1935,0.4516,0.1613,0.1935,0.1613,0.4194
+Indianapolis Yellow Cab,Indianapolis,IN,67,1.69,14.93,-0.0896,-0.1194,-0.1194,-0.4925,-0.3433,-0.1045
+Indigo Massage & Wellness,Saint Louis,MO,146,4.67,92.47,0.1027,0.2534,0.089,0.1849,0.1986,0.2397
+Indo-China Market,Goleta,CA,71,3.62,69.01,0.0,0.0704,0.2254,0.1127,-0.0563,0.0423
+Indulge Massage & Reflexology,Reno,NV,38,4.26,81.58,0.1053,0.2105,0.0263,0.1316,-0.0263,0.2105
+Indy Laser,Carmel,IN,29,4.55,89.66,0.3793,0.4828,0.2069,0.1379,0.1379,0.0345
+Indy Massage Company,Indianapolis,IN,199,4.81,93.97,0.0804,0.3518,0.1005,0.1457,0.1709,0.2362
+Infinity Health & Wellness Center,Philadelphia,PA,75,4.71,94.67,0.1067,0.44,0.1333,0.2133,0.3467,0.48
+Infinity Laser Hair Removal & Skin Rejuvenation,Clayton,MO,41,4.95,100.0,0.4878,0.6341,0.2683,0.2927,0.2927,0.4878
+Inject Beauty,Philadelphia,PA,35,2.69,42.86,-0.0571,-0.2286,-0.1429,-0.1143,-0.0571,-0.0286
+InnerView Ultrasound,Malvern,PA,28,4.21,78.57,0.0,0.2857,-0.0357,0.25,0.0357,0.2857
+Innervision Eyewear,Philadelphia,PA,128,4.19,79.69,0.2031,0.3984,0.3047,0.1172,0.0781,0.0703
+Integrated Dermatology of Reno,Reno,NV,62,3.35,56.45,0.0323,0.0,-0.1613,-0.0484,-0.0323,0.0323
+Integrated Spinal Solutions,Reno,NV,24,4.62,87.5,0.5833,0.3333,-0.0417,-0.0417,0.0833,0.1667
+Interface Aesthetic Surgery Group,Indianapolis,IN,26,4.19,76.92,0.1923,0.3462,-0.1154,0.0,0.1154,0.1923
+IntraVenous Solutions,Nashville,TN,23,5.0,100.0,0.2609,0.5652,0.087,0.2609,0.2174,0.2174
+Invista Optical,Indianapolis,IN,23,4.96,100.0,0.3913,0.4783,0.2174,0.1304,0.2609,0.3913
+Ironwood Dermatology,Tucson,AZ,68,3.85,70.59,0.1912,0.3088,-0.0588,0.0147,0.0882,0.0735
+"Isaac Hearne, MD",Reno,NV,23,1.91,21.74,-0.3043,-0.3478,-0.3043,-0.4348,-0.3478,-0.4348
+Islands of Paradise Massage,Nashville,TN,30,3.3,60.0,0.0,0.1667,0.1333,0.0,-0.0333,0.1667
+Jack City Fitness,Boise,ID,31,4.9,96.77,0.0645,0.5806,0.0323,0.1935,0.129,0.7742
+Jack and Jill Aesthetics,Franklin,TN,36,3.47,61.11,0.0556,0.0833,-0.2222,-0.0833,-0.1389,0.1944
+Jackson Dental,Tampa,FL,52,4.31,82.69,0.1923,0.5577,0.0385,0.2692,0.2885,0.4038
+Jackson Medical Group,Santa Barbara,CA,29,2.9,44.83,0.0345,0.1034,-0.2414,0.1034,0.0345,0.0345
+Jackson Oral Surgery,Metairie,LA,25,4.72,92.0,0.36,0.64,0.0,0.24,0.68,0.44
+Jade Cannabis,Reno,NV,104,3.4,55.77,-0.0096,0.3365,-0.0673,0.0096,0.0673,0.125
+Jade Star Acupuncture and Wellness,Tucson,AZ,30,4.77,96.67,0.4333,0.5667,0.1333,0.0667,0.2667,0.3333
+"Jake Banks, DDS",Sparks,NV,42,4.62,90.48,0.3333,0.5476,0.1667,0.1667,0.3333,0.4762
+Jake Tiesler Personal Training,Nashville,TN,32,4.88,96.88,0.1562,0.2188,0.0,0.2188,0.0312,0.0312
+"James Norman, MD",Town N Country,FL,24,4.92,95.83,0.7083,0.625,0.125,0.375,0.375,0.1667
+"Janet M Ross, MD",New Orleans,LA,27,4.52,92.59,0.7407,0.5185,0.1481,0.5185,0.6667,0.2963
+Janiga MDs Plastic Surgery & Cosmetic Center,Reno,NV,60,4.05,75.0,0.2167,0.3833,0.0,0.15,0.2167,0.2667
+Jasmine's Touch,Tampa Bay,FL,23,4.65,91.3,0.1304,0.0,0.0,0.1739,0.0435,0.0
+"Jason Neustadter, MD",Philadelphia,PA,31,4.13,74.19,0.2581,0.2903,-0.0645,0.129,0.2903,0.2258
+Jay Ann Intimates,Huntingdon Valley,PA,23,4.22,78.26,0.0,0.3478,0.1304,0.0435,0.0,0.0435
+"Jay Harry Hoffman, DDS",Philadelphia,PA,30,3.7,66.67,0.0333,0.2,-0.0333,0.1,-0.0333,0.2333
+Jefferson Abington Hospital,Abington,PA,86,2.05,22.09,-0.314,-0.2442,-0.2558,-0.3721,-0.3023,-0.1512
+Jefferson Dermatology Associates,Philadelphia,PA,33,3.03,54.55,0.1515,0.2121,-0.0303,0.0606,-0.0303,-0.0606
+Jefferson Health,Philadelphia,PA,43,2.63,39.53,-0.0698,0.1163,-0.1628,-0.1163,-0.1628,-0.0698
+Jefferson Oral & Maxillofacial Surgery,Philadelphia,PA,21,3.14,47.62,0.0,0.0952,0.0476,-0.1905,-0.0476,0.1429
+Jefferson Torresdale Hospital,Philadelphia,PA,56,2.11,26.79,-0.2679,-0.3393,-0.2679,-0.3929,-0.3214,-0.25
+Jefferson Urgent Care - Rittenhouse,Philadelphia,PA,45,3.04,48.89,0.0,0.0444,-0.1333,-0.1111,-0.2444,0.0444
+Jefferson Urgent Care - Washington Square - Jefferson Health 20,Philadelphia,PA,47,3.43,61.7,0.2553,0.383,-0.0851,0.0638,-0.0426,0.1702
+"Jeffrey A. Stratford-Jones, DDS",Santa Barbara,CA,39,3.97,74.36,0.0513,0.359,-0.1795,-0.0256,-0.0513,0.1795
+"Jeffrey D Glen, DDS",Philadelphia,PA,24,4.12,75.0,0.2917,0.4583,0.0,0.2083,-0.0833,0.2917
+"Jeffrey Miller, DPM, DABPS",Norristown,PA,21,4.95,100.0,0.5238,0.4286,0.0476,0.1429,0.4762,0.2857
+Jem's Natural Living,Tampa,FL,23,3.96,73.91,0.1304,0.3478,0.1304,0.087,0.087,-0.0435
+"Jennifer Garrett, MD",New Orleans,LA,46,2.96,45.65,-0.087,-0.1522,-0.1304,-0.1957,0.0652,-0.0217
+Jj's Spa,Brownsburg,IN,20,3.15,55.0,-0.05,0.0,-0.1,-0.05,-0.2,0.15
+"John J.W. Lee, MD, FACS",Bryn Mawr,PA,27,4.52,88.89,0.2963,0.5556,0.037,0.1111,0.2222,0.4444
+Johns Hopkins All Children'S Hospital Dialysis,Saint Petersburg,FL,30,3.57,66.67,0.2333,0.3,-0.1333,0.0667,0.1333,0.3333
+Johnson Family Dental,Goleta,CA,36,3.78,69.44,0.1389,0.5,-0.0556,0.0278,0.0556,0.2222
+Johnson Family Dental,Santa Barbara,CA,165,2.52,36.36,-0.1576,-0.0364,-0.3152,-0.2242,-0.2303,-0.2485
+"Joseph E Johnson, MD - Sierra Nevada Wellness Center",Sparks,NV,58,3.17,53.45,0.0172,0.0862,-0.0345,-0.1552,0.069,-0.0172
+"Joseph Knedgen, DPM FACFAS DABFAS",Reno,NV,23,3.91,73.91,0.2609,0.2609,-0.1739,0.0,0.2174,0.1304
+Josephson Wallack Munshower Neurology,Indianapolis,IN,36,1.31,5.56,-0.6389,-0.5833,-0.25,-0.3889,-0.4167,-0.4444
+"Joshua A. Halpern, M.D. P.A",Tampa,FL,33,4.15,75.76,0.2424,0.5152,0.0,0.303,0.303,0.1515
+Judy Moon and Associates,Philadelphia,PA,37,4.92,97.3,0.1622,0.1622,0.0541,0.1892,0.2432,0.1622
+Julia Cameron's Magical Mystical Massage Tour,Indianapolis,IN,25,5.0,100.0,0.12,0.16,0.0,0.2,0.16,0.08
+Just Smiles Dental,Reno,NV,28,2.54,35.71,-0.1429,-0.0714,-0.1786,-0.1071,-0.2857,-0.0714
+KP Aesthetics,Newtown Square,PA,38,4.24,78.95,0.2105,0.3947,-0.0263,0.1579,0.1316,0.3947
+Kaia FIT Sierra - Midtown,Reno,NV,21,5.0,100.0,0.0952,0.1429,0.0952,0.0476,0.0952,0.1905
+Kaia FIT Sierra - West Reno,Reno,NV,24,4.96,100.0,0.0417,0.125,0.0,0.125,0.0,0.0417
+Kangaroo Kids,Saint Louis,MO,34,3.47,61.76,0.0588,0.1765,0.0882,-0.0294,-0.1176,0.0882
+Kate Yoga,Belleair,FL,21,5.0,100.0,0.0952,0.1905,0.0476,0.0476,0.2381,0.0952
+"Katerina Kleinova, DDS",St Louis,MO,52,4.17,78.85,0.3462,0.4808,0.0577,0.0192,0.0962,0.3462
+"Kay, Tabas & Niknam Ophthalmology Associates",Philadelphia,PA,21,3.24,47.62,0.1905,0.1429,-0.1429,-0.2381,0.0952,-0.1429
+Kaya Aerial Yoga,Philadelphia,PA,49,3.98,75.51,0.0,0.1429,0.0,0.0612,0.1837,0.1837
+Keisha Curtis,Reno,NV,82,4.13,78.05,0.0488,0.0366,0.0244,0.0122,0.0122,0.0732
+"Kendall, Rohde, & Associates",Santa Barbara,CA,37,4.68,91.89,0.2703,0.5946,0.0541,0.2432,0.3243,0.4324
+Kennedy Fitness,Cherry Hill,NJ,59,2.02,13.56,-0.0508,-0.2712,-0.339,-0.1017,-0.3051,-0.3559
+Kennedy Health System,Blackwood,NJ,31,2.0,19.35,-0.3548,-0.2903,-0.1613,-0.3548,-0.129,-0.1935
+Kennedy Health System,Cherry Hill,NJ,21,2.71,42.86,-0.0952,0.0952,-0.2381,-0.0952,-0.0476,0.1429
+"Kenyon M Fort, DDS",Saint Petersburg,FL,27,4.22,77.78,0.2593,0.5185,0.0741,0.1481,0.2593,0.2222
+"Kiken Robert, DDS - Ocean Oral and Maxillofacial Surgery",Santa Barbara,CA,31,4.52,90.32,0.3548,0.6774,0.2581,0.2258,0.3548,0.4516
+Killer B Fitness,Santa Barbara,CA,26,5.0,100.0,0.1923,0.3077,0.1154,0.1538,0.0385,0.3462
+Kim Acupuncture Clinic,New Orleans,LA,24,4.71,91.67,0.625,0.0417,0.1667,0.125,0.1667,0.1667
+"Kimberly Pham, DDS - Smile Design Dental",Santa Barbara,CA,28,4.14,78.57,0.1071,0.5357,0.0357,0.1071,0.0714,0.3571
+King and Queen Massage & Spa,Abington,PA,47,3.94,74.47,0.0851,0.2766,0.2979,0.0426,-0.0638,0.2128
+Kinsmen Sports Centre,Edmonton,AB,34,3.91,67.65,0.0,0.1471,0.0588,0.2059,0.0294,0.2941
+Kirkwood Station Dental,St. Louis,MO,21,4.29,85.71,0.0952,0.5714,0.0,0.0476,0.2381,0.381
+Klement Family Dental,St. Petersburg,FL,55,3.73,69.09,0.1273,0.4364,0.1273,0.1455,0.0545,0.1818
+Knead Body Boutique,Philadelphia,PA,54,2.37,35.19,-0.0926,0.0,0.0,-0.0926,-0.1296,0.037
+Kodawari Studios,Tampa,FL,56,4.79,94.64,0.0357,0.2857,0.0714,0.1429,0.0893,0.2321
+Kool Smiles,Metairie,LA,31,2.84,38.71,-0.0645,0.0,0.0,-0.0323,-0.1935,-0.0968
+Kool Smiles,Tucson,AZ,29,2.1,24.14,-0.0345,-0.3793,-0.2069,-0.2759,-0.069,-0.2069
+Kremer Eye Center,King of Prussia,PA,49,4.51,85.71,0.3673,0.5102,0.0612,0.3469,0.3469,0.1837
+Kroger,Nashville,TN,29,3.21,44.83,0.0,0.2069,0.0345,0.1034,-0.0345,0.1034
+Kung Fu Dim Sum,Havertown,PA,118,3.87,69.49,-0.0169,0.0932,0.0593,0.0424,0.0254,0.0169
+Kurr Aesthetics and Med Spa,Carmel,IN,32,4.91,96.88,0.5,0.5,0.0938,0.1875,0.25,0.1875
+Kwong Dental Care,Reno,NV,48,4.17,79.17,0.2917,0.4375,0.1042,0.1667,0.0833,0.3125
+LASIK of Nevada - Reno,Reno,NV,52,4.08,75.0,0.1731,0.4231,0.0385,0.1731,0.0962,0.1154
+LAVANGA CHIROPRACTIC,Feasterville Trevose,PA,22,2.91,50.0,0.0909,0.0909,-0.2273,-0.2727,-0.1818,0.0455
+LCMC Health Urgent Care,New Orleans,LA,61,3.38,55.74,0.1311,0.2131,-0.1311,0.0492,-0.1475,0.1475
+La Beaute Spa,Indianapolis,IN,24,4.58,91.67,0.4167,0.3333,0.0417,0.125,0.0,0.1667
+La Chele Medical Aesthetics,New Hope,PA,26,4.58,88.46,0.1923,0.3846,0.0385,0.1538,0.1538,0.2308
+La Cholla Dental Group,Tucson,AZ,25,3.84,68.0,0.04,0.36,0.08,-0.04,0.08,0.12
+La Paloma Urgent Care & Physician Offices,Tucson,AZ,49,2.78,42.86,-0.1429,0.0204,-0.2449,0.0,-0.1429,0.0204
+LaVida Massage,Tampa,FL,25,4.12,76.0,0.04,0.44,0.0,0.0,0.12,0.24
+Labcorp,Brandon,FL,34,1.68,11.76,-0.2353,-0.5294,-0.1765,-0.5294,-0.2647,-0.2353
+Labcorp,Cherry Hill,NJ,41,2.32,29.27,-0.1707,-0.2927,-0.122,-0.2439,-0.1463,-0.0976
+Labcorp,Largo,FL,29,2.17,24.14,-0.1379,-0.3448,-0.0345,-0.4483,-0.1724,-0.2759
+Labcorp,Nashville,TN,29,2.03,20.69,-0.1034,-0.1034,-0.069,-0.3793,-0.1724,0.0345
+Labcorp,Philadelphia,PA,26,1.96,15.38,-0.1538,-0.3462,-0.1538,-0.3077,-0.2692,0.0
+Labcorp,Reno,NV,80,2.85,42.5,-0.125,-0.1,-0.025,-0.05,-0.075,-0.025
+Labcorp,Sparks,NV,27,2.81,48.15,-0.037,0.0741,0.0,-0.0741,-0.1481,-0.0741
+Labcorp,Tampa,FL,43,2.0,23.26,-0.1395,-0.3953,-0.0233,-0.3023,-0.2791,-0.2326
+Labcorp,Tucson,AZ,23,2.52,34.78,0.0435,-0.087,0.0,-0.087,-0.1739,-0.0435
+Labcorp,Wesley Chapel,FL,31,2.39,35.48,-0.0645,-0.129,0.0,-0.3871,-0.0645,-0.1613
+Lafayette Eye Associates,Lafayette Hill,PA,29,3.31,51.72,0.069,0.1379,-0.0345,0.1379,0.069,0.0
+Lakeside Massage Spa,Metairie,LA,34,4.65,94.12,0.0294,0.2647,0.1765,0.2059,0.0588,0.0882
+Lankenau Medical Center,Wynnewood,PA,73,3.0,43.84,0.0274,0.0685,-0.0548,-0.1507,0.0,-0.0822
+Largo Medical Center,Largo,FL,22,2.27,31.82,-0.3182,-0.1364,-0.3182,-0.3636,-0.3636,-0.2727
+Largo Medical Center Pain Treatment Center,Largo,FL,30,2.5,36.67,-0.3333,-0.1,-0.0333,-0.2333,-0.1667,-0.1667
+Laser Remedy MedSpa,Philadelphia,PA,165,4.5,87.88,0.3879,0.5515,0.2242,0.2242,0.097,0.2909
+Laser Spine Institute,Tampa,FL,41,2.66,39.02,-0.1951,0.0488,-0.2439,-0.1463,-0.2439,-0.1463
+LaserAway,Tucson,AZ,26,4.0,73.08,0.4231,0.3846,0.0,0.1154,0.3077,0.2692
+LaserOne MedSpa,Tucson,AZ,39,4.44,84.62,0.4615,0.3846,0.2051,0.1026,0.1795,0.1026
+LaserSpa of Tampa Bay,Tarpon Springs,FL,24,3.67,66.67,0.25,0.3333,0.0417,0.0833,0.0833,0.125
+Lash Factor Studio,Tucson,AZ,77,4.58,87.01,0.1169,0.1299,0.026,0.1299,0.1558,0.0909
+LasikPlus,Creve Couer,MO,35,4.74,94.29,0.3429,0.6857,0.1143,0.2857,0.4286,0.1143
+LasikPlus,Indianapolis,IN,85,4.73,94.12,0.2118,0.7294,0.1294,0.3294,0.4706,0.1882
+LasikPlus,King Of Prussia,PA,75,4.33,82.67,0.1333,0.56,0.1067,0.1467,0.2267,0.0667
+LasikPlus,Mt. Laurel,NJ,53,4.64,90.57,0.2642,0.7358,0.1132,0.283,0.2642,0.1887
+LasikPlus,Tampa,FL,100,4.3,81.0,0.24,0.61,0.02,0.23,0.29,0.08
+Lavender Foot Spa,Philadelphia,PA,67,4.7,94.03,0.0597,0.3433,0.2388,0.1343,0.0896,0.2388
+Le Belle Day Spa,Saint Petersburg,FL,77,3.35,58.44,-0.0519,0.0779,0.039,-0.0909,-0.0909,0.013
+Le Paradis Day Spa,Cherry Hill,NJ,24,3.21,54.17,-0.0417,0.0833,-0.0833,-0.0417,-0.2083,0.0833
+Le Reve Organic Day  Spa & Boutique,Santa Barbara,CA,98,4.05,76.53,0.1837,0.3367,0.051,0.1531,0.0816,0.0306
+Le Reve Rittenhouse Spa,Philadelphia,PA,177,3.42,58.19,0.0226,0.0678,-0.0791,-0.0282,-0.2147,0.0226
+Lecada Medical Artistry,Tampa,FL,44,4.59,88.64,0.3409,0.5682,0.1364,0.0909,0.1591,0.2273
+"Lee Dental Associates, Ltd.",Springfield,PA,30,4.47,86.67,0.4,0.6667,0.2667,0.2,0.3333,0.5333
+Lee's Store,Tucson,AZ,29,3.9,68.97,0.0345,0.2069,0.2759,0.069,0.0345,0.0
+Legendary Smiles,Havertown,PA,23,3.7,65.22,0.2174,0.3043,-0.087,0.1304,0.1739,0.3913
+Leggio Dental Group,New Orleans,LA,34,4.41,85.29,0.0882,0.4706,0.5,0.1765,0.1176,0.2353
+Legion Transformation Center Newtown Square,Newtown Square,PA,26,3.73,65.38,-0.0769,0.1923,-0.1538,-0.0769,-0.1538,0.0
+Lemmon Valley Dental Group,Reno,NV,49,3.51,61.22,0.102,0.2857,-0.102,-0.0612,-0.0204,0.2041
+Lemon Tree Spa,St. Pete Beach,FL,43,4.88,97.67,0.2326,0.2558,0.1395,0.1163,0.1628,0.2093
+Lenny's Shoe & Leather Repair,Philadelphia,PA,61,3.98,73.77,0.0984,0.2295,0.1311,0.0328,0.0492,0.1475
+Lenox Village Dentistry,Nashville,TN,25,4.36,84.0,0.08,0.48,0.04,0.16,0.12,0.4
+LensCrafters,King Of Prussia,PA,24,3.54,62.5,0.0833,0.2083,-0.0417,-0.0417,-0.125,-0.0417
+LensCrafters,Langhorne,PA,20,1.8,15.0,-0.25,-0.25,-0.1,-0.2,-0.25,-0.05
+LensCrafters,Metarie,LA,31,2.65,38.71,-0.0968,-0.0323,0.0,-0.1613,-0.1613,-0.1613
+LensCrafters,Reno,NV,120,2.72,40.83,-0.0667,-0.0167,-0.1583,-0.1083,-0.0833,-0.0667
+LensCrafters,Santa Barbara,CA,75,3.12,53.33,0.0267,0.08,-0.0133,-0.12,-0.0933,0.0
+LensCrafters,Springfield,PA,24,2.88,41.67,-0.1667,0.0417,-0.0833,-0.2083,0.0417,-0.125
+LensCrafters,St Petersburg,FL,22,3.45,54.55,-0.0455,0.0909,-0.0909,-0.0909,0.0455,-0.1818
+LensCrafters,Tampa,FL,74,2.38,31.08,-0.1351,-0.0541,-0.0541,-0.1892,-0.2838,-0.0405
+LensCrafters,Tucson,AZ,58,2.78,39.66,-0.069,0.0,-0.0517,-0.1207,0.0,-0.0345
+LensCrafters Optique,Indianapolis,IN,25,2.48,36.0,-0.2,0.04,-0.04,-0.36,-0.44,-0.04
+Liberty Cannabis,Bensalem,PA,29,3.0,51.72,0.069,0.1034,-0.069,-0.069,-0.0345,0.0345
+Life Time,Indianapolis,IN,89,3.49,59.55,0.0899,0.1011,0.0449,0.1011,-0.0787,0.2584
+Life4orceTouch Your Massage Resource,Philadelphia,PA,38,4.76,94.74,0.3158,0.3158,0.0789,0.2105,0.2632,0.1316
+LifeCycle WomanCare,Bryn Mawr,PA,38,4.32,81.58,0.5,0.4474,-0.0526,0.1316,0.0789,0.1579
+LifeWorks Wellness Center,Clearwater,FL,21,3.71,61.9,0.2857,0.1429,-0.0476,0.0,-0.1429,0.0476
+Lift Therapeutic Massage,Indianapolis,IN,39,4.85,94.87,0.1282,0.5641,0.0513,0.2564,0.2308,0.2564
+Lisa B Freedman,Villanova,PA,29,2.69,41.38,-0.1034,-0.2759,-0.2759,-0.1724,-0.069,-0.2414
+Little Rainbow Foot Massage,Goleta,CA,82,3.96,73.17,0.0488,0.0732,0.1829,0.0488,-0.0122,0.2317
+Little Rainbow Foot Spa,Santa Barbara,CA,147,3.49,61.22,0.0272,-0.0068,0.102,-0.068,-0.0408,0.0544
+Live Well Holistic Health Center - Dr. Martin Orimenko,Ardmore,PA,24,4.71,91.67,0.3333,0.3333,0.0,0.2083,0.2083,0.2083
+Lmg Family Practice,Lansdale,PA,25,2.04,20.0,-0.52,-0.4,-0.2,-0.2,-0.4,-0.32
+LoCicero Medical Group,Tampa,FL,94,1.73,14.89,-0.5957,-0.4787,-0.234,-0.6596,-0.3511,-0.4787
+Loden Vision Centers - Nashville Office,Nashville,TN,23,4.22,78.26,0.087,0.2174,-0.1304,0.087,0.0435,0.1304
+Lotus Health And Wellness,Newtown,PA,30,2.77,33.33,-0.1333,-0.1667,0.0,-0.1667,-0.1667,0.0
+Lotus Massage & Wellness Center,Tucson,AZ,103,4.84,98.06,0.1359,0.3981,0.1748,0.1068,0.1456,0.2621
+"Louis P. Bucky, MD, FACS",Philadelphia,PA,32,4.72,93.75,0.3438,0.5,0.125,0.2812,0.2812,0.4062
+Louisiana Dental Center,Metairie,LA,27,2.81,44.44,-0.037,-0.037,0.0,-0.2222,-0.1481,-0.037
+"Louisiana Dental Center - New Orleans, Claude Ave",New Orleans,LA,25,2.4,36.0,-0.08,-0.16,-0.08,-0.24,-0.24,-0.12
+Lower Bucks Hospital,Bristol,PA,29,2.34,31.03,-0.2759,-0.2414,-0.2759,-0.2759,-0.4138,-0.2069
+"Lower Bucks Pediatrics, PC",Yardley,PA,26,2.42,34.62,-0.2308,-0.1154,-0.1154,-0.3077,-0.2692,-0.2308
+Lucere,Edmonton,AB,29,3.9,75.86,0.069,0.4138,-0.069,0.0345,0.1034,0.2414
+Luckey EyeCare,Wesley Chapel,FL,21,4.43,85.71,0.5714,0.619,0.2381,0.2857,0.1429,0.4286
+Luminosity,King of Prussia,PA,40,4.65,90.0,0.0,0.45,0.125,0.125,0.125,0.025
+Luminous Dermatology - Santa Barbara,Santa Barbara,CA,46,3.89,69.57,0.1522,0.4565,0.0217,0.0652,0.1522,0.087
+Lux Nails & Wax,Riverview,FL,48,3.25,56.25,0.0417,0.1042,-0.2083,-0.0417,-0.0833,0.0833
+Ly Jen Therapy Salons,Philadelphia,PA,62,4.03,74.19,0.0323,0.0968,0.2097,0.1452,-0.0323,0.0645
+M.C. Spa & Nail Bar,Harvey,LA,35,3.2,54.29,-0.0286,0.1714,-0.0286,0.0,-0.1429,0.0571
+MASSAGE STAR,Lakeland,FL,27,4.7,92.59,0.1111,0.2222,0.2222,0.1852,0.0741,0.1481
+MD Aesthetics & Wellness Institute,Tampa,FL,62,2.84,45.16,-0.0806,0.0484,-0.129,-0.1129,0.0161,0.0645
+MYNT Cannabis Dispensary Downtown Reno,Reno,NV,35,2.54,40.0,-0.1143,-0.1429,-0.0286,-0.0857,-0.1714,0.0
+Main Line Fertility,Bryn Mawr,PA,44,3.89,70.45,0.1591,0.4318,-0.0909,0.0455,0.0909,0.1591
+Main Line Health Fitness & Wellness Center,Glen Mills,PA,22,3.77,59.09,0.1364,0.1818,0.0,0.1364,-0.0455,0.3182
+Main Line Perinatal Associates - Bryn Mawr,Bryn Mawr,PA,59,2.59,37.29,-0.1864,-0.0169,-0.2542,-0.2034,-0.2203,-0.1356
+Main Line Therapeutic Massage & Spa,Havertown,PA,35,4.43,85.71,0.0571,0.0571,0.0,0.1714,0.0286,0.1714
+Majestic Foot Spa,Fishers,IN,28,3.71,64.29,0.1071,0.0714,0.25,0.0714,0.0357,0.1071
+Making Life Easier,Philadelphia,PA,23,4.22,78.26,0.0,0.3913,-0.087,0.1304,-0.0435,0.5652
+Malai Thai Massage,Santa Barbara,CA,61,4.28,81.97,0.0656,0.2295,0.1475,0.0984,0.0328,0.2787
+Mama's Wellness Joint,Philadelphia,PA,32,4.62,90.62,0.0625,0.2812,0.0312,0.1562,0.125,0.2188
+Mandala Massage Supply & Apothecary,Reno,NV,34,4.91,100.0,0.0588,0.3235,0.2647,0.0882,0.2353,0.1765
+Mandy Epley Skin Studio,New Orleans,LA,26,4.85,96.15,0.6923,0.2692,0.2308,0.3077,0.4231,0.2692
+"Manuel Tjoa, DDS",Reno,NV,24,4.21,79.17,0.2083,0.5,0.125,0.125,-0.0417,0.25
+Marana Sky Dental,Marana,AZ,27,4.56,88.89,0.1852,0.6667,0.0,0.1111,0.2222,0.3333
+Margiotti & Kroll Pediatrics,Trevose,PA,42,2.1,21.43,-0.4524,-0.4286,-0.1905,-0.2143,-0.3571,-0.3571
+Maria Nails & Spa,Burlington,NJ,85,4.25,78.82,0.0824,0.3647,0.1059,0.0353,-0.0118,0.2941
+Marked Studios,Reno,NV,135,4.72,91.85,0.1852,0.6,0.1481,0.1926,0.1926,0.4815
+"Marlene J. Mash MD, PC",Plymouth Meeting,PA,35,3.23,57.14,-0.0857,0.0286,-0.0857,-0.0286,0.0286,-0.0286
+Martin Dentistry,Indianapolis,IN,52,4.58,90.38,0.1923,0.5577,0.0577,0.25,0.2115,0.5
+"Mary P Lupo, MD",New Orleans,LA,27,3.93,70.37,0.2963,0.3333,-0.1852,0.0,0.1852,0.037
+Massage & Bodywork By Kuryn,Tampa,FL,40,5.0,100.0,0.05,0.325,0.2,0.075,0.1,0.275
+Massage Arts Center Of Philadelphia,Philadelphia,PA,29,4.17,89.66,0.1724,0.2414,0.4138,0.2414,0.1724,0.2414
+Massage At Bejanies,Clementon,NJ,26,3.54,61.54,0.0385,0.4231,0.1154,0.1538,-0.0385,0.1154
+Massage Bella Vista,Philadelphia,PA,62,4.27,79.03,0.0645,0.2581,0.1935,0.129,-0.0161,0.1774
+Massage Bliss,Seminole,FL,37,3.65,64.86,-0.027,0.027,-0.027,-0.1622,-0.1622,0.1622
+Massage By Sharon,Santa Barbara,CA,42,4.38,85.71,0.0238,0.0476,-0.0238,0.0476,0.0,0.1667
+Massage Envy - Ardmore,Ardmore,PA,37,2.11,21.62,-0.1892,-0.1351,-0.2162,-0.1081,-0.1892,-0.027
+Massage Envy - Belle Meade,Nashville,TN,28,2.82,42.86,-0.1071,0.0714,-0.2857,-0.0714,0.0,0.0357
+Massage Envy - Brandon,Brandon,FL,36,3.78,63.89,0.1389,0.1667,-0.0556,0.0278,0.0556,0.0278
+Massage Envy - Broad Ripple,Indianapolis,IN,33,2.64,33.33,0.0303,-0.0909,-0.0909,-0.0606,-0.1212,-0.0303
+Massage Envy - Cherry Hill,Cherry Hill,NJ,31,3.48,58.06,0.0645,0.1613,-0.129,-0.0323,-0.129,0.0645
+Massage Envy - Citrus Park,Tampa,FL,28,3.21,57.14,0.0714,0.1429,-0.0357,0.0357,0.0357,0.0714
+Massage Envy - Clayton,Clayton,MO,32,3.59,59.38,-0.0312,0.1875,0.0,0.0938,0.0625,0.0938
+Massage Envy - Clearwater,Clearwater,FL,39,3.62,69.23,0.0,0.2821,-0.0513,-0.0256,0.0,0.1282
+Massage Envy - Collegeville,Collegeville,PA,32,3.41,56.25,0.0,0.1562,0.0938,0.0938,0.0625,-0.0312
+Massage Envy - Concord Pike,Wilmington,DE,41,2.12,17.07,-0.1463,-0.3415,-0.2195,-0.1707,-0.2195,-0.122
+Massage Envy - Cool Springs,Brentwood,TN,26,2.96,50.0,0.0385,0.1154,-0.1154,0.0,-0.0769,0.0
+Massage Envy - Creve Coeur,Creve Coeur,MO,25,3.32,60.0,0.12,0.16,-0.08,-0.04,0.08,0.12
+Massage Envy - Downtown Tampa,Tampa,FL,21,3.24,57.14,0.0476,0.2381,-0.1429,-0.1429,-0.2857,0.1905
+Massage Envy - Goleta,Goleta,CA,35,2.51,37.14,0.0286,-0.0571,-0.0857,-0.1143,-0.1143,-0.0571
+Massage Envy - Green Hills,Nashville,TN,34,2.62,32.35,-0.0588,-0.0294,-0.1765,-0.2353,-0.2059,0.0294
+Massage Envy - Hendersonville,Hendersonville,TN,22,3.18,45.45,-0.0455,0.1818,0.0,-0.0909,0.0,0.0
+Massage Envy - Keystone at the Crossing,Indianapolis,IN,37,3.24,51.35,-0.0541,0.0541,-0.1351,0.1351,-0.0541,0.1892
+Massage Envy - Largo,Largo,FL,33,4.0,72.73,0.0303,0.3939,0.1212,0.1818,0.0303,0.1515
+Massage Envy - Lutz,Lutz,FL,45,3.53,60.0,0.0222,0.1778,-0.0889,-0.0444,-0.0222,0.0
+Massage Envy - Maplewood/Brentwood,Maplewood,MO,27,3.3,51.85,0.0,0.0741,0.0741,0.037,-0.1481,0.1481
+Massage Envy - Meridian,Meridian,ID,25,3.28,56.0,0.08,0.32,0.04,-0.08,-0.04,0.08
+Massage Envy - Mount Laurel,Mount Laurel,NJ,21,2.48,38.1,-0.1429,-0.1429,-0.1905,-0.1429,-0.381,0.0
+Massage Envy - Mt. Juliet,Mt. Juliet,TN,28,2.93,42.86,0.0714,0.1429,-0.1429,-0.1071,-0.1786,-0.0357
+Massage Envy - NW Reno - Ridgeview Plaza,Reno,NV,92,3.07,48.91,0.0,0.0326,-0.163,-0.1304,-0.1087,0.0326
+Massage Envy - Oro Valley - Northwest,Oro Valley,AZ,41,3.37,58.54,0.0244,0.1951,0.0,-0.0488,-0.0976,0.0488
+Massage Envy - Plymouth Meeting,Plymouth Meeting,PA,27,2.37,29.63,-0.037,-0.1852,-0.1852,-0.1852,-0.1481,-0.1852
+Massage Envy - Reno - S. Virginia St,Reno,NV,111,2.77,41.44,-0.018,0.0,-0.0631,-0.036,-0.1261,-0.0541
+Massage Envy - Reno - Sparks Galleria,Sparks,NV,49,2.8,40.82,0.0,-0.102,-0.1429,-0.102,-0.102,-0.0612
+Massage Envy - Santa Barbara,Santa Barbara,CA,70,2.9,47.14,-0.0571,-0.0286,-0.2429,-0.1,-0.1571,-0.0429
+Massage Envy - South Tampa,Tampa,FL,45,3.13,51.11,-0.0444,0.1333,-0.1111,-0.0222,0.0222,0.0222
+"Massage Envy - Springfield, PA",Springfield,PA,28,2.82,46.43,0.1071,0.0357,0.0,-0.1429,-0.2143,-0.1786
+Massage Envy - St Petersburg,St. Petersburg,FL,23,4.26,82.61,0.0,0.4783,0.0435,0.1304,0.1304,0.1304
+Massage Envy - St. Petersburg 4th Street,St. Petersburg,FL,30,3.87,70.0,0.1,0.2,-0.0333,-0.0333,0.0,0.0333
+Massage Envy - Sunset Hills,Sunset Hills,MO,23,3.39,56.52,-0.087,0.2174,-0.1304,0.0,-0.1304,0.087
+Massage Envy - Tucson Foothills,Tucson,AZ,58,3.57,58.62,0.069,0.2069,0.0172,-0.0517,-0.0862,0.0172
+Massage Envy - Uptown,New Orleans,LA,49,2.82,40.82,-0.0612,-0.102,-0.1633,-0.1633,-0.2041,0.0
+Massage Envy - Wayne-PA,Wayne,PA,39,2.15,23.08,-0.1538,-0.3077,-0.2051,-0.2308,-0.2564,-0.0769
+Massage Envy - Wesley Chapel,Wesley Chapel,FL,34,3.47,55.88,0.0882,0.1176,-0.0588,0.0,0.0,0.0294
+Massage Envy - West Carmel Zionsville,Carmel,IN,26,2.38,30.77,-0.1154,-0.0769,-0.1154,-0.2692,-0.3462,0.0
+Massage Envy - West End,Nashville,TN,49,2.57,36.73,-0.102,-0.102,-0.102,-0.0816,-0.2653,0.0
+Massage Envy Tucson - Old Spanish Trail,Tucson,AZ,42,3.64,59.52,0.0714,0.1905,-0.0714,-0.0714,0.0,0.0
+Massage Envy Tucson - River Road West,Tucson,AZ,41,3.46,56.1,0.0244,0.122,-0.0732,-0.0244,0.0,0.0
+Massage Essence,Reno,NV,68,3.74,66.18,0.0441,0.1176,0.0882,0.0588,-0.0147,0.0735
+Massage Green SPA - Santa Barbara,Santa Barbara,CA,193,4.12,76.68,0.0674,0.228,0.0933,0.0311,-0.0052,0.1762
+Massage Green Spa,Tampa,FL,24,3.83,70.83,0.0,0.3333,0.0,0.0417,0.0833,0.25
+Massage Heaven,Tampa,FL,28,4.46,82.14,0.0,0.2857,0.1071,-0.0714,0.0,0.0714
+Massage Heights,Carmel,IN,34,3.97,73.53,-0.0294,0.4118,0.0588,0.0882,0.1471,0.2059
+Massage Heights Ironworks,Indianapolis,IN,53,4.49,86.79,0.2075,0.4528,0.1509,0.1321,0.2453,0.3396
+Massage Passyunk Ave,Philadelphia,PA,28,4.0,71.43,0.0,0.0714,-0.0357,0.1071,0.0,0.0714
+Massage Solutions,Reno,NV,42,5.0,100.0,0.1905,0.2143,0.0238,0.2143,0.1905,0.1905
+Massage Star,Tampa,FL,71,4.77,95.77,0.0845,0.2394,0.2254,0.1549,0.0423,0.2535
+Massage Studio,St Petersburg,FL,62,4.4,83.87,0.0161,0.2742,0.2258,0.1935,0.0161,0.1613
+Massage Studio,Tampa,FL,100,4.65,90.0,0.07,0.39,0.1,0.07,0.11,0.19
+Massage by Michelle,Tucson,AZ,49,4.92,97.96,0.1429,0.3265,0.0612,0.2653,0.2449,0.2041
+Massage by Tao,Nashville,TN,31,4.94,100.0,0.0968,0.2258,0.2258,0.1935,0.0323,0.2581
+MassageLuXe,Carmel,IN,39,3.38,58.97,0.0769,0.1026,-0.1795,0.0513,-0.0769,0.2051
+MassageLuXe,Edwardsville,IL,29,2.76,41.38,0.0,-0.1379,-0.3103,-0.1724,-0.3103,0.069
+MassageLuXe,Lutz,FL,76,2.62,38.16,0.0,-0.1447,-0.2763,-0.0526,-0.2895,-0.0263
+MassageLuXe,St. Louis,MO,41,2.9,41.46,0.0244,-0.122,-0.1707,-0.0976,-0.1463,-0.0732
+MassageLuXe,St. Petersburg,FL,76,3.88,71.05,0.0395,0.3026,-0.0263,0.0921,-0.0921,0.1316
+MassageLuXe,Tampa,FL,38,2.71,34.21,-0.0263,-0.1579,-0.2895,-0.2368,-0.2632,-0.0263
+"Matthew Strohmeyer, DDS",Brentwood,MO,27,4.59,88.89,0.4815,0.7407,0.1852,0.2593,0.3333,0.4074
+MaxAesthetics,Philadelphia,PA,38,4.29,81.58,0.2632,0.2632,0.1316,0.1053,0.1579,0.1842
+Maxwell Aesthetics,Tucson,AZ,24,4.25,79.17,0.125,0.4167,0.0,0.0833,0.0417,0.1667
+Mazzoni Center,Philadelphia,PA,56,3.09,46.43,-0.0179,-0.0357,0.0357,0.0,-0.0357,0.0714
+"McCormack Plastic Surgery - Tiffany McCormack, MD, FACS",Reno,NV,40,4.22,80.0,0.25,0.475,0.0,0.025,0.1,0.125
+McKay's Mill Dental,Franklin,TN,29,3.97,72.41,0.2069,0.3448,0.0345,0.1379,0.069,0.2414
+McVeigh Massage,Santa Barbara,CA,78,4.71,94.87,0.0385,0.2308,0.0641,0.0897,0.0641,0.1154
+Meagan Q Macklin,Philadelphia,PA,24,4.75,95.83,0.125,0.2083,0.0833,0.2083,0.2083,0.0833
+Mease Countryside Hospital,Safety Harbor,FL,68,2.91,45.59,0.0,0.0735,-0.1618,-0.1618,-0.0735,0.0588
+Med Center,Santa Barbara,CA,130,2.09,26.92,-0.3308,-0.3154,-0.1154,-0.2769,-0.3385,-0.1923
+MedCenter,Santa Barbara,CA,69,2.33,31.88,-0.1884,-0.1304,-0.1739,-0.3188,-0.2899,-0.1304
+MedExpress Urgent Care,Clearwater,FL,31,3.1,51.61,0.129,0.1935,0.0,-0.0645,-0.2581,0.0
+MedExpress Urgent Care,Hudson,FL,24,2.46,33.33,-0.2917,-0.2083,-0.1667,-0.1667,-0.4167,-0.2083
+MedExpress Urgent Care,Largo,FL,39,2.64,38.46,-0.1282,-0.0256,0.0,-0.3077,-0.2821,-0.0769
+MedExpress Urgent Care,Tampa,FL,88,2.67,40.91,-0.1932,0.0227,-0.0795,-0.125,-0.1818,-0.0795
+MedExpress Urgent Care - CLOSED,Cherry Hill,NJ,29,2.86,48.28,0.0,0.069,0.0,-0.1034,-0.1034,0.1034
+MedMen - St Petersburg,St. Petersburg,FL,49,4.84,97.96,0.102,0.5918,0.102,0.0816,0.2653,0.1429
+Medcenter,Santa Barbara,CA,21,2.57,33.33,-0.1905,-0.0952,-0.1905,-0.3333,-0.1429,-0.1905
+Medcheck,Carmel,IN,20,2.3,25.0,-0.45,0.0,0.0,-0.2,-0.25,-0.25
+Medcheck of Community Hospitals,Indianapolis,IN,36,2.83,44.44,0.0278,0.0,-0.0278,-0.0556,-0.1111,-0.0556
+Medical Alert,Broomall,PA,38,1.18,2.63,-0.4474,-0.0789,-0.6579,-0.3158,-0.2368,-0.3684
+Medical Center of Trinity,Trinity,FL,92,2.29,31.52,-0.2391,-0.1739,-0.2717,-0.2826,-0.2174,-0.1196
+Medical West Healthcare Center,Clayton,MO,23,2.96,52.17,-0.0435,0.2609,0.0,-0.0435,-0.1304,0.1304
+Mei Fitness - Fishers,Fishers,IN,24,3.5,62.5,0.0,0.375,-0.125,0.0,-0.0417,0.4167
+Meijer,Avon,IN,49,2.76,38.78,0.0,0.0816,0.0612,-0.102,-0.0816,0.1224
+Meijer,Camby,IN,26,3.08,53.85,-0.0385,-0.0385,0.1154,-0.0769,-0.0769,0.2308
+Meijer,Indianapolis,IN,79,3.01,54.43,0.0253,0.1013,0.0759,-0.0127,-0.038,0.1899
+Meijer,McCordsville,IN,35,3.57,65.71,-0.0571,0.3429,0.0571,0.2286,0.0,0.2571
+Meijer,Zionsville,IN,24,2.58,33.33,-0.0833,-0.0417,0.0417,-0.0417,-0.0833,0.2083
+"Melissa Drake, MD",Santa Barbara,CA,22,3.91,72.73,0.4091,0.0909,0.0,0.2273,0.2727,-0.0455
+Mellow Massage & Yoga,Philadelphia,PA,140,4.67,92.86,0.0571,0.4071,0.1429,0.25,0.1357,0.1714
+Melodie Girard Aesthetics,Santa Barbara,CA,41,4.95,97.56,0.4878,0.2439,0.1463,0.1951,0.439,0.4146
+Mercy Catholic Medical Center - Mercy Fitzgerald Campus,Darby,PA,23,2.17,26.09,-0.3043,-0.3478,-0.0435,-0.3043,-0.3478,-0.3043
+Mercy Hospital South,Saint Louis,MO,91,1.97,23.08,-0.3516,-0.2747,-0.1978,-0.3407,-0.3626,-0.4176
+Mercy Hospital St Louis,Saint Louis,MO,67,2.64,35.82,-0.0896,-0.1194,-0.1194,-0.2836,-0.209,-0.194
+Meridian Family Medicine,Meridian,ID,25,4.08,76.0,0.48,0.56,-0.08,0.16,0.2,0.28
+Meridian Medica,Philadelphia,PA,31,3.65,67.74,0.1613,0.2258,0.2903,0.2581,0.0645,0.3226
+Mestichelli Barnes Dental Associates,Philadelphia,PA,31,4.55,87.1,0.2903,0.7097,0.2581,0.2258,0.2258,0.5806
+Metairie Dental Centre,Metairie,LA,40,4.38,82.5,0.275,0.6,0.025,0.1,0.05,0.275
+Metairie Modern Dentistry,Metairie,LA,24,4.08,75.0,0.2083,0.2917,0.0417,0.0417,0.0,0.25
+Methodist Hospital - Jefferson Health,Philadelphia,PA,39,3.13,46.15,0.1282,0.2308,-0.0256,-0.1282,-0.0513,-0.1026
+Metro Laser CoolSculpting MedSpa,Philadelphia,PA,47,4.09,78.72,0.4255,0.4255,0.1489,0.1915,0.2553,0.2979
+Metry Cab Service,Metairie,LA,33,2.45,30.3,-0.0303,-0.303,-0.0909,-0.2727,-0.3333,0.0303
+Mia Bella Salon & Spa,Tucson,AZ,77,4.32,81.82,0.1948,0.3506,0.1558,0.0519,0.2597,0.1688
+"Michael I Wollock, DMD - Dentistry at Suburban Square",Ardmore,PA,126,4.44,88.1,0.2619,0.627,0.0556,0.1667,0.1032,0.3016
+"Michael Lechleiter, DC",New Orleans,LA,28,4.82,96.43,0.25,0.0714,0.1786,0.0714,0.3214,0.25
+Mid-City Smiles,New Orleans,LA,74,4.7,93.24,0.2568,0.7027,0.1216,0.2027,0.0676,0.3784
+Mill Woods Town Centre,Edmonton,AB,21,2.33,9.52,-0.0476,-0.1429,-0.1429,0.0,0.0476,-0.1429
+MinuteClinic,Tampa,FL,39,3.15,51.28,0.0256,0.1026,0.0,-0.0769,-0.1282,0.0769
+MiraMed and Day Spa,Carpinteria,CA,34,4.29,79.41,0.0588,0.2059,-0.0588,0.0,-0.0588,0.0882
+Missouri Baptist Medical Center,Saint Louis,MO,70,3.23,54.29,0.1143,0.2,-0.0714,-0.1,0.0286,0.0857
+Mobile IV Medics: Santa Barbara,Santa Barbara,CA,52,4.92,98.08,0.3462,0.6538,0.0385,0.1538,0.3077,0.0577
+Modern Acupuncture,Sparks,NV,27,4.7,92.59,0.5926,0.5926,0.037,0.1111,0.1481,0.2963
+Modern Eye,Philadelphia,PA,228,4.56,88.16,0.2105,0.6009,0.3421,0.1491,0.1404,0.0965
+Moffitt Cancer Center,Tampa,FL,95,2.98,47.37,-0.0105,0.0632,-0.1684,-0.1053,-0.0632,-0.0421
+Monokian Family & Cosmetic Dentistry,Marlton,NJ,26,4.23,80.77,0.2692,0.5,-0.0769,0.0385,0.1538,0.3846
+Monroe Carell Jr Children's Hospital at Vanderbilt,Nashville,TN,28,3.71,71.43,0.3929,0.3214,0.1429,0.1071,0.0714,0.2143
+Montecito Plastic Surgery - Adam D. Lowenstein MD,Santa Barbara,CA,29,4.45,86.21,0.2069,0.6897,0.0345,0.069,0.2069,0.4483
+Monticciolo Family & Sedation Dentistry - New Port Richey,New Port Richey,FL,22,2.41,31.82,-0.2273,-0.0455,-0.2727,-0.0455,-0.1818,-0.0909
+Moorestown Eye Associates,Moorestown,NJ,43,4.65,90.7,0.4884,0.6512,0.093,0.1628,0.3256,0.3488
+Moran Laser And Salon,Nashville,TN,55,4.25,81.82,0.3455,0.3636,0.0909,0.0545,0.1273,0.2
+Morton Plant Hospital,Clearwater,FL,75,3.39,61.33,0.1733,0.28,-0.0667,-0.0533,-0.08,0.0933
+Morton Plant North Bay Hospital,New Port Richey,FL,31,2.58,38.71,-0.1935,0.0968,-0.2903,-0.3226,-0.1935,-0.0968
+Murphy Plastic Surgery & Medical Spa,Reno,NV,26,4.42,84.62,0.4231,0.5,-0.0385,0.0385,0.2308,0.1154
+Music City Optical,Nashville,TN,47,4.17,76.6,0.3617,0.5532,0.1702,0.1064,0.2766,0.234
+My Eye Dr,Tampa,FL,31,4.84,96.77,0.3871,0.871,0.1935,0.1613,0.5161,0.4839
+My Kid's Smile,Reno,NV,47,4.79,93.62,0.2766,0.7872,0.0638,0.1277,0.0851,0.383
+My Women's Center,Reno Sparks,NV,39,3.67,66.67,0.2821,0.2564,-0.1282,0.1282,-0.0256,0.1282
+MyEyeDr,Carmel,IN,24,4.67,91.67,0.4167,0.7083,0.1667,0.0,0.5417,0.2917
+MyEyeDr,Fairless Hills,PA,22,2.41,31.82,-0.1364,0.0455,-0.4091,-0.2273,-0.2273,-0.0455
+MyEyeDr,Indianapolis,IN,40,2.78,40.0,-0.025,-0.05,-0.225,-0.175,-0.15,-0.1
+MyEyeDr,New Orleans,LA,34,3.79,67.65,0.4118,0.2353,0.2059,0.1176,0.0588,0.0882
+MyEyeDr,Newtown,PA,21,3.29,57.14,-0.0476,0.2857,0.0476,0.0,-0.0952,0.0
+MyEyeDr,Southampton,PA,23,3.74,69.57,0.1304,0.3043,0.0,0.0435,0.087,0.087
+NOLA Float Tanks,New Orleans,LA,26,3.54,65.38,-0.0769,0.0385,-0.0385,0.2308,0.1538,-0.0385
+Nail Bar,Philadelphia,PA,216,2.94,44.44,-0.0046,-0.0046,-0.0185,-0.0648,-0.088,0.0417
+"Naomi Paschall, MD",Franklin,TN,22,1.91,18.18,-0.4545,-0.3636,-0.2727,-0.3636,-0.2273,-0.4091
+Nashville Skin Company,Nashville,TN,50,4.18,80.0,0.28,0.28,0.16,0.1,0.06,0.14
+"Natalia Baldo, MD",Reno,NV,28,2.29,28.57,-0.25,-0.2857,-0.0714,-0.2857,-0.3571,-0.25
+"Natalie Carr, DDS, MS - Carr Pediatric Dentistry",Riverview,FL,32,3.38,59.38,0.1562,0.3125,-0.125,0.0312,0.0312,0.0938
+National Eye & Ear of Tucson,Tucson,AZ,23,4.35,82.61,0.4348,0.4783,0.2174,0.0435,0.2609,0.1739
+National Institute For Fitness & Sport,Indianapolis,IN,46,4.33,86.96,0.0217,0.413,0.2174,0.2174,0.0217,0.6739
+Natural Foot Spa,Eagle,ID,23,4.35,82.61,0.0,0.0,0.3913,0.087,-0.0435,0.2174
+Natural Grocers,Boise,ID,38,4.71,94.74,0.1053,0.4737,0.7105,0.0789,0.0526,0.2895
+Natural Grocers,Tucson,AZ,26,3.88,69.23,0.0,0.3462,0.3462,-0.0385,0.0385,0.0769
+Nature Med,Tucson,AZ,45,3.0,48.89,-0.0889,0.2,-0.0222,-0.1333,-0.0222,0.0222
+Nature's Way Medicine-Medical Marijuana Cards,Philadelphia,PA,23,4.09,78.26,0.2174,0.2609,-0.087,-0.0435,0.0,0.087
+Nayak Plastic Surgery,Saint Louis,MO,32,4.44,84.38,0.4062,0.4688,0.1562,0.1562,0.3125,0.0
+Nazareth Hospital,Philadelphia,PA,50,1.54,12.0,-0.44,-0.44,-0.48,-0.38,-0.26,-0.32
+"Nemours Children's Hospital, Delaware",Wilmington,DE,31,4.03,74.19,0.3871,0.4839,-0.0968,0.2258,0.0323,0.1613
+Nevada Advanced Pain Specialists,Reno,NV,60,2.75,38.33,-0.0833,-0.1333,-0.2333,-0.1667,-0.2,-0.1333
+Nevada Center For Dermatology,Reno,NV,38,3.11,50.0,0.0263,0.0,-0.1579,-0.0263,-0.0526,-0.0789
+Nevada Diabetes Association,Reno,NV,34,4.85,100.0,0.1471,0.1176,0.0294,0.2941,0.0588,0.4118
+Nevada ENT & Hearing Associates,Reno,NV,40,2.55,40.0,-0.15,-0.1,-0.225,-0.225,-0.05,-0.175
+Nevada Eye Consultants,Reno,NV,37,4.14,78.38,0.3514,0.6216,0.0541,0.1351,0.3784,0.1892
+Nevada Pain & Spine Specialists,Reno,NV,25,2.68,40.0,-0.12,-0.12,-0.12,-0.2,-0.12,-0.12
+Nevada Vision Group,Reno,NV,65,3.83,70.77,0.1846,0.4615,0.0462,0.0308,0.0615,0.2923
+New Age People,Indianapolis,IN,36,4.11,75.0,0.0278,0.3056,0.1389,0.1667,0.0556,0.0556
+New Jersey Urology,Voorhees,NJ,32,1.81,15.62,-0.4688,-0.3438,-0.2188,-0.4375,-0.4062,-0.4375
+New Life Laser,Brentwood,TN,47,2.17,27.66,-0.2128,0.0,-0.234,-0.0638,-0.0851,-0.0213
+New Rose Spa,Cherry Hill,NJ,53,4.49,88.68,0.0189,0.3774,0.3396,0.0377,0.0377,0.3396
+New World Vision Center,Philadelphia,PA,38,3.84,71.05,0.2895,0.4737,0.1842,-0.0263,0.1316,0.0526
+Newsom Eye - Carrollwood,Tampa,FL,37,2.54,35.14,-0.2703,-0.0811,-0.1351,-0.0811,-0.0541,-0.1081
+Newsom Eye - South Tampa,Tampa,FL,30,3.4,60.0,0.0333,0.2,-0.2,-0.1,-0.1,-0.1333
+Newtown Athletic Club,Newtown,PA,81,3.04,46.91,0.0,0.1111,-0.0617,-0.0123,-0.0617,0.1852
+NextCare Urgent Care,Tucson,AZ,382,2.46,33.51,-0.1963,-0.1178,-0.1021,-0.2199,-0.212,-0.1414
+"Nina Madavi, DDS, BDS",Santa Barbara,CA,25,3.88,72.0,0.16,0.48,-0.12,-0.04,-0.08,0.36
+Ninth Street Internal Medicine,Philadelphia,PA,51,3.25,50.98,0.1569,0.1765,0.0196,-0.0588,-0.0196,0.0784
+Nirvana Massage,Exton,PA,24,3.71,66.67,0.0,0.2917,-0.0417,0.0,-0.1667,0.0417
+"Noble Dental - Conover, Leonard & Assoc",Philadelphia,PA,26,4.19,80.77,0.1154,0.4231,0.0385,0.1538,0.1923,0.4231
+Noble Dentistry,Jenkintown,PA,50,4.6,90.0,0.24,0.64,0.18,0.18,0.22,0.56
+Nok's Expert Thai Massage Center,Santa Barbara,CA,53,4.79,96.23,0.0943,0.1698,0.1132,0.1321,0.0,0.0755
+Nola Bliss Massage,New Orleans,LA,210,4.77,94.29,0.0857,0.2667,0.0714,0.0952,0.0857,0.1857
+Nola Dental Care,New Orleans,LA,33,2.61,36.36,-0.0909,0.0606,-0.2121,-0.0909,-0.1515,-0.2424
+Nola Yoga Loft,New Orleans,LA,21,4.95,100.0,0.0,0.1429,0.0476,0.0952,0.0476,0.1905
+Nora Urgent Care,Indianapolis,IN,40,3.5,55.0,0.25,0.275,0.1,0.05,0.025,0.025
+Norman Parathyroid Center,Town N Country,FL,132,4.74,93.18,0.6818,0.6212,0.2045,0.4015,0.4242,0.2348
+North Hills Chiropractic,Reno,NV,22,4.45,86.36,0.2727,0.6364,0.0909,0.2727,0.0,0.1818
+North Penn Endodontics,Lansdale,PA,21,3.67,66.67,0.1905,0.3333,0.0476,0.0952,0.1905,0.0476
+North Tampa Behavioral Health Hospital,Wesley Chapel,FL,28,1.29,7.14,-0.6786,-0.3929,-0.5,-0.4643,-0.5714,-0.75
+North Tampa Spine & Joint Center,Tampa,FL,76,4.84,94.74,0.4737,0.5921,0.0921,0.2763,0.2237,0.3947
+Northern Nevada Allergy,Reno,NV,34,3.03,50.0,0.1176,0.0882,-0.1471,-0.0882,-0.0294,-0.0588
+Northern Nevada Chiropractic,Reno,NV,49,4.76,93.88,0.2449,0.4286,0.0816,0.1633,0.0816,0.2857
+Northern Nevada Medical Center,Sparks,NV,91,3.09,51.65,0.0989,0.1319,-0.1319,-0.011,-0.0549,0.044
+Northern Nevada Medical Group,Sparks,NV,23,2.17,26.09,-0.4783,-0.1304,-0.087,-0.087,-0.2609,-0.2174
+Northern Ophthalmic Assoc,Jenkintown,PA,26,3.35,53.85,0.1538,0.1154,-0.1538,-0.0385,-0.1154,0.0
+Northside ENT,Carmel,IN,24,3.0,45.83,0.0417,0.0,-0.2083,-0.0833,0.0,0.0
+Northside Hospital,St. Petersburg,FL,34,2.35,32.35,-0.2059,-0.1765,-0.2353,-0.2059,-0.2059,-0.2059
+Northwest Children's Dentistry,Tucson,AZ,21,4.71,95.24,0.2857,0.7619,0.0,0.2381,0.2857,0.7619
+Northwest Medical Center,Tucson,AZ,145,2.0,21.38,-0.4276,-0.2966,-0.3103,-0.3103,-0.2828,-0.2276
+Northwest Reno Smiles Dental Group,Reno,NV,60,3.97,75.0,0.2833,0.4167,0.1167,0.0167,0.0333,0.3333
+Northwest Urgent Care,Green Valley,AZ,37,2.16,27.03,-0.2703,-0.1351,-0.3514,-0.2432,-0.3514,-0.2973
+Northwest Urgent Care Orange Grove,Tucson,AZ,35,2.91,45.71,0.0,0.2,-0.1714,-0.1714,-0.0857,-0.2
+Nostalgic Eye Care,Philadelphia,PA,41,4.66,92.68,0.3902,0.7561,0.122,0.1951,0.2195,0.6341
+Nurture Spa,New Hope,PA,53,4.64,88.68,0.1509,0.4717,0.0377,0.2075,0.1132,0.434
+Nutrishop,Santa Barbara,CA,48,4.73,93.75,0.1042,0.4375,0.1042,0.0833,0.2083,0.1458
+Nutrition Solutions,Tampa,FL,31,3.06,45.16,-0.0645,-0.0323,-0.2581,-0.1613,-0.0645,0.0645
+O'Gara Gilbert Orthodontics,Reno,NV,24,4.58,87.5,0.4583,0.7917,0.0833,0.2083,0.125,0.4167
+OB Gyn Associates,Reno,NV,104,2.62,37.5,-0.2212,-0.2019,-0.1923,-0.2692,-0.1923,-0.25
+OPES Health Channelside,Tampa,FL,42,3.48,61.9,0.0476,0.0714,-0.0714,-0.0714,-0.0238,0.0714
+OPT-ISM,Tampa,FL,43,4.35,83.72,0.1163,0.4651,0.3023,0.0233,0.1163,0.2558
+Oasis,Indianapolis,IN,27,2.81,44.44,0.037,-0.1852,-0.1481,-0.2963,-0.2222,-0.1852
+Oasis Massage Spa,Oro Valley,AZ,23,3.65,65.22,0.087,0.087,0.087,0.0435,-0.2174,0.1739
+Ocean Oral and Maxillofacial Surgery,Santa Barbara,CA,31,4.23,80.65,0.2581,0.6452,-0.0645,0.0,0.2903,0.2903
+Ochsner Baptist - A Campus of Ochsner Medical Center,New Orleans,LA,44,3.64,68.18,0.2273,0.4318,-0.0227,-0.0682,0.0455,0.0909
+Ochsner Fitness Center - Downtown,New Orleans,LA,25,4.4,84.0,0.0,0.6,0.04,0.12,0.0,0.72
+Ochsner Hospital for Children,Jefferson,LA,50,2.54,30.0,-0.18,-0.06,-0.26,-0.08,-0.08,-0.1
+Ochsner Medical Center,Jefferson,LA,50,2.54,36.0,-0.16,-0.14,-0.04,-0.2,-0.22,-0.08
+Ochsner Urgent Care - French Quarter,New Orleans,LA,61,4.69,91.8,0.6393,0.7541,0.0492,0.2459,0.2295,0.4262
+Ochsner Urgent Care - Metairie,Metairie,LA,25,2.84,48.0,0.08,0.08,-0.16,0.04,0.0,-0.04
+Ochsner Urgent Care - Uptown,New Orleans,LA,59,2.73,40.68,-0.1525,-0.0508,-0.1186,-0.3051,-0.2712,-0.1695
+Ochsner Urgent Care - Warehouse District,New Orleans,LA,165,4.53,88.48,0.5515,0.6727,0.0667,0.2242,0.097,0.2424
+Omni Vision Opticians,Philadelphia,PA,28,2.93,46.43,0.0,0.1786,-0.0357,0.0357,-0.1429,0.0357
+On The Go Chiro,Tucson,AZ,25,4.2,76.0,0.16,0.32,0.04,0.08,0.0,0.08
+Ona Skincare,Nashville,TN,31,4.81,96.77,0.5484,0.3871,0.129,0.129,0.3548,0.1613
+Open City Healing Arts,Philadelphia,PA,21,4.76,90.48,0.4286,0.2381,0.0952,0.0952,0.2381,0.1429
+Optical Image by Dr Weisman,Tucson,AZ,22,2.59,31.82,-0.0455,-0.1364,-0.2273,-0.2273,-0.2273,-0.0455
+Optical Outlets,Brandon,FL,28,1.79,21.43,-0.3214,-0.1429,-0.3929,-0.5,-0.2857,-0.2857
+Optical Outlets,Clearwater,FL,21,2.05,28.57,-0.1429,-0.0952,-0.3333,-0.4762,-0.3333,-0.2857
+Optical Outlets,Tampa,FL,81,1.77,16.05,-0.2963,-0.3333,-0.3951,-0.3086,-0.2716,-0.2593
+Optilife Chiropractic,Tampa,FL,31,4.81,93.55,0.8065,0.6129,0.129,0.2581,0.2258,0.3871
+Optique,Nashville,TN,27,3.52,62.96,0.2963,0.2593,0.1481,0.1111,0.1852,0.0741
+Optometry Care Santa Barbara,Santa Barbara,CA,40,3.9,72.5,0.4,0.275,0.025,0.1,0.225,0.125
+Oracle Modern Dentistry and Orthodontics,Tucson,AZ,48,3.94,72.92,0.2917,0.4167,0.125,0.1042,0.125,0.3542
+Oral Surgery Consultants of Pennsylvania,Philadelphia,PA,22,2.45,36.36,-0.2273,-0.0909,-0.2273,-0.3182,-0.3182,-0.2727
+Orangetheory Fitness South Tampa,Tampa,FL,74,3.32,55.41,0.0,0.0135,-0.1486,-0.0541,-0.0135,-0.0135
+Organic Origins Spa,Boise,ID,25,5.0,100.0,0.2,0.76,0.08,0.16,0.16,0.24
+Oriental Massage & Reflexology,Reno,NV,79,4.34,82.28,0.0,0.2025,0.1519,0.0886,0.038,0.3165
+Original Thought,New Orleans,LA,25,4.92,100.0,0.04,0.24,0.08,0.32,0.12,0.16
+Oro Valley Eyecare,Oro Valley,AZ,26,3.38,57.69,0.1154,0.1923,-0.0769,-0.0385,0.0769,0.0
+Oro Valley Hospital,Oro Valley,AZ,69,2.57,36.23,-0.2609,-0.1014,-0.2029,-0.2754,-0.2029,-0.0435
+Ortho Mattress,Santa Barbara,CA,23,4.17,82.61,0.0435,0.3913,0.0435,0.0,0.2174,0.0
+OrthoIndy Northwest,Indianapolis,IN,34,2.79,41.18,-0.0882,0.1176,-0.3529,-0.1176,-0.1176,0.0294
+Orthodontic Partners,Reno,NV,21,4.29,80.95,0.3333,0.619,0.0952,0.1905,0.2857,0.381
+Orthopaedic Associates of West Florida,Clearwater,FL,31,1.9,19.35,-0.5484,-0.2581,-0.1935,-0.4194,-0.2581,-0.3871
+Orthopaedic Medical Group of Tampa Bay,Tampa,FL,23,2.7,43.48,-0.1304,0.0,-0.1304,-0.0435,-0.1739,-0.087
+Ossip Optometry - MyEyeDr,Indianapolis,IN,51,2.84,41.18,-0.0392,-0.0784,-0.1961,-0.098,-0.2353,-0.0196
+Our Lady of Lourdes Medical Center,Camden,NJ,31,2.52,35.48,-0.0645,-0.1935,-0.1613,-0.0645,-0.2581,-0.0645
+Out of the Closet - St. Petersburg,St. Petersburg,FL,23,4.26,82.61,-0.0435,0.1739,0.2609,0.0,-0.087,0.2609
+Outsiders Hair Studio & Salon,Reno,NV,59,4.69,91.53,0.0847,0.2203,0.0678,0.0678,0.1864,0.1356
+PHDermatology,Palm Harbor,FL,28,4.07,75.0,0.3571,0.3929,0.0714,0.0357,0.1071,0.1429
+Pacific Pain Physicians,Santa Barbara,CA,26,2.69,42.31,-0.1538,-0.1538,-0.1538,-0.0385,0.0,-0.1538
+Pain Away of Philly,Philadelphia,PA,64,4.47,85.94,0.0938,0.1875,0.1094,0.1719,0.0312,0.1719
+Pain Institute of Southern Arizona,Tucson,AZ,44,2.73,40.91,-0.1364,-0.0909,-0.1364,-0.2045,-0.2273,-0.0682
+Paleo on the Go,Largo,FL,31,4.0,70.97,0.129,0.0323,0.0968,-0.0323,-0.0968,0.0968
+Palm Harbor Mri,Palm Harbor,FL,27,3.3,55.56,0.1111,0.1852,0.0,0.1481,-0.0741,0.1111
+Palm Tree Dentistry - Palm Harbor,Palm Harbor,FL,20,2.4,35.0,-0.3,-0.1,-0.15,-0.2,-0.3,-0.15
+Palms of Pasadena Hospital,St. Petersburg,FL,49,2.51,34.69,-0.1224,-0.1429,-0.2041,-0.102,-0.0816,-0.1429
+Paoli Hospital,Paoli,PA,54,3.04,46.3,0.0,0.1481,-0.1111,-0.0926,-0.0926,0.037
+Paradise Foot Spa - Saint Petersburg,Saint Petersburg,FL,46,4.57,89.13,0.0652,0.2826,0.2826,0.087,0.0217,0.413
+Paradise Spa,Treasure Island,FL,75,4.95,100.0,0.1867,0.4,0.1467,0.1067,0.1333,0.2133
+Parish Dermatology,Philadelphia,PA,53,2.58,37.74,-0.3019,-0.1698,-0.2075,-0.0943,-0.2453,-0.2453
+Pasinee Thai Massage,Boise,ID,20,4.9,100.0,0.05,0.15,0.05,0.05,0.1,0.1
+Pathway Dental Group - Santa Barbara,Santa Barbara,CA,65,3.08,50.77,0.0308,0.2615,-0.3846,-0.1385,-0.0923,-0.1231
+Patient Care Now Urgent Care Center,Fairless Hills,PA,25,3.24,52.0,0.12,0.08,0.04,0.0,0.0,0.12
+Patient First - Abington,Abington,PA,28,3.04,46.43,0.0357,0.25,-0.1786,-0.0714,-0.0714,0.0714
+Patient First - Collegeville,Collegeville,PA,39,2.41,28.21,-0.2564,-0.1282,-0.1026,-0.3077,-0.1795,-0.1538
+Patient First - East Norriton,East Norriton,PA,41,2.32,31.71,-0.2927,-0.2683,-0.1951,-0.2439,-0.2927,-0.0976
+Patient First - Montgomeryville,Montgomeryville,PA,73,3.12,50.68,0.0,0.0274,-0.0822,0.0274,-0.1781,0.0685
+Patient First - Springfield,Springfield,PA,59,2.44,33.9,-0.1356,-0.0508,-0.1356,-0.1356,-0.2712,-0.1017
+Patient First - Voorhees,Voorhees,NJ,24,2.08,25.0,-0.5833,-0.0833,-0.2083,-0.375,-0.1667,-0.1667
+Patient First - Woodbury,Woodbury,NJ,24,2.42,33.33,-0.3333,-0.125,-0.1667,-0.1667,-0.375,0.0
+Patient First Primary and Urgent Care - Feasterville,Feasterville-Trevose,PA,41,3.17,56.1,0.0244,0.1707,0.0,-0.1463,-0.122,0.2439
+Paul Rubin's Chiropractic and Wellness Center,Philadelphia,PA,28,4.46,89.29,0.3571,0.5,0.0357,0.1429,0.1786,0.25
+Peace Valley Lavender Farm,Doylestown,PA,22,4.0,81.82,0.0455,0.2273,0.1364,0.0909,-0.0909,0.0455
+Peaceful Spirit Massage and Wellness Centers,Tucson,AZ,42,4.57,88.1,0.119,0.381,0.0714,0.0476,0.1429,0.1429
+Peaceful Warriors Wellness Center,St Petersburg,FL,39,4.95,97.44,0.1538,0.4615,0.0769,0.1795,0.1795,0.1282
+Peach Skin & Laser,Tucson,AZ,47,4.15,76.6,0.3191,0.4468,0.1064,0.0213,0.1489,0.1489
+Peak Performance Chiropractic,Reno,NV,46,4.89,97.83,0.3261,0.3478,0.087,0.1739,0.2609,0.1957
+Pearle Vision,Brandon,FL,21,4.57,90.48,0.5714,0.619,0.2857,0.2857,0.2381,0.0952
+Pearle Vision,Philadelphia,PA,54,2.65,38.89,-0.2037,-0.2222,-0.0741,-0.2037,-0.2593,-0.1111
+Pediatric Associates,Reno,NV,99,4.08,75.76,0.2525,0.2424,-0.101,0.1111,0.1919,0.2121
+Pediatric Associates Tampa Bay - Riverview,Riverview,FL,31,2.55,38.71,-0.2903,0.0645,-0.0323,-0.2903,-0.2258,-0.0323
+Pediatric Care Group,Jenkintown,PA,25,3.56,60.0,0.28,0.12,0.0,0.08,0.04,0.08
+Pediatric Dental Care,Franklin,TN,25,4.04,76.0,0.12,0.24,-0.16,0.08,-0.08,0.04
+Pediatric Dentistry Of Sunset Hills,Saint Louis,MO,21,4.24,80.95,0.2857,0.619,0.0952,0.2381,0.0952,0.381
+Pediatric Health Care Alliance,Tampa,FL,28,3.21,57.14,0.25,0.0357,-0.0714,0.0357,-0.1429,0.0714
+Pelican State Outpatient Center,Harahan,LA,20,2.8,35.0,-0.1,-0.2,-0.05,-0.05,-0.15,-0.15
+Penn Dental Faculty Practice,Philadelphia,PA,32,3.75,68.75,0.0312,0.25,-0.1562,0.0938,-0.0625,0.25
+Penn Family Care,Philadelphia,PA,39,1.87,17.95,-0.5385,-0.4615,-0.2051,-0.3077,-0.3333,-0.3846
+Penn Fertility Care,Philadelphia,PA,31,2.55,35.48,-0.2258,-0.1935,-0.2581,-0.1613,-0.2903,0.0645
+Penn Health for Women,Philadelphia,PA,38,2.84,39.47,-0.0526,0.0789,0.0,-0.0263,-0.1316,0.0526
+Penn Herb Company,Philadelphia,PA,40,4.2,82.5,0.05,0.375,0.375,0.05,0.125,0.15
+Penn Hospital Medicine,Philadelphia,PA,55,2.44,32.73,-0.0364,-0.1455,-0.0545,-0.2545,-0.1455,-0.1455
+Penn Medicine Bucks County,Yardley,PA,23,2.3,30.43,-0.2174,-0.1304,-0.087,-0.087,-0.2174,-0.087
+Penn Medicine Radnor,Radnor,PA,43,2.72,34.88,-0.2326,-0.093,-0.2093,-0.1395,-0.1163,-0.0233
+Penn Ob/Gyn,Philadelphia,PA,46,2.59,36.96,-0.1522,-0.087,-0.1304,0.0,-0.2391,-0.087
+Penn Orthopaedics Chester County Hospital,West Chester,PA,33,2.48,36.36,-0.0909,0.0,-0.1515,-0.1818,-0.2121,-0.0606
+Pennsylvania Center for Dental Excellence,Philadelphia,PA,30,2.67,40.0,0.0333,0.0,-0.2667,-0.0333,-0.0667,0.0
+Pennsylvania Centre For Dermatology,Philadelphia,PA,52,3.1,48.08,-0.0385,0.0962,-0.2115,-0.0962,-0.0962,-0.1346
+Pennsylvania Dental Group,Philadelphia,PA,57,3.81,68.42,0.1404,0.3158,0.0526,0.2105,0.1228,0.2105
+Pennsylvania Hospital,Philadelphia,PA,77,3.04,50.65,0.013,0.0779,-0.0649,-0.1169,-0.0779,-0.013
+Pennsylvania Optometrics,Philadelphia,PA,63,4.38,85.71,0.3968,0.6032,0.0952,0.1429,0.1905,0.2063
+Peppard Jeff DDS,Santa Barbara,CA,25,2.8,44.0,0.08,0.08,0.08,-0.12,-0.08,-0.12
+Perfect Teeth - ABC,Tucson,AZ,23,3.65,69.57,0.2609,0.4783,0.1304,0.1304,0.2174,0.087
+Perfect Teeth - North Wilmot,Tucson,AZ,32,4.28,78.12,0.3438,0.6562,0.0938,0.1562,0.0625,0.375
+Perfection Plastic Surgery & Skin Care,Tucson,AZ,28,4.75,92.86,0.5,0.6429,0.0,0.0714,0.2143,0.1429
+Perfectly Bare Laser,Tampa,FL,74,4.53,87.84,0.2297,0.2297,0.1757,0.1081,0.1757,0.1216
+Petchalonis Dental & Associates,Philadelphia,PA,24,3.79,70.83,0.125,0.4167,0.0417,0.0833,0.0833,0.25
+Pewter,Reno,NV,83,4.82,93.98,0.2048,0.1928,0.1084,0.0843,0.1084,0.1928
+Phila Massages,Philadelphia,PA,91,4.73,91.21,0.0989,0.3187,0.1209,0.1538,0.1868,0.1758
+Philadelphia Community Acupuncture,Philadelphia,PA,27,4.85,96.3,0.4815,0.3704,0.3704,0.3704,0.2222,0.2593
+Philadelphia Dental Associates,Philadelphia,PA,37,3.95,72.97,0.1351,0.4865,0.2162,0.1081,0.1351,0.2973
+Philadelphia Dentistry,Philadelphia,PA,251,4.07,76.1,0.2191,0.506,0.0359,0.1514,0.1116,0.3745
+Philadelphia Eye Associates,Philadelphia,PA,22,3.36,59.09,0.0,0.0455,-0.1364,-0.0909,0.0455,0.0455
+Philadelphia Eyeglass Labs,Philadelphia,PA,61,3.79,70.49,0.2787,0.459,0.2951,0.0492,0.0492,0.082
+Philadelphia Hand to Shoulder Center,Philadelphia,PA,32,2.84,46.88,-0.125,-0.0625,-0.1562,-0.0625,-0.1875,-0.125
+Philadelphia Massage Studio,Philadelphia,PA,40,4.12,77.5,0.225,0.15,0.6,0.075,0.125,0.15
+"Phillip Dahan, MD, FACS",Reno,NV,40,4.25,80.0,0.15,0.475,0.0,0.175,0.125,0.225
+Philly Phitness,Philadelphia,PA,45,4.91,97.78,0.0667,0.3778,0.0889,0.1778,0.2444,0.4222
+PhillySmiles,Philadelphia,PA,56,4.12,75.0,0.3214,0.3929,0.0893,0.0893,0.1429,0.3214
+Phloat,Philadelphia,PA,21,4.1,76.19,-0.0476,0.0952,0.0476,0.0476,-0.0952,0.3333
+Phoenix Massage Therapy,Franklin,TN,31,4.61,90.32,0.1613,0.1935,0.0968,0.0968,0.0968,0.129
+Phoenixville Eye Care Specialists,Phoenixville,PA,23,3.17,52.17,0.087,0.087,-0.087,-0.1304,-0.087,-0.087
+Phoenixville Hospital,Phoenixville,PA,43,1.98,23.26,-0.4186,-0.3256,-0.3256,-0.3023,-0.2791,-0.186
+Physicians Urgent Care,Brentwood,TN,35,4.0,71.43,0.4286,0.4,0.0,0.2,0.0286,0.3429
+Physicians Urgent Care,Franklin,TN,62,4.31,82.26,0.5645,0.5968,0.0161,0.3226,0.0484,0.2258
+Pia Esthetics Day Spa,Tampa,FL,172,4.7,92.44,0.1163,0.4419,0.0581,0.1163,0.1163,0.1919
+Pima Dermatology,Tucson,AZ,62,3.56,62.9,0.1129,0.2419,-0.0323,-0.0968,0.0484,0.0968
+Pima Heart & Vascular,Tucson,AZ,40,2.15,25.0,-0.55,-0.05,-0.325,-0.25,-0.225,-0.35
+Pima Pain Center - Central,Tucson,AZ,51,2.53,35.29,-0.2941,-0.1569,-0.2549,-0.1765,-0.3725,-0.1373
+Pinecone Pediatrics,Reno,NV,29,3.83,68.97,0.3793,0.1379,0.0345,0.1034,0.1379,0.2414
+Pinelands OB/GYN,Lumberton,NJ,25,1.88,16.0,-0.44,-0.24,0.08,-0.32,-0.28,-0.32
+Pinnacle Wellness Spa,Reno,NV,21,4.48,85.71,0.3333,0.2381,0.0,0.2381,0.1905,0.5714
+Pitts Orthodontics,Reno,NV,36,4.69,91.67,0.3611,0.5833,0.1667,0.25,0.1389,0.4444
+Pivotal Touch Healing,Brentwood,TN,58,5.0,100.0,0.2241,0.0862,0.0172,0.1207,0.1724,0.0517
+Planet Beach - Uptown,New Orleans,LA,83,3.65,65.06,0.0482,0.2771,-0.1325,-0.0241,-0.0843,0.0723
+Planet Fitness,Jenkintown,PA,40,3.45,70.0,-0.025,0.225,0.125,0.2,0.0,0.4
+Planet Fitness,Overland,MO,37,3.76,70.27,0.1081,0.4054,-0.027,0.1351,-0.0541,0.4865
+Planet Fitness,Philadelphia,PA,51,3.55,58.82,-0.0392,0.2353,0.0196,0.0784,-0.098,0.3529
+Planet Fitness,St. Petersburg,FL,41,3.51,60.98,-0.0488,0.2195,-0.0244,0.0976,-0.122,0.2927
+Planet Fitness,Wilmington,DE,57,2.25,22.81,-0.0702,-0.2632,-0.1053,-0.1579,-0.1053,-0.1228
+Planned Parenthood - Elizabeth Blackwell Health Center,Philadelphia,PA,37,2.22,21.62,-0.2703,-0.2703,-0.2432,-0.3514,-0.2973,-0.1351
+Planned Parenthood - FifthStreet Health Center,Reno,NV,21,3.29,52.38,0.0476,0.0476,-0.0952,-0.0476,0.0476,0.0
+Planned Parenthood - New Orleans Health Center,New Orleans,LA,22,4.14,72.73,0.4091,0.5455,0.2273,0.2727,0.2727,0.1364
+Planned Parenthood - Santa Barbara Health Center,Santa Barbara,CA,39,2.82,38.46,-0.1026,0.0,-0.0513,-0.1538,-0.1282,-0.0769
+Planned Parenthood - Southern Arizona Regional Health Center,Tucson,AZ,42,2.21,26.19,-0.1905,-0.1905,-0.1429,-0.3571,-0.1667,-0.2619
+Planned Parenthood - Tampa Health Center,Tampa,FL,35,2.77,42.86,-0.0857,-0.0857,-0.0857,-0.1143,-0.2,-0.0857
+Plymouth Meeting Family Medicine,Plymouth Meeting,PA,37,2.0,18.92,-0.5135,-0.5676,-0.0541,-0.3243,-0.3243,-0.5946
+Polished Nails & Spa,Saint Louis,MO,80,3.12,47.5,0.025,0.0375,-0.05,-0.0625,-0.0875,0.0625
+Pool & Spa Depot,Brentwood,TN,87,2.43,35.63,-0.0805,0.0575,-0.1034,-0.1264,-0.2069,-0.0805
+Poole Dermatology,Metairie,LA,23,3.3,52.17,0.1304,0.1304,0.0,0.0,0.0435,-0.0435
+Posh Medical Spa,Reno,NV,99,4.49,87.88,0.101,0.3333,0.0404,0.101,0.1919,0.0909
+Posh Nail Studio,Philadelphia,PA,41,3.12,58.54,0.122,0.0244,0.0,-0.0488,-0.122,0.122
+Poshe Day Spa & Nails,Saint Petersburg,FL,53,3.28,56.6,0.0,0.3019,0.0755,0.0377,-0.0755,0.0755
+Pottstown Hospital,Pottstown,PA,24,2.25,25.0,-0.1667,-0.125,-0.2917,-0.25,-0.2917,-0.0833
+Power Chiropractic and Wellness,Nashville,TN,22,4.82,95.45,0.5909,0.6364,0.0909,0.1364,0.2727,0.3636
+Power Health,Reno,NV,22,4.59,90.91,0.5,0.4545,0.0909,0.0909,0.2727,0.1364
+Power of Your Om,Santa Barbara,CA,78,4.55,89.74,-0.0128,0.1795,0.0,0.0385,0.0385,0.1538
+PowerBack Rehabilitation,Voorhees,NJ,21,2.33,33.33,-0.2857,-0.2857,-0.3333,-0.2857,-0.1429,-0.0952
+Powerback Rehabilitation Moorestown,Moorestown,NJ,32,1.47,12.5,-0.5938,-0.5938,-0.3438,-0.25,-0.3438,-0.5312
+Powerhouse Gym Athletic  Club,Tampa,FL,35,3.4,57.14,-0.0286,0.0857,0.0,0.0286,-0.1143,0.2286
+Precise Dental,Tucson,AZ,47,4.77,93.62,0.1064,0.6383,0.2766,0.1489,0.2553,0.5106
+Preferred Home Care,Reno,NV,23,2.17,26.09,-0.3478,-0.2174,-0.2609,-0.2174,-0.2174,-0.2174
+Preferred Homecare,Tucson,AZ,32,1.47,12.5,-0.4688,-0.2812,-0.2812,-0.2812,-0.4375,-0.25
+Premier Dentistry of Philadelphia,Philadelphia,PA,24,4.17,79.17,0.25,0.5417,0.0,0.0417,0.2917,0.4583
+Premier Dermatology & Cosmetic Surgery,Newark,DE,20,2.25,30.0,-0.4,-0.3,-0.1,-0.15,-0.25,-0.3
+Premier Physical Therapy & Sports Performance,Reno,NV,20,4.9,95.0,0.45,0.7,0.0,0.2,0.2,0.3
+Premiere Center for Cosmetic Surgery,Tampa,FL,101,3.41,59.41,0.0,0.2673,0.0,0.0099,0.0792,0.0495
+Prestige Fitness,Tucson,AZ,97,4.37,85.57,0.1753,0.3608,0.0619,0.1649,0.1959,0.3299
+Primal Performance Spine and Sport,Saint Petersburg,FL,24,4.83,95.83,0.7083,0.1667,0.0,0.0,0.375,0.125
+Primary Eye Care,New Orleans,LA,26,4.5,84.62,0.3462,0.7308,0.1538,0.1154,0.0769,0.2692
+Primary Health Medical Group Broadway,Boise,ID,29,2.72,37.93,-0.1724,-0.1034,0.0345,-0.1379,-0.3103,-0.2069
+Primary Health Medical Group State Street,Boise,ID,21,2.52,38.1,-0.2381,-0.2381,-0.1905,-0.1905,-0.3333,-0.0952
+Prime Fitness RX,New Orleans,LA,32,4.5,87.5,0.1562,0.4062,0.0312,0.0625,0.0625,0.5938
+Pritchett Eye Care Associates,Reno,NV,83,2.64,39.76,-0.0602,-0.0241,-0.1807,-0.1928,-0.1084,-0.012
+Pritchett Eye Care Associates,Sparks,NV,35,2.37,31.43,-0.1143,-0.0571,-0.2571,-0.2571,-0.1714,-0.0571
+ProActive Physical Therapy,Tucson,AZ,25,4.6,92.0,0.4,0.56,0.12,0.2,0.32,0.28
+Professional Urgent Care Services,St. Petersburg,FL,32,4.19,81.25,0.5,0.6562,0.0312,0.2188,0.0938,0.4375
+Prospinal,Reno,NV,33,3.64,66.67,0.1515,0.1515,0.0303,0.0606,0.0,0.2121
+Provider Plus,Saint Louis,MO,35,1.71,17.14,-0.3429,-0.2857,-0.4,-0.2,-0.2857,-0.3714
+Psychic Medium Valentina,Clearwater,FL,55,4.78,94.55,0.1273,0.1818,0.0182,0.1818,0.2182,0.0182
+Publix,St. Petersburg,FL,68,2.62,36.76,-0.0294,-0.0882,-0.0147,-0.1471,-0.1324,-0.0147
+Publix,Tampa,FL,23,3.17,43.48,-0.087,-0.087,-0.087,0.0,0.0,0.0435
+Puccini's Pizza Pasta - Fishers,Fishers,IN,144,3.67,65.28,-0.0069,0.1319,0.0347,0.1111,-0.0278,0.0625
+Pueblo Radiology Medical Group,Santa Barbara,CA,85,3.74,64.71,0.0941,0.3294,-0.1294,0.0118,-0.0118,0.0235
+Purposeful Living Healing Center,Reno,NV,24,5.0,100.0,0.0833,0.0833,0.0417,0.25,0.125,0.0
+Qilosophy,Tucson,AZ,20,4.9,95.0,0.25,0.3,0.2,0.1,0.05,0.15
+Qin Zhang Massage Therapy,St. Petersburg,FL,28,4.82,96.43,0.0714,0.3214,0.1429,0.1429,0.0357,0.1786
+Quail Surgical & Pain Management,Reno,NV,23,4.43,86.96,0.4348,0.6957,0.1304,0.1739,0.2174,0.3913
+Quaker City Dental,Philadelphia,PA,24,4.71,95.83,0.25,0.625,0.0833,0.125,0.0833,0.5417
+Quality Of Life Medical & Research Center,Tucson,AZ,26,1.77,15.38,-0.3846,-0.4615,-0.3462,-0.3462,-0.3462,-0.5769
+Quest Chiropractic,Philadelphia,PA,37,4.41,83.78,0.2703,0.2973,0.1351,0.1351,0.2973,0.1351
+Quest Chiropractic of Ambler,Ambler,PA,23,4.57,86.96,0.2609,0.2174,0.087,0.1304,0.2609,0.1739
+Quest Diagnostics,Palm Harbor,FL,26,3.31,61.54,0.1538,0.1154,0.0385,0.1923,-0.0385,0.2308
+Quest Diagnostics,Philadelphia,PA,50,2.02,20.0,0.02,-0.36,-0.02,-0.26,-0.08,-0.18
+Quest Diagnostics,Reno,NV,56,2.61,37.5,-0.0714,-0.0536,0.0,-0.125,-0.125,0.0179
+Quest Diagnostics,Sparks,NV,31,2.0,22.58,-0.1613,-0.2258,-0.129,-0.2581,-0.2258,-0.0323
+Quest Diagnostics,St Petersburg,FL,24,3.08,50.0,-0.0417,0.0,-0.0417,0.125,-0.1667,-0.0417
+Quest Diagnostics,Tampa,FL,55,2.38,30.91,-0.0909,-0.1455,-0.0364,-0.1636,-0.1455,-0.0182
+Quest Diagnostics,Wesley Chapel,FL,22,2.77,40.91,-0.1364,-0.0909,-0.1818,-0.1818,-0.1364,-0.0455
+Qui Si Bella Spa,Santa Barbara,CA,127,3.35,55.91,0.0866,0.1102,-0.1024,-0.0236,-0.0945,0.0236
+REN Dermatology and Laser Center,Franklin,TN,25,3.72,60.0,0.04,0.32,0.08,0.0,0.0,0.12
+RISE Dispensaries - Spanish Springs,Spanish Springs,NV,21,3.05,42.86,-0.0476,0.2381,0.0476,-0.0476,0.0,0.0
+ROC Express Urgent Care for Bones & Joints,Reno,NV,53,3.57,62.26,0.3019,0.2642,-0.0755,-0.0943,0.0943,0.0755
+"Raad Taki, MD",Tucson,AZ,25,3.6,64.0,-0.12,0.32,-0.12,-0.12,0.08,-0.04
+RachelLauren Massage,New Orleans,LA,36,5.0,100.0,0.0556,0.2222,0.0278,0.1111,0.0833,0.1667
+Radiology Ltd,Tucson,AZ,43,3.05,53.49,-0.0698,0.1395,-0.1163,0.0465,-0.0233,0.0
+Radiology Ltd – La Cholla,Tucson,AZ,29,2.97,48.28,-0.2414,-0.069,-0.1379,-0.0345,-0.1034,-0.1034
+Ralston Family Physicians,Reno,NV,68,2.79,44.12,0.0441,-0.1029,-0.1471,-0.25,-0.1324,-0.1765
+Ralston Massage Center,Reno,NV,40,4.68,92.5,0.1,0.2,0.275,0.15,0.175,0.225
+Rangeline Chiropractic,Carmel,IN,23,4.26,82.61,0.2609,0.3478,-0.0435,-0.0435,0.087,0.2174
+Rapid Recovery Hydration Solutions,Reno,CA,37,5.0,100.0,0.3243,0.5405,0.0,0.1081,0.1622,0.1622
+Rapid Urgent Care - Metairie,Metairie,LA,31,3.19,54.84,0.129,0.0968,-0.0323,0.0968,-0.0645,-0.0323
+Rapunzel's Salon & Spa,Lansdale,PA,84,3.86,69.05,0.0357,0.2857,0.0833,0.1071,-0.0119,0.0952
+Rashti Women's Care,Santa Barbara,CA,43,3.88,72.09,0.3256,0.3488,-0.0465,0.0465,0.2326,0.0698
+ReLet's Foot SPA,Philadelphia,PA,73,4.14,76.71,-0.0274,0.1781,0.2603,0.0,-0.0137,0.2192
+Reach Sports Physiotherapy + Hand Clinic,Edmonton,AB,45,4.11,80.0,0.0,0.4,0.3111,0.1778,0.0889,0.3333
+Readings With Rose,Palm Harbor,FL,41,4.78,95.12,0.0732,0.1951,-0.0244,0.1951,0.439,0.0244
+"Rebecca Downie, DDS",Tampa,FL,47,4.98,100.0,0.4681,0.617,0.234,0.1915,0.1277,0.6809
+Rebecca Gay Doula CBE CLC,Tampa,FL,33,4.88,96.97,0.3939,0.3333,0.0303,0.2727,0.4848,0.0909
+Recharge Spa,Philadelphia,PA,33,3.3,57.58,-0.0303,0.1212,0.2121,-0.0303,-0.1818,0.1212
+Red Bamboo Medi-Spa,Clearwater,FL,29,3.69,65.52,0.069,0.2759,-0.069,0.1724,0.0345,0.0
+Red Mountain Weight Loss,Tucson,AZ,65,3.86,72.31,0.2615,0.3846,0.0154,0.0615,0.0462,0.1692
+Reef Dispensaries,Sparks,NV,38,3.53,60.53,0.0526,0.1842,-0.0263,-0.0526,0.0789,0.0789
+Reef Dispensaries,Sun Valley,NV,33,3.73,69.7,0.0,0.303,0.0606,0.0303,0.0303,0.0303
+Reflections Therapeutic Massage,Clearwater,FL,27,4.56,92.59,0.1481,0.2963,0.037,0.0741,0.1481,0.3333
+Reflexions,Indianapolis,IN,29,4.97,100.0,0.3793,0.3448,0.2069,0.2069,0.3448,0.4138
+Regional Medical Center Bayonet Point,Hudson,FL,49,2.35,32.65,-0.2449,-0.1429,-0.1633,-0.3061,-0.2449,-0.2245
+Rejuvenation Spa,Valrico,FL,27,4.74,92.59,0.1852,0.4815,0.037,0.2593,0.1111,0.2222
+Relax Foot Spa,Nashville,TN,37,4.27,86.49,0.0541,0.2973,0.2162,0.1351,0.027,0.2973
+Relax Massage,Boise,ID,27,4.67,96.3,0.0,0.1481,0.4074,0.1852,0.0,0.1481
+Relaxation Station,King of Prussia,PA,33,4.45,84.85,0.0606,0.1818,0.2121,0.0909,0.0606,0.1818
+Relievus,Cherry Hill,NJ,36,2.53,33.33,-0.1389,-0.1389,-0.1111,-0.1389,-0.0833,-0.1389
+Relâche Spa,Nashville,TN,34,3.44,55.88,0.1176,0.0882,0.0,0.0294,-0.0588,0.2059
+Remedi Day Spa,West Chester,PA,23,4.74,91.3,0.087,0.3043,0.0,0.2609,0.4348,0.2174
+Remedy Spa & Wellness,Philadelphia,PA,21,2.86,47.62,0.1429,-0.2381,-0.2381,-0.1905,-0.1905,-0.0476
+Removery Tattoo Removal & Fading,Philadelphia,PA,46,4.72,91.3,0.2826,0.5652,0.1522,0.1304,0.1957,0.2391
+"Renee Yurovsky, DDS",Philadelphia,PA,72,2.26,30.56,-0.1944,-0.1667,-0.2778,-0.3472,-0.3194,-0.25
+Renew Acupuncture,Philadelphia,PA,40,4.8,97.5,0.55,0.2,0.025,0.15,0.3,0.125
+Renew MD Medical Spa,Reno,NV,55,3.96,74.55,0.1091,0.2909,-0.0364,-0.0182,0.0727,0.0727
+Renew Spa and Wellness,Tampa,FL,42,3.5,61.9,0.0476,0.0952,-0.0952,-0.0476,0.0238,0.3333
+Renewed Medical Health And Beauty,Tucson,AZ,23,3.39,60.87,0.3043,0.1739,-0.0435,-0.1304,-0.0435,0.087
+Reno Diagnostic Centers,Reno,NV,121,3.53,58.68,0.0744,0.1736,-0.0331,-0.0413,0.0331,0.0496
+Reno Family Eye Care,Reno,NV,74,4.47,87.84,0.473,0.6892,0.2027,0.1216,0.3378,0.3649
+Reno Family Physicians,Reno,NV,54,2.57,38.89,-0.1481,-0.2037,-0.1296,-0.1111,-0.0556,-0.1111
+Reno Healing Massage,Reno,NV,41,1.78,14.63,0.0,-0.4634,-0.4146,-0.2683,-0.4634,-0.4146
+Reno Massage & Reflexology,Reno,NV,152,3.93,72.37,0.0461,0.1908,0.1184,0.0263,-0.0526,0.1513
+Reno Massage & Wellness,Reno,NV,32,4.75,93.75,0.125,0.125,0.125,0.0938,0.125,0.0938
+Reno Modern Dentistry and Orthodontics,Reno,NV,68,3.99,72.06,0.2647,0.5735,-0.0294,-0.0147,0.0735,0.2206
+Reno Orthopedic Clinic,Reno,NV,106,2.63,36.79,-0.2547,-0.0283,-0.1792,-0.1321,-0.0377,-0.1038
+Reno Radiological Associates,Reno,NV,38,1.21,5.26,-0.3421,-0.2105,-0.8158,-0.1842,-0.3158,-0.1316
+Reno Smiles Dentistry and Orthodontics,Reno,NV,58,3.86,68.97,0.069,0.3966,0.0345,0.0517,0.0517,0.1724
+Reno Tattoo Removal,Reno,NV,42,4.74,92.86,0.3095,0.4762,0.2619,0.2619,0.2381,0.3095
+Renown Health Urgent Care - Damonte Ranch,Reno,NV,44,3.41,61.36,0.2727,0.2727,0.0,0.0909,0.0455,0.1818
+Renown Health Urgent Care - Los Altos,Sparks,NV,36,2.83,44.44,0.0556,0.0556,-0.1111,-0.0833,-0.25,0.0
+Renown Health Urgent Care - Ryland,Reno,NV,40,3.2,55.0,0.075,0.1,-0.1,0.075,0.025,0.0
+Renown Health Urgent Care - Summit Ridge,Reno,NV,42,3.62,61.9,0.2143,0.3095,0.0238,0.2143,0.0476,0.1429
+Renown Health Urgent Care - Vista,Sparks,NV,24,2.54,33.33,-0.2083,0.0,-0.125,-0.1667,-0.125,-0.1667
+Renown Medical Group - N Hills,Reno,NV,31,3.48,61.29,0.3548,0.2258,-0.0645,0.0968,0.0323,0.1935
+Renown Regional Emergency Room,Reno,NV,28,2.57,35.71,-0.2857,-0.1071,-0.0714,-0.1071,-0.1071,-0.1786
+Renown Regional Medical Center,Reno,NV,265,2.74,41.89,-0.1057,0.0604,-0.2151,-0.1245,-0.1283,-0.0566
+Renown South Meadows Medical Center,Reno,NV,56,3.0,50.0,-0.0179,0.1607,-0.1786,-0.0179,-0.0714,0.0536
+Rescue Spa,Philadelphia,PA,518,4.29,81.27,0.2162,0.2587,0.0579,0.1873,0.1313,0.166
+Restore Bodywork & Reflexology,Philadelphia,PA,99,3.22,58.59,0.0202,0.1515,0.0707,-0.0202,-0.0202,0.0707
+Restore Spa,Philadelphia,PA,48,3.85,72.92,0.0833,0.25,0.0208,0.1875,-0.0208,0.125
+Results Transformation Center,Reno,NV,30,3.87,73.33,-0.0667,0.2667,-0.0667,0.1333,0.0333,0.0333
+Results Transformation Center,Sparks,NV,90,4.56,93.33,0.1222,0.2,0.1333,0.2556,0.1556,0.1333
+Revive Medical Botox and Laser,Philadelphia,PA,62,4.68,90.32,0.4516,0.5,0.0161,0.1774,0.3226,0.3226
+RevolutionEYES,Carmel,IN,28,4.82,92.86,0.5,0.5714,0.1786,0.1786,0.2143,0.25
+"Richard Eidelson, DDS ,FAGD",Philadelphia,PA,30,3.67,66.67,0.3,0.2667,0.0,0.2333,0.1,0.4
+"Richard Wilson DMD, PC",Philadelphia,PA,27,4.07,74.07,0.1852,0.3704,0.037,0.0741,0.1481,0.4074
+"Rick Winkelman, OD",Reno,NV,44,4.2,81.82,0.2727,0.3636,0.4091,0.0455,0.0227,0.0909
+Riddle Hospital,Media,PA,47,2.36,27.66,-0.2128,-0.2128,-0.1277,-0.2766,-0.2766,-0.2128
+Ringpfeil Advanced Dermatology,Haverford,PA,91,4.21,79.12,0.3736,0.3626,-0.0659,0.1538,0.1648,0.2527
+Ringpfeil Advanced Dermatology,Philadelphia,PA,185,4.58,89.19,0.4432,0.5243,0.027,0.2054,0.2649,0.3514
+Rita Ranch Dental Group and Orthodontics,Tucson,AZ,76,3.11,50.0,-0.0789,0.0921,-0.1447,-0.1184,-0.0526,0.0658
+Rite Aid,Ardmore,PA,27,2.3,22.22,-0.037,-0.3333,0.037,-0.1111,-0.1111,-0.1481
+Rittenhouse Acupuncture,Philadelphia,PA,39,4.97,100.0,0.7692,0.3333,0.0513,0.2821,0.6154,0.2821
+Rittenhouse Dentists,Bala Cynwyd,PA,48,4.5,87.5,0.2917,0.6667,-0.0208,0.1458,0.1042,0.5
+Rittenhouse Dentists,Bryn Mawr,PA,23,4.35,82.61,0.1739,0.4348,0.0435,0.2609,0.0435,0.4783
+Rittenhouse Dentists,Philadelphia,PA,118,4.36,83.9,0.2712,0.5763,0.0847,0.2034,0.1356,0.4661
+Rittenhouse Eye Associates,Philadelphia,PA,34,2.38,32.35,-0.2941,0.0,-0.1176,-0.3529,-0.1176,-0.0882
+Rittenhouse Square Chiropractic,Philadelphia,PA,31,3.19,51.61,0.0323,0.1613,-0.3226,0.0,-0.1613,0.0
+Rittenhouse Women's Wellness Center,Philadelphia,PA,226,3.5,58.41,0.177,0.146,-0.0398,0.0885,0.031,0.0841
+Ritual Massage,Reno,NV,22,5.0,100.0,0.3182,0.0909,0.0455,0.4091,0.1364,0.2727
+Riverside Village Pharmacy,Nashville,TN,25,4.92,100.0,0.16,0.6,0.16,0.16,0.04,0.0
+Riverview Smiles Dental,Riverview,FL,20,2.75,45.0,-0.35,0.1,-0.4,-0.35,-0.2,-0.15
+Riviera Smiles,Santa Barbara,CA,20,3.9,70.0,0.2,0.5,-0.1,0.05,0.1,0.35
+Riviera Wellness Massage,Tucson,AZ,23,4.57,91.3,0.1304,0.2174,0.3043,0.0435,0.0435,0.1739
+Roach Family Dentistry & Associates,Nashville,TN,27,3.89,70.37,0.2222,0.3333,0.0741,0.1852,0.1481,0.4074
+"Roby J Kent, DMD",New Orleans,LA,27,4.81,96.3,0.1111,0.6296,0.1111,0.2593,0.1481,0.5556
+Rock Your Locks Hair Salon,Brandon,FL,98,4.31,82.65,0.1327,0.1735,0.102,0.1429,0.1735,0.0918
+Rockside Dental,Tucson,AZ,22,4.64,90.91,0.2727,0.6818,0.1364,0.3182,0.2727,0.6818
+"Ron Shemesh, MD - Mind Body Spirit Care",Tampa,FL,21,3.52,61.9,0.1905,0.2381,0.0952,0.0,0.0476,0.0476
+Rooted Integrative Wellness,Tucson,AZ,25,4.96,100.0,0.24,0.32,0.04,0.24,0.08,0.2
+Rosen & Dworkin,Marlton,NJ,25,4.64,92.0,0.36,0.72,0.0,0.2,0.12,0.44
+Rothman Orthopaedics,Bensalem,PA,22,2.91,45.45,0.0909,0.1818,-0.0909,-0.0455,-0.0455,-0.0909
+Rothman Orthopaedics,Bryn Mawr,PA,25,2.96,48.0,-0.2,-0.24,-0.16,0.0,-0.24,-0.04
+Rothman Orthopaedics,King of Prussia,PA,22,2.91,40.91,-0.1818,-0.0455,-0.1818,-0.2727,0.0455,-0.1364
+Rothman Orthopaedics,Marlton,NJ,27,2.41,33.33,-0.2963,-0.1481,-0.2222,-0.3333,-0.2222,-0.1481
+Rothman Orthopaedics,Philadelphia,PA,133,2.44,31.58,-0.2782,-0.1579,-0.2782,-0.2406,-0.2782,-0.203
+Rothman Orthopaedics,Willow Grove,PA,21,3.19,47.62,0.0952,0.1429,-0.2857,-0.1905,-0.1429,0.0476
+Roxborough Memorial Hospital,Philadelphia,PA,36,2.39,30.56,-0.3056,-0.1111,-0.0556,-0.25,-0.1944,-0.25
+Royal Alexandra Hospital,Edmonton,AB,31,2.87,48.39,-0.0645,0.0645,-0.0323,-0.0968,-0.0645,-0.0645
+Royal Foot Spa,Fishers,IN,53,4.45,92.45,0.0755,0.1887,0.1509,0.0943,0.0189,0.2642
+Royal Palms Natural Nail Spa,Saint Petersburg,FL,84,3.76,65.48,-0.0238,0.1429,0.0119,-0.0119,-0.0238,0.2262
+Royal Thai Massage,Santa Barbara,CA,251,4.77,92.83,0.0876,0.1474,0.0837,0.0757,0.0199,0.1873
+Rubin Chiropractic Health Center,St. Petersburg,FL,23,4.61,91.3,0.4348,0.6957,0.0435,0.087,0.1739,0.2174
+Rubs Massage Studio - Wrightstown,Tucson,AZ,26,4.04,76.92,0.0,0.2692,0.1538,-0.0385,0.1538,0.0769
+"Ruby & Rochon, DDS",Santa Barbara,CA,28,4.68,92.86,0.1786,0.5714,0.0357,0.1071,0.2143,0.5
+"Ryu K Richard, MD",Santa Barbara,CA,31,3.71,67.74,0.0323,0.1935,0.0323,0.129,0.0968,0.0645
+SB Physio- A Physical Therapy Corp,Santa Barbara,CA,28,4.86,96.43,0.3214,0.6429,0.0357,0.1786,0.25,0.1071
+SEE,Nashville,TN,59,4.39,84.75,0.0508,0.4576,0.2542,0.1017,0.1695,0.0508
+SEE,Saint Louis,MO,27,3.89,70.37,0.1852,0.2593,0.1852,0.037,-0.037,0.0741
+SIMPLICITY Cold Pressed Juice,Indianapolis,IN,29,4.9,100.0,0.0,0.069,0.2759,0.1379,0.1034,0.2414
+SOMA Therapeutic Massage,St Louis,MO,38,5.0,100.0,0.0789,0.2368,0.2105,0.0789,0.1053,0.2368
+SSM DePaul Health Hospital,Bridgeton,MO,49,2.43,38.78,-0.0816,-0.0816,-0.1429,-0.2449,-0.102,-0.0816
+SSM Health Saint Louis University Hospital,Saint Louis,MO,46,1.8,17.39,-0.3043,-0.2174,-0.1957,-0.413,-0.1957,-0.413
+SSM Health St Clare Hospital,Fenton,MO,44,2.2,27.27,-0.1591,-0.25,-0.1364,-0.2273,-0.1818,-0.2045
+SSM Health St Mary's Hospital,Saint Louis,MO,54,1.96,22.22,-0.2963,-0.2778,-0.1852,-0.3519,-0.3148,-0.4074
+STL Workout,Saint Louis,MO,46,2.85,41.3,-0.0435,0.0652,-0.087,-0.0652,-0.1739,-0.0217
+Sabino Smiles Dentistry,Tucson,AZ,57,3.18,52.63,0.0,0.1579,-0.1754,-0.0526,0.0175,0.0351
+Sacred Floats & Gems,Tampa,FL,27,4.15,74.07,0.0741,0.1852,0.0,0.1481,0.1481,0.0
+Safety Harbor Therapeutic Massage Center,Safety Harbor,FL,64,4.75,92.19,0.0469,0.3125,0.0781,0.125,0.0781,0.2656
+Safeway,Tucson,AZ,67,3.16,59.7,0.0,0.1343,0.0299,0.0299,-0.0299,0.2836
+Safeway,Vail,AZ,28,3.25,53.57,0.0,0.0357,0.25,-0.0714,-0.0357,0.2143
+Saffron Cafe,Indianapolis,IN,344,4.07,77.03,0.0116,0.2122,0.0552,0.2267,0.0523,0.0698
+Sage Dental Care,Reno,NV,35,4.49,88.57,0.2857,0.7143,0.1429,0.1714,0.2286,0.5714
+Sage Wellness Spa,Saint Petersburg,FL,62,4.4,85.48,0.0968,0.3065,0.3548,0.1935,0.0645,0.2419
+Sahuarita Modern Dentistry,Green Valley,AZ,32,3.25,53.12,0.0312,0.4375,-0.1562,-0.125,-0.125,0.1562
+Saint Alphonsus Regional Medical Center - Boise,Boise,ID,66,2.14,27.27,-0.3333,-0.2576,-0.303,-0.2576,-0.3182,-0.1818
+Saint Francis Hospital,Wilmington,DE,23,2.3,30.43,-0.1739,-0.1739,-0.1739,-0.2609,0.0,-0.2174
+Saint Mary's Fitness Center,Reno,NV,59,4.1,76.27,0.2881,0.5085,0.2203,0.1864,0.0339,0.6102
+Saint Marys Medical Group,Reno,NV,28,2.36,32.14,-0.2857,-0.2143,-0.0714,-0.2143,-0.1429,-0.1786
+Saint Mary’s Regional Medical Center,Reno,NV,170,2.71,41.76,0.0059,0.0529,-0.1824,-0.1294,-0.1,-0.0294
+Sala Family Dentistry,Reno,NV,356,4.14,77.81,0.1826,0.382,-0.0365,0.0365,0.0787,0.2219
+Salon L Manayunk,Philadelphia,PA,167,4.24,79.04,0.1377,0.2994,0.0838,0.1257,0.1677,0.1257
+Salons By JC,Sparks,NV,31,4.19,80.65,0.1613,0.1613,0.0323,0.0968,0.2258,0.2581
+Salt Cave Santa Barbara,Santa Barbara,CA,478,4.09,75.73,0.0649,0.1967,0.0439,0.0858,0.0565,0.1067
+Same Day Dental,Indianapolis,IN,80,2.61,36.25,-0.0625,-0.025,-0.0875,-0.1,-0.0875,-0.1125
+"Samuel Chacon,MD - Women's Health Center of Reno",Reno,NV,26,2.46,34.62,-0.3846,-0.1923,-0.1538,-0.2692,-0.4231,-0.1923
+Sanctuary on 2nd,Philadelphia,PA,137,4.8,97.08,0.1314,0.2701,0.0949,0.1606,0.1971,0.2263
+Sansum Clinic Allergy & Immunology,Santa Barbara,CA,36,2.42,33.33,-0.1111,-0.0278,-0.1667,-0.0833,-0.0556,-0.0278
+Sansum Clinic Pesetas Urgent Care,Santa Barbara,CA,66,2.5,36.36,-0.1667,0.0152,-0.1212,-0.0909,0.0,-0.0303
+Sansum Clinic Pueblo Multi-Specialty Clinic,Santa Barbara,CA,32,2.66,37.5,-0.1875,-0.0312,-0.3125,-0.125,-0.2188,-0.0312
+Santa Barbara Behavioral Health,Goleta,CA,31,2.19,29.03,-0.2903,-0.1613,-0.3548,-0.0968,-0.2581,-0.2258
+Santa Barbara Center for Oral & Maxillofacial Surgery,Santa Barbara,CA,32,4.94,96.88,0.3125,0.7188,0.0938,0.0625,0.2188,0.4062
+Santa Barbara Chicken Ranch,Santa Barbara,CA,383,3.99,74.67,0.0026,0.0966,0.1227,0.1749,0.0026,0.0601
+Santa Barbara Cottage Hospital,Santa Barbara,CA,54,2.13,25.93,-0.2593,-0.2222,-0.1481,-0.3148,-0.3333,-0.1667
+Santa Barbara Dental Care,Santa Barbara,CA,47,3.94,72.34,0.3404,0.4894,0.0,0.0851,0.0851,0.3617
+Santa Barbara Dental Spa,Santa Barbara,CA,22,4.41,81.82,0.1364,0.5909,0.1818,0.1364,0.1364,0.4545
+Santa Barbara Dojo,Santa Barbara,CA,55,4.87,98.18,0.1091,0.5091,0.0545,0.0545,0.1273,0.0727
+Santa Barbara Family Chiropractic,Santa Barbara,CA,36,4.89,97.22,0.8056,0.3611,0.0,0.0278,0.25,0.3889
+Santa Barbara Fertility Center,Santa Barbara,CA,24,4.54,87.5,0.5,0.7083,0.0417,0.2083,0.5417,0.4167
+Santa Barbara Plastic Surgery Center,Santa Barbara,CA,25,4.0,72.0,0.2,0.44,0.0,0.08,0.16,0.16
+Santa Barbara Skin Care,Santa Barbara,CA,45,3.09,53.33,0.0222,-0.0222,-0.0667,-0.0222,-0.1333,-0.0444
+Santa Barbara Skin Institute,Santa Barbara,CA,22,3.59,59.09,0.3636,0.1364,-0.1364,0.0909,-0.0455,0.0909
+Santa Barbara Wine Spa,Santa Barbara,CA,73,3.56,65.75,0.1096,0.0685,-0.0548,0.0959,-0.0822,0.1096
+Santosha,Indianapolis,IN,23,4.57,91.3,0.1739,0.2609,0.0,0.1304,0.087,0.0435
+"Sara Yegiyants, MD",Santa Barbara,CA,49,4.67,91.84,0.3469,0.551,-0.0408,0.2041,0.2857,0.3673
+Sarah Laser Medspa,Montgomeryville,PA,31,4.45,87.1,0.4839,0.4516,0.129,0.0645,0.1613,0.4194
+Satori Laser ® Philadelphia Laser Hair Removal,Philadelphia,PA,113,4.63,89.38,0.3363,0.5664,0.2389,0.2124,0.2124,0.4425
+Save-On-Foods,Edmonton,AB,34,3.76,73.53,0.0,0.2647,0.2353,0.1176,-0.0294,0.0294
+Saving Face by Amanda,Tucson,AZ,23,4.57,86.96,0.087,0.2609,0.3478,-0.0435,0.1739,0.2174
+Schnucks - Arsenal,Saint Louis,MO,56,3.59,62.5,-0.0357,0.3214,-0.0179,0.0536,0.0179,0.125
+Schnucks Downtown - Saint Louis,St. Louis,MO,203,3.65,65.02,0.0148,0.1823,0.1379,0.069,0.0,0.0788
+Scott Kozak MD,Santa Barbara,CA,20,3.4,60.0,0.15,0.1,-0.05,0.0,-0.1,0.25
+See Me Smile Dental & Orthodontics,Santa Barbara,CA,114,4.08,76.32,0.1754,0.5175,0.0263,-0.0351,0.0526,0.307
+Select Specialty Hospital,Nashville,TN,48,2.6,37.5,-0.1042,-0.0625,-0.1667,-0.2083,-0.2917,-0.1042
+Seminole Heights Community Acupuncture,Tampa,FL,30,4.87,96.67,0.3333,0.4667,0.2,0.2333,0.2,0.3
+Serene Nail Spa & Reflexology,Tucson,AZ,32,3.75,68.75,0.0,0.3125,-0.0312,0.0312,-0.0938,0.25
+Serenity Salt Cave,Nolensville,TN,31,3.42,58.06,-0.0645,-0.0968,-0.129,-0.0323,0.0323,0.0968
+Session Yoga,Tucson,AZ,67,4.64,95.52,0.0448,0.2836,0.1493,0.0597,0.0448,0.194
+"Seth Rosen, DDS",Norristown,PA,28,3.68,67.86,0.1786,0.4286,0.1071,0.1429,0.0357,0.2857
+Sgt. Nate Fitness,Philadelphia,PA,26,5.0,100.0,0.0769,0.1538,0.0769,0.0385,0.0769,0.0
+"Shangold Mona, MD",Philadelphia,PA,66,1.32,4.55,-0.697,-0.6515,-0.4697,-0.4848,-0.4848,-0.6515
+Shangri-La Bath & Sauna,Tampa,FL,87,4.28,80.46,0.1264,0.3333,0.069,0.2529,0.092,0.5287
+Shanti Medical Spa,Philadelphia,PA,48,3.69,64.58,0.0208,0.1458,0.0625,0.0833,0.0833,0.125
+Shanti Yoga and Ayurveda,Philadelphia,PA,40,4.58,92.5,0.05,0.325,0.15,0.1,0.15,0.1
+ShenNong Acupuncture and Oriental Medicine,Philadelphia,PA,34,4.21,82.35,0.4118,0.0294,0.0882,0.0294,0.1471,0.1765
+Shop Rite - Berlin,Berlin,NJ,32,3.47,59.38,0.0625,0.2188,0.0312,0.0,0.0625,0.125
+ShopRite - Philadelphia,Philadelphia,PA,30,3.47,56.67,0.0333,0.1,0.1,0.1667,0.0,0.1667
+ShopRite of East Norriton,East Norriton,PA,37,2.62,29.73,0.0,0.027,-0.0811,-0.027,-0.0541,-0.0541
+ShopRite of Fox Street,Fox Street,PA,60,3.08,48.33,0.0167,0.05,0.0,0.0333,-0.0833,0.1333
+ShopRite of Parkside,Parkside,PA,40,3.3,50.0,0.0,0.225,0.1,0.1,-0.025,0.075
+ShopRite of Roxborough,Roxborough,PA,62,2.63,35.48,-0.0484,-0.1129,0.0,-0.0968,-0.0161,-0.0323
+Sierra Compounding Pharmacy,Reno,NV,23,3.57,65.22,0.0435,0.4348,-0.0435,0.0,0.0435,0.1304
+Sierra Endodontics,Reno,NV,27,4.26,81.48,0.3704,0.5556,0.1481,0.2222,0.2963,0.3333
+Sierra Eye Associates,Reno,NV,69,2.74,37.68,-0.1304,-0.1159,-0.0725,-0.1449,-0.087,-0.029
+Sierra Neurosurgery Group,Reno,NV,34,2.09,23.53,-0.4118,-0.3235,-0.1765,-0.3529,-0.4706,-0.3235
+Sierra Nevada Cosmetic and Laser Surgery,Reno,NV,34,4.56,88.24,0.3824,0.7059,0.0882,0.0882,0.2059,0.3235
+Sierra Oral & Facial Surgery,Reno,NV,24,4.62,91.67,0.5,0.7083,0.0417,0.0833,0.1667,0.3333
+Sierra Smiles,Reno,NV,77,4.52,84.42,0.4286,0.6883,0.0779,0.1688,0.1429,0.5455
+Sierra Tucson,Tucson,AZ,105,2.18,26.67,-0.2857,-0.2667,-0.2952,-0.181,-0.2,-0.2476
+Sierra Well,Reno,NV,84,3.19,52.38,0.0,0.1667,0.0476,0.0357,-0.1429,0.0119
+Sign of the Tymes Salon,Indianapolis,IN,27,3.96,74.07,0.0741,0.2963,0.1852,0.0,0.0741,0.037
+Signature Smiles on Broadway,Tucson,AZ,25,1.72,16.0,-0.52,-0.16,-0.44,-0.12,-0.44,-0.52
+Signature Urgent Care,Saint Petersburg,FL,60,4.27,80.0,0.4167,0.5667,0.1,0.1167,0.0667,0.3333
+Silvana Cumani  DMD and Associates PC,Philadelphia,PA,63,3.81,69.84,0.0635,0.4286,0.0159,0.0159,-0.0476,0.2063
+Silver Sage Center For Family Medicine,Reno,NV,25,2.52,36.0,-0.16,-0.2,-0.16,-0.12,-0.2,-0.24
+Silver State Hearing & Balance,Reno,NV,24,4.54,87.5,0.125,0.7083,0.0,0.0833,0.0833,0.25
+Silver State Relief,Sparks,NV,104,3.5,56.73,0.0481,0.3173,0.0769,0.0481,0.0385,0.0769
+Silverside Medical Aid Unit,Wilmington,DE,20,3.5,65.0,0.35,0.4,0.1,0.1,-0.05,0.0
+SimonMed Imaging - Orange Grove,Tucson,AZ,30,1.5,13.33,-0.2667,-0.3,-0.2667,-0.5,-0.4,-0.3
+Simply Balanced,Nashville,TN,28,4.79,96.43,0.0,0.2857,0.0357,0.5,0.1071,0.25
+Simply Smiles Dentistry,Tucson,AZ,26,3.92,73.08,0.1923,0.5,0.1923,-0.0385,0.2308,0.3846
+Sincera Reproductive Medicine,Abington,PA,29,2.59,34.48,-0.2069,-0.1379,-0.2069,-0.069,-0.1034,-0.2414
+Six Fishes Healing Arts,Philadelphia,PA,22,4.91,100.0,0.4091,0.3182,0.0909,0.1364,0.1818,0.1818
+Skin Appeal,Tucson,AZ,69,4.57,88.41,0.2754,0.3623,0.0725,0.1014,0.2464,0.1159
+Skin Cancer & Dermatology Institute,Reno,NV,97,3.56,59.79,0.1856,0.2474,-0.0825,-0.0103,0.0309,0.1031
+Skin Care by Erica,Reno,NV,26,5.0,100.0,0.3846,0.5385,0.0385,0.1154,0.1923,0.2692
+Skin Essentials,Brentwood,TN,25,4.72,92.0,0.4,0.2,0.2,0.04,0.16,0.2
+Skin MB,Nashville,TN,32,4.38,84.38,0.125,0.1875,-0.0312,0.0938,-0.0312,0.125
+Skin NV,Tampa,FL,76,4.8,94.74,0.4211,0.5658,0.0395,0.1316,0.2632,0.2237
+Skin ReNew,Brentwood,TN,25,2.76,44.0,-0.08,0.08,-0.16,-0.12,-0.16,0.04
+Skin Solutions Dermatology,Franklin,TN,40,2.85,47.5,-0.1,0.025,-0.25,-0.025,-0.075,-0.225
+Skin Solutions Dermatology,Nashville,TN,20,3.75,70.0,0.05,0.35,-0.15,0.1,0.15,0.1
+Skin Spectrum,Tucson,AZ,37,3.84,67.57,0.3514,0.4324,0.0811,0.1892,0.0811,0.1892
+SkinRN Aesthetics,Nashville,TN,21,4.71,95.24,0.5238,0.381,0.0476,0.1905,0.2857,0.0952
+Skinjectables Anti Aging Bar,Tucson,AZ,169,4.49,86.39,0.1834,0.4438,0.0888,0.1243,0.1716,0.0888
+Skinology Skin and Body Studio,Tucson,AZ,34,4.94,100.0,0.2647,0.2353,0.1176,0.2059,0.1176,0.3235
+Skinsmart Dermatology & Skin Care Center,Wyndmoor,PA,45,3.31,53.33,0.1556,0.0889,-0.0222,-0.0889,0.0444,-0.0222
+Smile Culture Dental,Fairless Hills,PA,64,4.38,87.5,0.2344,0.625,0.1406,0.1562,0.25,0.5312
+Smile Design Dentistry - Lithia,Valrico,FL,24,2.29,29.17,-0.125,-0.0833,-0.2917,-0.2917,-0.1667,-0.3333
+Smile Design Dentistry - Tampa Downtown,Tampa,FL,24,2.58,41.67,-0.125,0.0,-0.4167,-0.25,-0.1667,-0.2083
+Smile Direct Club,Avon,IN,28,4.07,75.0,0.0357,0.4286,0.0714,0.1429,0.3571,0.0714
+Smile Direct Club,Nashville,TN,24,1.62,12.5,-0.2917,-0.0833,-0.25,-0.25,-0.25,0.0
+Smile Exchange - Malvern,Malvern,PA,34,4.59,88.24,0.2941,0.7059,0.0588,0.1176,0.1471,0.5
+Smile Team,Philadelphia,PA,64,4.2,76.56,0.2031,0.2812,-0.0156,0.0312,0.0781,0.25
+Smith's,Reno,NV,148,3.56,61.49,0.0203,0.2432,0.1689,0.0405,0.0,0.1892
+Smoothie King,Fishers,IN,24,4.21,79.17,0.0417,0.4167,0.125,0.0417,0.0,0.125
+Smoothie King,Nashville,TN,54,2.72,35.19,0.0185,0.0,0.037,-0.0926,-0.1296,-0.0185
+Snap Fitness,Tucson,AZ,41,3.8,73.17,0.0488,0.3659,-0.0244,0.2927,0.0244,0.3659
+Snodgrass-King,Franklin,TN,35,3.4,60.0,0.1143,0.3429,-0.0857,0.0571,-0.1429,0.2286
+SoL Cannabis,New Washoe City,NV,60,4.82,95.0,0.1,0.55,0.1333,0.25,0.1,0.2333
+Society Hill Dental,Philadelphia,PA,42,4.38,85.71,0.2857,0.6667,-0.0238,0.1429,0.1667,0.3333
+Soho Wellness & Med Spa,Tampa,FL,119,4.57,85.71,0.084,0.3782,0.0672,0.1092,0.1176,0.2101
+"Solow Steven, DMD",Wynnewood,PA,26,3.58,61.54,-0.0769,0.1923,-0.1154,0.1538,0.1154,-0.0769
+Soni Smiles General and Implant Dentistry,Clearwater,FL,20,4.95,100.0,0.45,0.85,0.25,0.55,0.4,0.6
+Sonora Behavioral Health Hospital,Tucson,AZ,23,1.3,8.7,-0.5652,-0.6957,-0.6087,-0.4783,-0.7391,-0.5652
+Sonrisa Old City Dental,Philadelphia,PA,48,4.9,97.92,0.1875,0.6042,0.125,0.2292,0.2917,0.6042
+SoulSpa,Reno,NV,55,4.95,98.18,0.1273,0.1818,0.0364,0.2182,0.1818,0.0909
+Soulshine of Tucson,Tucson,AZ,25,4.8,96.0,0.04,0.16,0.08,0.08,0.12,0.2
+Sound Stone Massage Spa,St. Louis,MO,43,4.37,83.72,0.093,0.2093,0.0698,0.0465,0.0233,0.186
+South Beach Diet,Fort Washington,PA,80,1.18,2.5,-0.1,-0.1,-0.5,-0.1375,-0.2875,-0.05
+South Meadows Dental Orthodontics,Reno,NV,25,4.28,76.0,0.36,0.64,0.08,0.04,0.24,0.48
+South Philly Barbacoa,Philadelphia,PA,606,4.6,89.77,0.038,0.2211,0.0825,0.2475,0.0561,0.0231
+South Philly Community Acupuncture,Philadelphia,PA,50,4.9,98.0,0.44,0.38,0.18,0.22,0.26,0.12
+South Philly Day Spa,Philadelphia,PA,32,3.22,46.88,0.0,0.0938,0.0625,0.0312,-0.0625,0.0625
+South Tampa Dentistry,Tampa,FL,87,4.39,85.06,0.2184,0.6092,0.1954,0.1379,0.1724,0.3678
+South Tampa Immediate Care,Tampa,FL,66,2.82,42.42,-0.0606,0.0303,-0.0606,-0.0303,-0.1212,0.0758
+South Tampa Smiles,Tampa,FL,31,3.81,67.74,0.0645,0.4839,-0.129,0.1935,0.0323,0.2581
+Southampton Dental,Saint Louis,MO,21,4.76,95.24,0.4286,0.6667,0.1429,0.381,0.3333,0.5714
+Southern Arizona Endodontics,Tucson,AZ,36,4.47,88.89,0.4722,0.6389,0.0833,0.25,0.3056,0.3333
+Southern Arizona Integrated Therapies,Tucson,AZ,24,2.96,45.83,-0.125,0.25,-0.0417,-0.0833,0.0833,0.0417
+Southern Arizona Urgent Care,Oro Valley,AZ,171,4.23,78.95,0.5146,0.5263,0.0175,0.2164,0.1462,0.3626
+Southern Arizona Urgent Care,Tucson,AZ,277,4.36,83.03,0.6282,0.5271,0.0542,0.231,0.1372,0.3646
+Southern Arizona VA Health Care Systems,Tucson,AZ,42,3.24,59.52,0.1429,0.119,0.0,0.0714,-0.0476,0.119
+Southern California Reproductive Center,Santa Barbara,CA,27,3.37,59.26,0.0741,0.2222,-0.1852,-0.037,0.1481,0.1481
+Southwest Idaho Ear Nose and Throat,Boise,ID,23,4.22,86.96,0.4783,0.6087,-0.0435,0.1739,0.4348,0.2174
+Southwest Kids Dentistry,Tucson,AZ,42,4.79,95.24,0.3095,0.8095,0.0476,0.119,0.1667,0.6667
+Southwest Shoulder Elbow & Hand Center,Tucson,AZ,23,2.74,39.13,-0.1304,-0.2609,-0.2609,-0.1304,-0.2609,-0.2609
+Spa Aria,New Orleans,LA,85,4.2,78.82,0.0941,0.3765,0.1059,0.1412,0.0118,0.1412
+Spa Atlantis,New Orleans,LA,134,4.09,75.37,0.0896,0.306,0.1045,0.1791,0.0448,0.2164
+Spa Daze,Tucson,AZ,52,4.77,94.23,0.25,0.3846,0.0192,0.1538,0.1154,0.2115
+Spa Evangeline,Tampa,FL,41,3.73,63.41,0.1951,0.122,-0.1707,0.0488,-0.0244,0.2439
+Spa Haus Nashville,Nashville,TN,168,4.82,96.43,0.2798,0.4405,0.1071,0.2202,0.1905,0.2381
+Spa Revive,Kenner,LA,34,1.68,17.65,-0.0588,-0.2941,-0.1471,-0.4118,-0.3824,-0.1765
+Spa Savoir Faire,New Orleans,LA,47,4.85,97.87,0.1702,0.3404,0.0426,0.1915,0.0426,0.1064
+Spa Solai - 6th,Tucson,AZ,43,4.53,90.7,0.1628,0.3488,0.093,0.1163,0.1395,0.2558
+Spa Solai - Skyline,Tucson,AZ,66,4.12,77.27,0.1212,0.303,0.1061,0.1364,0.0606,0.2273
+Spa Zeeba,New Orleans,LA,64,3.05,54.69,-0.0156,-0.0469,0.0156,0.0,-0.1562,-0.1406
+Spa ZenAura Massage,Tampa,FL,21,4.43,85.71,0.0952,0.3333,0.1429,-0.0476,0.0476,0.2857
+Spanish Springs Modern Dentistry,Sparks,NV,77,2.99,48.05,0.013,0.0519,-0.1948,-0.0519,-0.013,-0.026
+Sparks Marina Dentistry,Sparks,NV,46,3.37,58.7,0.1304,0.2391,0.0435,-0.0217,0.0435,0.1304
+Sparks Massage and Reflexology,Sparks,NV,67,3.43,59.7,0.0299,0.0149,-0.0299,-0.0299,-0.1194,0.0299
+Spasation Salon & Spa,Edmonton,AB,34,2.59,38.24,-0.0294,0.0294,-0.2059,-0.0882,-0.0882,-0.0882
+Spasation Salon & Spa,Sherwood Park,AB,23,2.91,47.83,-0.0435,0.1304,-0.1304,-0.087,-0.087,-0.087
+Spavia Nashville,Nashville,TN,47,4.53,89.36,0.1489,0.4043,0.0638,0.1277,-0.0213,0.383
+Specialists in Dermatology,Tucson,AZ,100,2.05,25.0,-0.36,-0.18,-0.28,-0.29,-0.34,-0.33
+Spectrum Eyeglass Repair,St. Louis,MO,30,4.57,90.0,0.0333,0.0333,0.6,0.2667,0.1667,0.0
+Spine Nevada,Reno,NV,75,2.83,44.0,-0.0133,-0.0533,-0.0933,-0.16,0.0267,-0.0133
+Spring Reflexology Center,Philadelphia,PA,43,4.19,79.07,0.093,0.093,0.1628,0.0465,0.0698,0.1163
+Springfield Psychological,Springfield,PA,42,1.33,4.76,-0.4762,-0.5714,-0.4048,-0.4048,-0.4524,-0.3333
+Springfield YMCA,Springfield,PA,43,2.81,41.86,-0.093,-0.0698,-0.1163,0.093,-0.0233,-0.1395
+Spruce Internal Medicine,Philadelphia,PA,34,2.94,38.24,-0.0294,-0.0588,-0.0588,0.0588,-0.1471,0.0
+St Charles Vision,New Orleans,LA,51,3.16,52.94,0.0588,0.2157,-0.0392,-0.1176,-0.0392,-0.0588
+St Francis Hospital & Health Centers,Indianapolis,IN,34,2.12,26.47,-0.1471,-0.2941,-0.1471,-0.3529,-0.2353,-0.2647
+St Joseph Hospital - St Charles,Saint Charles,MO,22,2.32,31.82,-0.2727,-0.2727,-0.2273,-0.2727,-0.2727,-0.0455
+St Louis County & Yellow Taxi,St. Louis,MO,113,3.15,51.33,-0.0442,0.1062,-0.0442,-0.0619,-0.1681,0.0265
+St Luke's Boise Medical Center,Boise,ID,56,2.82,46.43,-0.0714,0.0357,-0.1607,-0.1429,-0.1071,0.1429
+St Luke's Hospital,Chesterfield,MO,47,3.68,68.09,0.3191,0.4468,-0.0426,-0.0426,0.0213,0.1702
+St Mary Medical Center,Langhorne,PA,114,2.32,31.58,-0.193,-0.1754,-0.193,-0.2632,-0.2895,-0.2281
+St Thomas Community Health Center,New Orleans,LA,31,3.58,61.29,0.1613,0.2258,0.0645,-0.1613,-0.1613,0.0645
+St. Anthony's Hospital,Saint Petersburg,FL,53,3.04,47.17,0.0566,0.0189,-0.0943,-0.0377,-0.1132,-0.0566
+St. Elizabeth's Hospital,O'Fallon,IL,31,1.97,22.58,-0.2903,-0.2581,-0.1935,-0.3226,-0.3226,-0.2258
+St. Joseph's Hospital,Tampa,FL,74,2.27,32.43,-0.1351,-0.0541,-0.2432,-0.3649,-0.2703,-0.1216
+St. Joseph's Hospital - North,Lutz,FL,45,3.11,46.67,0.0222,0.0667,-0.1778,-0.1333,-0.1778,0.0
+St. Joseph's Hospital - South,Riverview,FL,46,3.35,58.7,0.1087,0.2609,-0.087,0.0217,-0.0435,0.1957
+St. Joseph's Women's Hospital,Tampa,FL,34,3.91,76.47,0.3824,0.4412,0.1765,0.1765,0.1176,0.3235
+"St. Louis County Dental  Grayem, Brace & Associates",Saint Louis,MO,44,4.43,86.36,0.2273,0.4091,0.0227,0.1136,0.0,0.3636
+St. Louis Pediatric Dentistry,Saint Louis,MO,32,3.88,71.88,0.0,0.4688,0.0,0.2812,-0.0312,0.3125
+St. Luke's Cataract & Laser Institute,Tarpon Springs,FL,28,3.36,57.14,0.0,0.1071,-0.1786,-0.1786,-0.1429,-0.0357
+St. Luke’s Meridian Medical Center,Meridian,ID,34,2.38,35.29,-0.2941,-0.2941,-0.2059,-0.2941,-0.2059,-0.1176
+St. Pete Bicycle & Fitness,Largo,FL,57,4.68,92.98,0.1404,0.5088,0.2281,0.1404,0.1404,0.0526
+St. Pete Community Acupuncture,St. Petersburg,FL,26,4.77,96.15,0.3462,0.2692,0.1538,0.3077,0.2692,0.2308
+St. Petersburg General Hospital,St. Petersburg,FL,31,2.71,38.71,-0.0323,0.0323,-0.1613,-0.1613,-0.0968,0.0645
+St. Vincent Carmel Hospital,Carmel,IN,47,3.38,61.7,0.1489,0.234,0.0426,0.0,-0.1277,0.0213
+St. Vincent Indianapolis - Hospital & Health Care Center,Indianapolis,IN,49,3.22,53.06,0.0612,0.0408,0.0,-0.0816,-0.0612,-0.1224
+StandOut Resumes,Philadelphia,PA,37,4.92,97.3,0.2703,0.6216,0.1351,0.1622,0.3514,0.0
+StatMed Urgent Care Clinic,Clearwater,FL,48,4.27,79.17,0.5417,0.6458,0.0625,0.2083,0.1875,0.375
+Stellar Chiropractic,Phoenixville,PA,29,5.0,100.0,0.4138,0.2414,0.3103,0.3103,0.1034,0.1724
+Sterling Primary Care - Centennial Campus,Nashville,TN,31,4.0,74.19,0.2258,0.3548,-0.0323,0.0645,0.129,0.2258
+"Steven Rice, DDS",Philadelphia,PA,58,4.74,94.83,0.2586,0.7069,0.2414,0.2241,0.2931,0.6724
+Stokes Pharmacy,Mount Laurel,NJ,46,2.22,26.09,-0.1304,-0.0435,-0.2826,-0.2391,-0.1957,-0.0435
+Stoll Medical Group,Philadelphia,PA,129,4.04,75.19,0.4884,0.3798,-0.0698,0.1395,0.155,0.2093
+Stoney Batter Family Medicine,Wilmington,DE,27,1.41,11.11,-0.6667,-0.5556,-0.2593,-0.2222,-0.3704,-0.5185
+Stratman Family Dentistry,Tucson,AZ,23,2.43,34.78,-0.1739,-0.0435,-0.2609,-0.087,-0.1304,-0.2174
+Strella Medical Aesthetics,Lower Gwynedd,PA,37,3.57,64.86,0.1622,0.3243,0.027,-0.1351,-0.0811,0.0541
+"Stuart R Winthrop, MD",Santa Barbara,CA,71,4.56,88.73,0.2676,0.7042,0.0,0.1831,0.2958,0.1972
+Studio 34,Philadelphia,PA,49,4.51,91.84,0.0408,0.3469,0.1837,0.3265,0.0612,0.1633
+Studio Branca,Creve Coeur,MO,53,3.4,62.26,0.0943,-0.0189,0.0377,0.0,0.0,0.0377
+"Studio Dental, PLLC - Athena Storey, DDS",Oro Valley,AZ,23,4.61,91.3,0.3478,0.6522,0.1739,0.1304,0.1739,0.6087
+Sufei Spa,Chesterfield,MO,23,3.96,73.91,0.0435,0.3913,0.1739,0.0,-0.087,0.2174
+Sugar Salon and Medical Spa,Reno,NV,84,3.71,66.67,0.2619,0.2738,0.0119,0.0238,0.0,0.119
+Sullivan Dental Partners,Brentwood,TN,28,4.89,96.43,0.3929,0.5,0.0357,0.3571,0.25,0.4643
+Summit Acupuncture Philadelphia,Philadelphia,PA,25,4.84,96.0,0.48,0.12,-0.04,0.0,0.48,0.36
+Summit Pediatrics,Reno,NV,31,2.97,51.61,-0.0645,0.0,-0.2258,-0.1613,-0.0968,-0.0968
+Summit Spine and Wellness,Philadelphia,PA,31,4.77,93.55,0.3548,0.4839,0.0323,0.0645,0.1935,0.3548
+Sun Valley Skin Center,Boise,ID,24,2.58,37.5,-0.375,-0.1667,-0.0833,-0.0417,-0.4167,-0.25
+Suncoast Skin Solutions,Largo,FL,27,4.15,77.78,0.3704,0.5185,0.1111,0.1111,0.1481,0.3704
+Suncoast Urgent Care,New Port Richey,FL,32,2.72,43.75,0.0625,0.0312,0.0,-0.1562,-0.0625,-0.0312
+Sunflower Massage Studio,St. Louis,MO,44,4.14,77.27,0.0682,0.2273,0.0682,0.0682,0.0455,0.1818
+Sunny Massage,Nashville,TN,75,4.45,86.67,0.1067,0.4,0.1867,0.1333,0.0,0.3333
+Sunny Smiles Dentistry for Children and Young Adults,Santa Barbara,CA,34,4.76,94.12,0.3824,0.6471,-0.0294,0.2647,0.2941,0.5882
+Sunrise Massage & Spa,Saint Louis,MO,29,3.38,58.62,0.0345,0.1379,0.1724,-0.069,-0.1034,0.1034
+Sunrise Salt Cave,Ballwin,MO,56,3.68,64.29,-0.0179,0.0893,0.1429,0.0357,-0.0357,0.125
+Sunsation Tanning Salon,Sparks,NV,51,4.43,86.27,0.0784,0.549,0.1569,0.0588,0.1765,0.2549
+Sunshine Foot Spa,Tampa,FL,108,4.24,79.63,0.0556,0.1759,0.1389,0.1204,0.0278,0.2778
+Sunshine Massage Spa,Meridian,ID,26,3.88,73.08,0.0,0.2692,0.2692,0.0385,-0.0769,0.2692
+Super Acucare Inc,Philadelphia,PA,50,4.3,82.0,0.36,0.24,0.08,0.14,0.1,0.22
+Super Asian Massage,Tucson,AZ,25,4.08,76.0,0.08,0.32,0.2,0.12,0.16,0.08
+Supplement Superstore,Brentwood,MO,24,4.5,83.33,0.125,0.625,0.4167,0.125,0.4167,0.0833
+Surterra Wellness - Tampa,Tampa,FL,23,3.74,56.52,0.1739,0.3478,0.0,0.087,0.0435,0.1304
+"Susan C Taylor , MD",Philadelphia,PA,41,1.9,19.51,-0.561,-0.1951,-0.1463,-0.439,-0.1707,-0.3659
+"Susanne Ramos, MD",Santa Barbara,CA,26,4.0,73.08,0.4231,0.1154,-0.0769,-0.0385,0.1538,0.1538
+Sweat Fitness,Conshohocken,PA,23,2.65,21.74,-0.0435,0.0435,-0.087,-0.1304,-0.1304,-0.087
+Sweat Fitness,Philadelphia,PA,144,2.52,34.03,-0.0278,0.0139,-0.1667,-0.0625,-0.1181,-0.0139
+Sweet Treat Hut,Philadelphia,PA,44,4.68,95.45,0.0,0.2955,0.0909,0.1591,0.0455,0.2045
+Sweetwater Pain and Spine,Reno,NV,37,3.78,67.57,0.2703,0.2973,-0.0541,0.0541,0.0811,0.2432
+Swift Urgent Clinic,Sparks,NV,22,5.0,100.0,0.7727,0.7727,0.0,0.4545,0.4091,0.4091
+Symmetry Acupuncture,Reno,NV,25,5.0,100.0,0.52,0.28,0.08,0.12,0.16,0.24
+Szechwan Garden,Indianapolis,IN,328,3.9,71.95,0.003,0.1524,0.0854,0.1738,0.0244,0.0762
+TEC Endodontics,Philadelphia,PA,42,4.71,92.86,0.2857,0.6905,0.0714,0.2381,0.5238,0.4048
+TGH Brandon Healthplex,Tampa,FL,22,2.95,50.0,0.0,0.0,-0.2273,-0.1818,-0.1818,0.0455
+TGH Urgent Care powered by Fast Track,Riverview,FL,49,2.78,44.9,-0.2245,0.0204,-0.1224,-0.2449,-0.1633,-0.1224
+TGH Urgent Care powered by Fast Track,Tampa,FL,222,3.57,62.61,0.2477,0.3198,-0.009,0.0405,-0.0225,0.2342
+TGH Urgent Care powered by Fast Track,Wesley Chapel,FL,22,3.55,63.64,0.2273,0.3182,0.0,0.1364,-0.1818,0.0909
+TITLE Boxing Club,Nashville,TN,22,4.41,86.36,0.0,0.3182,0.0455,0.0,0.2273,0.2727
+TLC Laser Eye Centers,Indianapolis,IN,20,4.55,90.0,0.4,0.65,0.1,0.15,0.45,0.2
+TLC Laser Eye Centers,Tampa,FL,27,4.67,88.89,0.4444,0.6296,0.0741,0.1852,0.4074,0.2222
+TN Juice Bar,Hendersonville,TN,90,1.14,2.22,-0.0111,-0.0667,-0.3111,-0.4111,-0.2333,-0.4
+Tai Chi Bodywork Center,Philadelphia,PA,60,4.0,75.0,0.0333,0.1,0.2,0.1667,0.0,0.25
+Tai Chi Foot Massage,Pinellas Park,FL,31,4.61,87.1,0.0645,0.0645,0.1613,0.1613,-0.0323,0.4194
+Taiji AcuCare,Springfield,PA,58,4.53,91.38,0.0862,0.069,0.3621,0.1034,0.0862,0.2069
+Tampa Bay Endoscopy Center,Tampa,FL,23,3.48,60.87,0.0,0.3478,-0.2174,-0.1304,-0.087,0.087
+Tampa Eye Clinic,Tampa,FL,23,3.0,47.83,-0.087,0.1739,-0.1304,-0.1304,-0.0435,-0.0435
+Tampa Floats Wellness Center,Tampa,FL,42,4.86,97.62,0.0238,0.381,0.0714,0.1667,0.2619,0.6667
+Tampa General Hospital,Tampa,FL,158,2.91,48.73,0.0949,0.1203,-0.019,-0.1203,-0.038,-0.038
+Tampa Lice Removal,Tampa,FL,25,5.0,100.0,0.36,0.44,0.32,0.32,0.2,0.04
+Tampa Rejuvenation - South,Tampa,FL,42,3.05,50.0,-0.1667,0.2143,-0.2619,-0.0476,-0.0952,-0.0476
+Tampa Urgent Care,Tampa,FL,30,3.8,66.67,0.3,0.3,-0.1,0.1,0.0333,0.0
+Tangerine Dental Group,Oro Valley,AZ,44,3.0,47.73,0.0909,0.2955,-0.1364,-0.0682,-0.0227,-0.0455
+Tanque Verde Pediatrics,Tucson,AZ,35,4.83,94.29,0.7143,0.6571,0.0286,0.2571,0.4286,0.4571
+Tantra Hair Salon,King of Prussia,PA,38,4.03,76.32,0.0526,0.2105,0.0789,-0.0263,0.0789,0.1842
+Tao Massage Spa,Clearwater,FL,57,4.6,89.47,0.0351,0.2105,0.1228,0.0526,0.0526,0.1053
+Tao Spa,New Orleans,LA,90,3.49,61.11,0.0444,0.0,-0.0556,0.0111,-0.0778,0.1333
+Taormina's Pizzeria & Trattoria,Lansdale,PA,21,3.48,66.67,-0.0476,0.3333,0.1905,-0.0476,-0.0476,-0.0476
+Taylor Hospital,Ridley Park,PA,22,2.09,27.27,-0.2727,-0.1364,-0.2273,-0.3636,-0.1818,-0.3636
+Taylor Made Smiles,Franklin,TN,28,2.68,39.29,-0.1071,0.0,-0.25,-0.2143,-0.25,-0.0714
+Team Dental - Philadelphia,Philadelphia,PA,35,4.26,80.0,0.2,0.3429,-0.0571,0.0286,0.1429,0.3429
+Temple ReadyCare,Jenkintown,PA,33,3.03,51.52,0.0,0.0909,-0.0303,-0.0909,-0.0909,0.0303
+Temple ReadyCare,Philadelphia,PA,26,2.62,34.62,-0.0769,-0.0769,0.0,-0.1538,-0.1154,0.0769
+Temple University Hospital ,Philadelphia,PA,79,2.1,25.32,-0.2911,-0.3291,-0.2658,-0.2152,-0.2911,-0.3165
+Temple University Hospital - Jeanes Campus,Philadelphia,PA,24,1.71,16.67,-0.4583,-0.3333,-0.1667,-0.4167,-0.3333,-0.3333
+Tennessee Family Dental - Brentwood,Brentwood,TN,26,3.42,57.69,0.2308,0.3846,-0.1154,0.0,-0.1154,0.0769
+Tennessee Orthopaedic Alliance,Nashville,TN,39,2.46,35.9,-0.2051,-0.0769,-0.3333,-0.1538,-0.1795,-0.1282
+Tennessee Women's Care,Nashville,TN,44,2.41,34.09,-0.2273,0.0227,-0.2727,-0.0682,-0.0455,-0.0909
+Terra Mone Beauty,Narberth,PA,32,4.72,93.75,0.0938,0.3125,0.0,0.2188,0.1562,0.2812
+TerraVida Holistic Centers,Abington Township,PA,24,4.08,75.0,0.2083,0.375,0.0833,0.0833,0.0,0.2083
+TerraVida Holistic Centers,Malvern,PA,20,3.0,50.0,-0.2,0.2,-0.05,-0.2,0.0,-0.05
+"Terry Song, DDS - Access Dental Care",Reno,NV,42,4.38,85.71,0.4048,0.6667,0.1667,0.1667,0.1429,0.4048
+Thai Day Spa,Tucson,AZ,27,4.96,100.0,0.1852,0.1481,0.1852,0.1111,0.0741,0.1852
+That's The Spot Chiropractic,Tucson,AZ,55,4.49,89.09,0.2364,0.3455,0.2545,0.3091,0.0545,0.1818
+The Beauty Collective by Injection Gal,Reno,NV,29,4.55,86.21,0.2759,0.2414,0.1034,0.1724,0.2069,0.1379
+The Beauty Lounge,Carmel,IN,51,3.84,70.59,0.1569,0.1765,-0.1176,0.0784,0.0,0.0196
+The Boulevard Hair,Webster Groves,MO,100,4.2,78.0,0.07,0.14,0.04,0.07,0.02,0.11
+The Busy Body,Tucson,AZ,57,4.79,94.74,0.1579,0.2456,0.1228,0.1053,0.1404,0.2281
+The CPAP Shop,West Berlin,NJ,114,3.96,78.07,0.0877,0.114,0.3421,0.0263,0.0439,0.0614
+The Camp Transformation Center - Santa Barbara,Santa Barbara,CA,28,4.14,92.86,-0.0357,0.3214,0.0,0.25,0.0714,0.1429
+The Continuum,Reno,NV,22,3.91,72.73,0.1818,0.3636,0.0,-0.0455,0.0455,0.3636
+The Dispensary,Reno,NV,153,4.0,74.51,0.0588,0.3529,0.1046,0.085,0.098,0.1438
+The Downtown Dispensary,Tucson,AZ,51,3.49,64.71,0.0392,0.3137,0.1569,-0.0392,0.0392,0.098
+The Energy Spot,Greenwood,IN,20,3.8,75.0,0.0,0.4,0.25,0.1,0.05,0.0
+The Eye Institute,Philadelphia,PA,23,2.83,34.78,0.0,0.0435,-0.2174,-0.2174,-0.2174,-0.0435
+The Face Company,Saint Louis,MO,24,1.88,20.83,-0.125,-0.0417,-0.0417,0.0,-0.125,-0.2083
+The Fix Medical,Tucson,AZ,77,4.75,92.21,0.3636,0.2468,0.2208,0.3506,0.1818,0.1818
+The G Spa,Santa Barbara,CA,53,4.08,75.47,0.2642,0.3396,0.0189,0.0943,0.0755,0.0377
+The Garden Medical Spa,Voorhees Township,NJ,21,3.86,66.67,0.0,0.2381,-0.1905,0.0,-0.0476,0.0
+The Good Feet Store,Creve Coeur,MO,23,2.61,34.78,-0.087,0.0435,-0.087,-0.2174,-0.2174,-0.087
+The Good Feet Store,Metairie,LA,34,3.53,55.88,0.2059,0.3529,0.0,0.0882,0.0294,-0.0882
+The Good Feet Store,New Orleans,LA,50,4.48,86.0,0.08,0.42,0.1,0.1,0.0,0.0
+The Good Feet Store,Reno,NV,20,3.1,55.0,-0.1,0.05,0.05,0.0,-0.3,-0.05
+The Good Feet Store,Tucson,AZ,40,2.17,30.0,-0.15,-0.125,-0.3,-0.075,-0.325,-0.075
+The Grand Beauty Spa,Tampa,FL,40,4.1,75.0,0.075,0.225,-0.025,0.075,0.025,0.175
+The Green Halo,Tucson,AZ,38,3.63,65.79,0.0,0.2105,0.1579,0.0263,0.0,0.0263
+The Hot Room Indianapolis,Indianapolis,IN,100,4.64,93.0,0.07,0.42,0.03,0.27,0.05,0.54
+The Human's Mechanic,Wesley Chapel,FL,33,4.88,96.97,0.0303,0.2121,0.0,0.1212,0.303,0.0606
+The Illustrated Lady,Santa Barbara,CA,25,4.84,96.0,0.12,0.28,0.12,0.32,0.28,0.08
+The Joint Chiropractic,Brandon,FL,25,3.8,68.0,0.36,0.24,0.0,0.04,0.04,0.04
+The Joint Chiropractic,Goleta,CA,62,3.89,72.58,0.2742,0.3387,0.1452,0.129,0.0323,0.1452
+The Joint Chiropractic,Indianapolis,IN,21,4.19,76.19,0.3333,0.4762,0.2381,0.0952,0.0,0.0
+The Joint Chiropractic,Meridian,ID,30,3.6,63.33,0.0,0.1667,0.1333,0.1,-0.1,0.0
+The Joint Chiropractic,Reno,NV,65,4.06,73.85,0.1846,0.1385,0.1538,0.0923,0.0,0.1385
+The Joint Chiropractic,Sparks,NV,45,3.47,53.33,0.0222,0.0222,0.0889,-0.0444,-0.0667,0.0444
+The Joint Chiropractic,Tampa,FL,57,4.19,77.19,0.2982,0.1404,-0.0526,0.1579,0.0351,0.0702
+The Joint Chiropractic,Tucson,AZ,120,3.55,62.5,0.15,0.2,0.025,0.075,0.05,0.0333
+The LASIK Vision Institute,Bala Cynwyd,PA,49,4.0,73.47,0.3265,0.4082,0.102,0.2041,0.3061,0.0816
+The LASIK Vision Institute,Tampa,FL,22,4.14,77.27,0.3636,0.5,0.0909,0.0909,0.1818,0.2273
+The Looking Glass,St. Petersburg,FL,42,4.14,78.57,0.0238,0.2381,0.1905,0.0714,0.1429,0.0714
+The Lotus Room,Nashville,TN,87,4.85,95.4,0.1494,0.2644,0.069,0.1379,0.0805,0.4368
+The Massage Loft Channelside,Tampa,FL,68,4.87,94.12,0.0882,0.3088,0.1912,0.1618,0.0882,0.2647
+The Massage Spa,St Petersburg,FL,70,4.09,80.0,0.1286,0.3,0.1571,0.1286,0.0,0.2143
+The Massage Studio,King of Prussia,PA,39,4.23,84.62,0.1282,0.3077,0.1538,0.0256,0.0513,0.1538
+The Men's Room,Edmonton,AB,21,3.38,57.14,0.0952,0.2381,0.0476,0.0952,-0.1429,0.2381
+The Movement Chiropractic & Manual Medicine,Franklin,TN,99,4.96,98.99,0.4949,0.2626,0.0202,0.1111,0.2525,0.1717
+The Peppermint Room,Gretna,LA,40,4.22,80.0,0.05,0.2,-0.15,0.025,-0.05,0.225
+The Polished Bee,Tucson,AZ,21,4.0,76.19,0.0476,-0.0476,0.0476,0.0476,0.0,-0.0476
+The Prather Practice,Indianapolis,IN,21,3.86,71.43,0.1429,0.2857,0.0952,0.0952,0.0476,0.0
+The Prime Leaf,Tucson,AZ,34,3.35,55.88,0.0,0.2059,-0.0294,0.0882,-0.0882,0.0294
+The Refuge Spa,Reno,NV,44,4.59,88.64,0.3636,0.4545,0.0682,0.1818,0.1136,0.2727
+The Remedy Room,Metairie,LA,54,4.7,92.59,0.3148,0.5926,0.0926,0.037,0.2037,0.537
+The Reno Dentist,Reno,NV,42,2.98,47.62,0.0476,0.1429,-0.1429,-0.0714,-0.0952,-0.0714
+The Reproductive Medicine Group,Tampa,FL,33,1.97,24.24,-0.4545,-0.1212,-0.4242,-0.1818,-0.4545,-0.2121
+The Salvation Army Family Store & Donation Center,Philadelphia,PA,44,3.48,54.55,0.0455,0.0682,0.0909,0.0227,-0.0909,0.0227
+The Shave Cave,St. Petersburg,FL,105,4.24,79.05,0.0476,0.381,0.0857,0.1429,0.0,0.1333
+The Skin Studio,New Orleans,LA,23,4.39,82.61,0.5652,0.2609,0.0,0.1739,0.2609,0.0435
+The Smile Company Dental Care,Maryland Heights,MO,35,2.31,31.43,-0.3143,0.0,-0.3143,-0.1714,-0.3429,-0.3714
+The Smile Shop Pediatric Dentistry,Reno,NV,35,3.26,54.29,-0.0857,0.1143,-0.0857,-0.0286,0.0286,0.0
+The Spa Terme Di Aroma,Philadelphia,PA,209,4.55,90.43,0.1818,0.445,0.1148,0.3349,0.0574,0.2919
+The Spa and Sauna,Reno,NV,90,4.34,83.33,0.0778,0.3111,0.0778,0.1333,0.2222,0.0889
+The Spine Shop Chiropractic,Nashville,TN,42,4.95,97.62,0.3571,0.1905,0.3571,0.1429,0.1667,0.1905
+The Sporting Club at the Bellevue,Philadelphia,PA,150,3.54,62.0,0.0,0.12,0.0333,0.18,-0.0733,0.2533
+The Studio Salon,Eagle,ID,42,4.67,90.48,0.0714,0.1905,0.0952,0.1905,0.1667,0.2143
+The Summit at Rittenhouse,Philadelphia,PA,33,4.73,93.94,0.1515,0.3333,0.1212,0.1212,0.3636,0.3333
+The Tanning Zone,Ewing Township,NJ,29,4.38,86.21,0.0345,0.5862,0.3103,0.1379,0.1034,0.5172
+The Urgent Care - Westbank,Gretna,LA,81,3.88,70.37,0.3086,0.4568,-0.0494,0.0988,-0.0247,0.1111
+The Vitamin Shoppe,Reno,NV,34,3.03,52.94,0.0,-0.0294,0.1471,-0.0294,-0.0882,0.0588
+The Woman's Group,Tampa,FL,50,2.2,26.0,-0.36,-0.18,-0.28,-0.26,-0.24,-0.2
+The Woodhouse Day Spa - Carmel,Carmel,IN,71,3.99,73.24,0.1127,0.2958,0.0563,0.2394,0.0423,0.493
+The Woodhouse Day Spa - Nashville,Nashville,TN,44,4.55,86.36,0.0682,0.25,0.0455,0.1818,0.0227,0.3182
+The Woodhouse Day Spa - Zionsville,Zionsville,IN,24,4.12,70.83,0.0417,0.375,0.2083,0.125,0.125,0.3333
+Then Comes Baby,Santa Barbara,CA,67,4.73,92.54,0.1343,0.3433,0.0149,0.1194,0.2985,0.0746
+Therapeutic Elements Center for Massage Therapy,Clearwater,FL,22,4.59,90.91,0.1818,0.2727,0.0455,0.1818,0.1818,0.0909
+"Thomas Blake, DDS",Santa Barbara,CA,25,4.84,96.0,0.36,0.68,0.12,0.2,0.16,0.6
+Thomas Jefferson University Hospital,Philadelphia,PA,143,2.36,30.77,-0.2587,-0.2168,-0.1399,-0.2448,-0.2098,-0.2517
+"Thomas Nabors, DDS",Nashville,TN,24,4.5,83.33,0.3333,0.625,0.125,0.0833,0.25,0.4583
+Thrive Chiropractic,Boise,ID,24,5.0,100.0,0.2917,0.5,0.0417,0.125,0.2083,0.2083
+Tibet Healing Spa,Philadelphia,PA,66,4.11,75.76,0.0758,0.1212,0.1818,0.0455,0.0455,0.1515
+Todd's Body Shop,Reno,NV,27,4.44,88.89,0.4074,0.4444,0.1111,0.1111,0.1481,0.0
+Toothfairy Pediatric Dental - Reno,Reno,NV,21,4.62,85.71,0.2381,0.7143,0.0952,0.1429,0.1905,0.2381
+Top Nail and Spa,Fairless Hills,PA,37,3.3,51.35,-0.027,0.1351,0.1622,0.0541,-0.1081,0.1081
+Toppers Spa/Salon - Devon,Wayne,PA,59,3.12,45.76,-0.0339,-0.1356,-0.1356,-0.1356,0.0,-0.1356
+Toppers Spa/Salon Marlton,Marlton,NJ,48,3.27,47.92,-0.0625,0.0625,-0.1667,-0.1042,-0.1458,0.0417
+Toppers Spa/Salon Rittenhouse Square,Philadelphia,PA,150,3.17,52.0,0.0133,0.04,-0.0667,-0.0867,-0.0133,-0.0533
+Toppers Spa/salon Newtown,Newtown,PA,33,3.12,45.45,-0.0606,-0.0606,-0.1515,-0.1818,-0.0303,-0.1212
+Tortolita Dental Group and Orthodontics,Tucson,AZ,29,3.76,65.52,0.1034,0.2759,-0.0345,0.069,0.0345,0.2414
+Total Access Urgent Care,Saint Louis,MO,532,4.47,86.84,0.6034,0.6184,0.0639,0.2669,0.1053,0.3271
+Total Access Urgent Care,St. Louis,MO,30,3.93,66.67,0.4667,0.4667,-0.1333,0.0333,0.0333,0.2
+Total Access Urgent Care,Town and Country,MO,56,4.46,85.71,0.5714,0.6607,0.1071,0.3036,0.25,0.2857
+Touch Point Foot Reflexology,New Orleans,LA,152,4.59,92.11,0.0329,0.1908,0.1447,0.0526,0.0197,0.2237
+Touro Infirmary,New Orleans,LA,42,3.19,52.38,-0.0714,0.1429,-0.1429,-0.0714,-0.1429,-0.0714
+Tower Health Urgent Care,Doylestown,PA,22,3.73,63.64,0.3182,0.3636,0.0,-0.0909,-0.0455,0.0455
+Tower Health Urgent Care,Exton,PA,23,2.91,43.48,-0.087,0.2174,-0.1304,-0.087,-0.0435,0.0435
+Tower Health Urgent Care,Oaks,PA,24,3.12,45.83,0.0833,0.0833,0.0417,-0.0833,-0.0833,0.0833
+Tower Health Urgent Care,Plymouth Meeting,PA,20,3.2,55.0,0.2,0.3,-0.2,0.25,-0.05,0.05
+Tower Health Urgent Care,Villanova,PA,31,2.87,48.39,0.0323,0.0968,-0.2581,0.0,-0.2258,0.0
+Tower Radiology - Wesley Chapel,Wesley Chapel,FL,25,1.76,16.0,-0.32,-0.2,-0.2,-0.32,-0.28,-0.32
+Traders Point Dental,Indianapolis,IN,62,4.85,96.77,0.3226,0.7419,0.1613,0.2742,0.2742,0.629
+Tranquility Wellness Spa,St. Petersburg,FL,52,4.1,75.0,0.1538,0.3269,-0.0577,0.0962,0.0192,0.2308
+Trappe Pediatrics,Collegeville,PA,30,2.63,36.67,-0.2,-0.0667,-0.1333,-0.0667,-0.1,-0.1667
+Tre MedSpa,Tampa,FL,33,3.73,69.7,0.1212,0.2121,-0.0606,0.0909,0.1515,0.1212
+Tree of Zen Spa,Philadelphia,PA,68,3.34,55.88,0.1176,0.0735,0.0,-0.0882,0.0294,0.0147
+Trend Eye Care,Philadelphia,PA,198,4.8,94.95,0.5,0.7222,0.2626,0.2323,0.2323,0.1768
+"Trevor Denny, DDS",Santa Barbara,CA,82,4.79,93.9,0.2561,0.7317,0.0732,0.1341,0.2073,0.5488
+Tri County Eye Physicians & Surgeons,Southampton,PA,32,2.62,31.25,-0.125,-0.0312,-0.3438,0.0,0.0938,-0.0938
+Tri-County Eye Physicians & Surgeons,Doylestown,PA,21,1.62,14.29,-0.2381,-0.4286,-0.2381,-0.1429,-0.0476,-0.381
+TriStar Centennial Medical Center,Nashville,TN,54,2.37,31.48,-0.2593,-0.1852,-0.2407,-0.2778,-0.1852,-0.1481
+TriStar Skyline Medical Center,Nashville,TN,46,2.67,39.13,-0.1304,-0.0435,-0.1087,-0.2609,-0.1304,-0.2174
+TriStar Southern Hills Medical Center,Nashville,TN,24,3.46,62.5,0.0,0.1667,-0.0833,0.2083,-0.0417,-0.0417
+TriStar Stonecrest Medical Center,Smyrna,TN,37,2.24,29.73,-0.1892,-0.1351,-0.1622,-0.3243,-0.2432,-0.1622
+TriStar Summit Medical Center,Hermitage,TN,59,2.03,25.42,-0.3898,-0.322,-0.2881,-0.339,-0.3559,-0.3559
+TropiCali Beauty Boutique,Santa Barbara,CA,35,4.66,91.43,0.0857,0.2286,0.0857,0.0571,0.1143,0.0571
+True Eye Experts,Tampa,FL,57,3.74,66.67,0.2632,0.4035,-0.0702,0.0175,0.1579,0.0877
+True Skin Laser Spa,Glenside,PA,27,3.48,55.56,0.0741,0.1852,-0.0741,0.1111,0.037,0.1481
+Trulieve - Tampa,Tampa,FL,75,3.21,53.33,0.0133,0.1333,0.0,-0.1067,-0.0133,0.0267
+Trusting Connections,Tucson,AZ,26,4.0,73.08,0.1923,0.2692,-0.0385,0.1154,0.0,0.1154
+Tucson Acupuncture Co-op,Tucson,AZ,25,4.72,92.0,0.44,0.44,0.2,0.08,0.16,0.32
+Tucson Community Acupuncture,Tucson,AZ,32,4.72,90.62,0.4375,0.2812,0.3125,0.125,0.25,0.375
+Tucson Cosmetics,Tucson,AZ,30,4.57,90.0,0.4667,0.7,0.0667,0.1,0.1667,0.1667
+Tucson Ear Nose & Throat,Tucson,AZ,78,1.85,20.51,-0.3974,-0.2821,-0.2179,-0.4744,-0.2821,-0.4359
+Tucson Family Medicine,Tucson,AZ,23,2.09,17.39,-0.5217,-0.3913,-0.1304,-0.2609,-0.2609,-0.3478
+Tucson Massage Company,Tucson,AZ,63,4.81,95.24,0.1746,0.2222,0.1111,0.0635,0.127,0.1746
+Tucson Medical Center,Tucson,AZ,165,2.78,43.64,-0.0121,0.0121,-0.0485,-0.1879,-0.097,-0.0909
+Tucson Orthopaedic Institute PC,Tucson,AZ,53,2.36,30.19,-0.3208,-0.1698,-0.2075,-0.2075,-0.2264,-0.1509
+Tucson Orthopedic Institute,Tucson,AZ,49,2.08,24.49,-0.449,-0.1429,-0.2041,-0.2857,-0.3673,-0.2245
+Tucson Spectrum Dentistry,Tucson,AZ,42,3.43,61.9,0.0476,0.2857,0.0714,-0.0238,0.0238,-0.0238
+Tulane Medical Center,New Orleans,LA,48,2.42,33.33,-0.2708,-0.1875,-0.2083,-0.25,-0.125,-0.1875
+U City Foot Massage & Relaxing Center,Saint Louis,MO,65,4.74,93.85,0.0462,0.2769,0.2462,0.0769,0.0308,0.2154
+Ultimate Image Cosmetic Medical Center,Clearwater,FL,58,4.0,72.41,0.3103,0.4655,-0.0345,0.1207,0.1724,0.2414
+Ultra Medic Skin,Edmonton,AB,23,1.13,4.35,-0.4783,-0.4348,-0.2174,-0.5217,-0.3478,-0.3478
+Under Your Skin Tattoo & Body Piercing,Sparks,NV,62,4.23,79.03,0.0484,0.3871,0.2419,0.0161,0.129,0.3226
+Unite Fitness - Philly East,Philadelphia,PA,87,4.77,95.4,0.069,0.3908,0.1609,0.1724,0.1379,0.2069
+Unite Fitness - Rittenhouse,Philadelphia,PA,30,4.93,100.0,0.0333,0.5,0.1667,0.1333,0.2333,0.4
+University City Center For Eye Care,Philadelphia,PA,34,3.38,58.82,0.2059,0.2647,0.3235,0.1471,-0.0882,0.1176
+University Medical Center - New Orleans,New Orleans,LA,55,2.36,34.55,-0.1818,-0.1455,-0.0727,-0.2727,-0.1636,-0.0545
+University of Pennsylvania School of Dental Medicine,Philadelphia,PA,47,2.13,27.66,-0.1489,-0.1915,-0.383,-0.2979,-0.1489,-0.0638
+Updegraff Laser Vision,St. Petersburg,FL,40,3.8,65.0,0.125,0.325,0.05,0.225,0.125,0.1
+Upscale Massage,Santa Barbara,CA,58,4.57,91.38,0.0345,0.4138,0.2241,0.0862,0.1207,0.2069
+Urban Optics Optometric Center,Santa Barbara,CA,105,4.83,95.24,0.4,0.6095,0.2095,0.1143,0.2381,0.2571
+Urban Optiks,Indianapolis,IN,23,4.61,91.3,0.3913,0.6087,0.2609,0.2174,0.2174,0.3043
+Urgent Care Eleven,New Orleans,LA,36,4.5,88.89,0.5556,0.6389,0.1111,0.2778,0.1111,0.5556
+Urgent Care by Urgent Specialists,Tucson,AZ,23,4.3,82.61,0.6957,0.6087,-0.1304,0.2609,0.1739,0.2609
+Urology Nevada,Reno,NV,25,1.96,24.0,-0.36,-0.4,-0.12,-0.4,-0.32,-0.24
+Usf Health,Tampa,FL,29,2.41,34.48,-0.069,-0.1034,-0.1379,0.069,-0.1379,-0.069
+Uxi Duxi,New Orleans,LA,25,4.36,84.0,0.08,0.28,0.08,0.12,0.24,-0.04
+VA Sierra Nevada Health Care System,Reno,NV,38,3.47,63.16,0.3421,0.2895,0.0789,0.0263,0.0,0.0263
+VF Nail Bar & Spa,King of Prussia,PA,29,3.76,68.97,0.0345,0.1379,0.0345,0.1034,0.0,0.069
+VIP Eye Care & Optical Boutique,St Petersburg,FL,26,4.58,88.46,0.5,0.7308,0.3077,0.1154,0.1923,0.1154
+Valerie Morrison,Philadelphia,PA,30,3.43,60.0,0.1,-0.0333,-0.0333,-0.0667,0.0667,0.2
+Valley Endodontics & Oral Surgery,Tucson,AZ,24,3.92,70.83,0.125,0.4167,-0.0833,0.1667,0.1667,0.1667
+Vanderbilt Emergency Room,Nashville,TN,25,1.84,16.0,-0.36,-0.36,-0.12,-0.52,-0.2,-0.32
+Vanderbilt Health One Hundred Oaks,Nashville,TN,27,2.3,25.93,-0.1852,-0.1852,-0.1852,-0.2222,-0.2222,-0.1481
+Vanderbilt University Medical Center,Nashville,TN,102,3.13,51.96,0.0882,0.2157,-0.0686,-0.0686,-0.0098,0.0
+Vanishing Point Laser Tattoo Removal,Maplewood,MO,34,4.88,97.06,0.3824,0.2941,0.2353,0.1765,0.5,0.0294
+Vein & Cosmetic Center of Tampa Bay,Tampa,FL,30,3.97,73.33,0.0,0.2,0.0333,0.0,0.1333,0.2667
+Venus Med Spa,Riverview,FL,21,3.67,61.9,-0.0476,-0.0476,-0.1429,0.0476,0.1429,0.0476
+Venus Med Spa,Tampa,FL,49,4.51,85.71,0.2245,0.3265,0.1837,-0.0204,0.1837,0.0408
+Venus Nails & Spa,St Petersburg,FL,64,3.47,59.38,0.0312,0.1562,0.0938,0.0469,-0.0625,0.0625
+"Veronika V Vazquez, DDS",Reno,NV,40,4.32,82.5,0.375,0.5,0.075,-0.025,0.225,0.5
+Verus Healthcare,Franklin,TN,114,1.36,7.89,-0.4035,-0.0877,-0.4912,-0.2895,-0.386,-0.1316
+Vicente Family Dentistry,Brandon,FL,29,4.69,89.66,0.2414,0.5517,0.3448,0.1034,0.1379,0.6207
+VidaFlo Nashville,Nashville,TN,51,4.29,80.39,0.098,0.3725,0.0,-0.0392,0.0588,0.1373
+Virtua Memorial Hospital,Mount Holly,NJ,50,1.8,16.0,-0.34,-0.26,-0.26,-0.5,-0.28,-0.28
+Virtua Voorhees Hospital,Voorhees,NJ,55,2.64,41.82,-0.0545,0.0182,-0.0545,-0.2,-0.1273,0.0
+Virtua W Jersey Hospital-Voorhees-Emergency Dept,Voorhees Township,NJ,29,2.34,34.48,-0.1724,-0.2069,-0.1379,-0.2759,-0.2759,-0.069
+Visio Eyecare,Philadelphia,PA,43,4.7,90.7,0.4651,0.5349,0.3023,0.2326,0.3023,0.2558
+Visionary Eyeworks,Nashville,TN,40,4.35,82.5,0.175,0.325,0.05,0.05,0.075,0.25
+Visionworks,Bala Cynwyd,PA,23,3.0,47.83,0.0,0.1739,0.087,0.0,0.087,-0.0435
+Visionworks,Brandon,FL,38,2.66,39.47,-0.1579,-0.1053,-0.1842,-0.1053,-0.1579,-0.0263
+Visionworks,Palm Harbor,FL,31,2.45,32.26,-0.129,-0.129,-0.0645,-0.2258,-0.2581,-0.129
+Visionworks,Plymouth Meeting,PA,21,3.38,57.14,0.0952,0.2857,0.0952,-0.0952,0.0,-0.0476
+Visionworks,Port Richey,FL,21,3.24,57.14,-0.0476,0.1905,-0.0952,-0.1429,-0.0476,-0.0476
+Visionworks,St Petersburg,FL,74,3.58,63.51,-0.0405,0.2027,0.1081,-0.0811,-0.0676,-0.0541
+Visionworks,Tampa,FL,71,2.85,46.48,-0.0423,0.0704,-0.0845,-0.0563,-0.0141,-0.0423
+Visionworks Columbus Commons,Philadelphia,PA,33,2.45,33.33,-0.1515,-0.0909,-0.3333,-0.3333,-0.3333,-0.0909
+Visionworks Doctors of Optometry,Brentwood,TN,26,2.42,34.62,-0.1538,-0.0769,-0.0769,-0.3462,-0.1154,-0.0769
+Visionworks Doctors of Optometry,Hendersonville,TN,20,2.3,30.0,0.0,-0.05,-0.1,-0.2,-0.25,-0.1
+Visionworks Doctors of Optometry,Mt  Juliet,TN,24,2.21,29.17,-0.2083,0.0,-0.2083,-0.125,-0.2083,-0.125
+Visionworks Doctors of Optometry,Nashville,TN,58,2.67,41.38,-0.1379,-0.1724,-0.069,-0.2241,-0.2241,-0.1379
+Visionworks Edgmont Square,Newtown Square,PA,24,1.67,12.5,-0.4583,-0.25,-0.4167,-0.3333,-0.3333,-0.125
+Visionworks King of Prussia Mall,King of Prussia,PA,21,1.76,14.29,-0.2857,-0.2381,-0.381,-0.1905,-0.4286,-0.0952
+Visionworks Meadowood Mall,Reno,NV,50,3.54,62.0,0.04,0.16,0.06,-0.08,-0.06,0.06
+Visionworks Montgomery Mall,North Wales,PA,20,2.3,35.0,-0.05,-0.05,-0.15,-0.25,-0.1,-0.15
+Visionworks Pontchartrain Place,Metairie,LA,27,2.89,44.44,0.0,0.1852,-0.1111,-0.037,-0.2222,0.0
+Visionworks Quarry Center,Havertown,PA,39,2.9,41.03,-0.0769,-0.0256,0.0256,-0.1282,-0.0256,0.0256
+Visionworks Renaissance Square,Clearwater,FL,29,3.9,72.41,0.3448,0.4483,0.1034,0.0,0.1379,0.1034
+Visionworks The Court at Upper Providence,Royersford,PA,21,2.9,42.86,-0.0952,-0.2381,-0.0476,-0.1905,-0.2381,0.0
+Visiting Angels,Bryn Mawr,PA,21,4.9,100.0,0.7619,0.3333,0.1429,0.2857,0.2857,0.1905
+Vista Dental Care,Sparks,NV,29,4.21,79.31,0.2414,0.4483,0.069,0.2069,0.0,0.4138
+Vital Form Chiropractic,Franklin ,TN,29,4.86,96.55,0.4828,0.1034,0.0345,0.1379,0.2069,0.1379
+Vitalant - Reno,Reno,NV,26,4.46,88.46,0.1538,0.5385,0.0769,0.3077,0.1154,0.3077
+"Viva Nails, Hair & Spa",Philadelphia,PA,68,3.31,52.94,-0.0441,0.0,-0.0588,-0.0882,-0.0588,0.0882
+Vogue Nails of Sugar Valley,Nashville,TN,20,4.6,85.0,0.05,0.4,0.05,0.15,0.05,0.4
+Vons,Montecito,CA,77,2.44,29.87,-0.026,-0.1299,0.026,-0.0909,-0.0909,-0.0519
+Wagner Chiropractic,Santa Barbara,CA,27,5.0,100.0,0.4444,0.5556,0.1481,0.1481,0.1481,0.2593
+Walgreens,New Orleans,LA,50,2.48,34.0,-0.06,-0.16,-0.06,0.0,-0.14,-0.04
+Walker Dentistry,Fishers,IN,22,4.64,90.91,0.3182,0.6364,0.0455,0.0455,0.2273,0.5909
+Walmart,Hatfield,PA,39,1.77,12.82,-0.1026,-0.2821,-0.1538,-0.1795,-0.1795,0.0
+Walmart Supercenter,Harvey,LA,24,2.46,25.0,0.0,-0.1667,-0.0833,-0.0833,-0.0417,-0.0417
+Walmart Supercenter,Philadelphia,PA,192,1.62,8.33,-0.0938,-0.2708,-0.1406,-0.1927,-0.099,-0.1458
+Walmart Supercenter,St Petersburg,FL,48,2.94,45.83,-0.0208,0.1458,-0.0625,0.0625,-0.125,0.125
+Walmart Supercenter,Tucson,AZ,26,2.0,23.08,-0.1154,-0.1923,-0.0769,-0.1538,-0.1154,-0.0385
+"Walter C Dukes, DDS",Santa Barbara,CA,32,5.0,100.0,0.1562,0.6875,0.1562,0.2188,0.2188,0.625
+Warby Parker,Nashville,TN,30,4.47,86.67,0.0667,0.5333,0.2,0.1,0.1667,0.0333
+Warby Parker,New Orleans,LA,54,4.06,75.93,0.0741,0.5,0.2037,0.1111,0.0556,0.0741
+Warby Parker,Philadelphia,PA,59,4.0,74.58,0.1356,0.339,0.3051,0.0678,0.1525,0.1356
+Warby Parker,Tampa,FL,32,4.59,90.62,0.0938,0.5625,0.2812,0.3125,0.1562,0.0625
+We Wax That Spa,Rock Hill,MO,126,4.76,93.65,0.1032,0.3492,0.2222,0.1429,0.1032,0.1032
+Webster Dental Care,Saint Louis,MO,23,3.43,56.52,0.1739,0.1739,0.1739,-0.1739,-0.1304,0.0
+Wedgewood Pharmacy,Swedesboro,NJ,154,2.19,27.27,-0.1494,-0.0325,-0.2078,-0.2597,-0.2532,-0.026
+Wee Massage,Philadelphia,PA,32,3.47,59.38,-0.0312,0.1562,0.0625,0.0,-0.0938,0.2188
+Weed World Candies,New Orleans,LA,23,1.09,0.0,-0.0435,-0.087,-0.1304,-0.0435,-0.2609,0.0
+Wegmans,King of Prussia,PA,221,3.78,70.59,0.0226,0.0905,0.1946,0.0226,-0.0543,0.095
+Wegmans,Mount Laurel,NJ,121,3.94,72.73,0.0083,0.1653,0.1983,0.0826,-0.0083,0.1074
+Wegmans,Warrington,PA,150,3.83,68.67,0.0067,0.08,0.2867,0.06,0.0267,0.0933
+Weis Markets,Conshohocken,PA,29,2.86,44.83,0.0,-0.0345,0.1379,0.0,0.0,0.069
+Weis Markets,Norristown,PA,22,2.77,36.36,0.0,0.0909,0.0,-0.0455,0.0,0.0909
+WellCare,Tampa,FL,67,1.06,1.49,-0.7313,-0.0597,-0.5522,-0.3433,-0.2985,-0.0299
+Wellbridge Athletic Club & Spa,Clayton,MO,54,3.04,46.3,-0.0185,0.0741,-0.1111,-0.0556,-0.1481,-0.0741
+Wellfeet Spa,Philadelphia,PA,76,4.14,82.89,0.0263,0.2368,0.2895,0.0132,0.0,0.2105
+Wellness Massage Spa,New Orleans,LA,122,4.8,95.08,0.0656,0.3197,0.2377,0.1639,0.0328,0.3689
+Wellness Origin Spa,Carmel,IN,23,4.13,78.26,0.1739,0.3913,0.0435,0.087,0.2174,0.1304
+Wells Endodontics,Wesley Chapel,FL,22,4.95,100.0,0.4545,0.8182,0.0455,0.1818,0.4091,0.3182
+"Wesley G Schooler, MD, FACS",Santa Barbara,CA,31,4.32,83.87,0.4516,0.4516,-0.0323,0.0645,0.1613,0.2581
+West Chester Gastrointestinal Group,West Chester,PA,22,2.68,36.36,-0.2273,-0.0909,-0.0909,-0.1818,-0.1364,-0.1364
+West Hills Hospital,Reno,NV,21,1.43,9.52,-0.7143,-0.6667,-0.6667,-0.4762,-0.5238,-0.4762
+West Jefferson Medical Center,Marrero,LA,25,2.24,16.0,-0.36,-0.44,-0.16,-0.24,-0.2,-0.2
+Westchase Smiles Institute,Tampa,FL,35,4.03,77.14,0.1143,0.5714,-0.0571,0.0,0.2,0.2571
+Western Dental & Orthodontics,Goleta,CA,146,2.12,28.08,-0.1644,-0.089,-0.2123,-0.4178,-0.1644,-0.226
+Western Dental & Orthodontics,Reno,NV,45,2.73,44.44,-0.1778,0.0222,-0.2222,-0.1111,-0.1778,-0.1556
+Western Dental & Orthodontics,Sparks,NV,64,1.8,17.19,-0.2656,-0.2969,-0.5,-0.2812,-0.3281,-0.4375
+Western Dental & Orthodontics,Tucson,AZ,155,2.18,29.03,-0.2258,-0.0645,-0.3677,-0.3355,-0.3161,-0.2968
+Western Surgical Group,Reno,NV,22,2.59,40.91,-0.1818,0.0,0.0,-0.2727,-0.2727,-0.1818
+Westside Chiropractic,Reno,NV,22,4.95,100.0,0.3182,0.8182,0.0909,0.2727,0.2273,0.4545
+White & Grube Orthodontist,Santa Barbara,CA,37,5.0,100.0,0.3514,0.6486,0.2162,0.2162,0.1622,0.5135
+White Pine Family Dental,Reno,NV,66,4.68,90.91,0.2424,0.5909,0.0606,0.0,0.1364,0.303
+Whole Body Vibe Wellness Center,Eagle,ID,36,4.28,80.56,0.1111,0.1667,-0.0556,-0.0278,0.0833,0.3611
+"William B Putterman, OD",Philadelphia,PA,35,4.91,97.14,0.6286,0.8571,0.2286,0.2857,0.3143,0.5143
+Williamson Medical Center,Franklin,TN,42,3.24,50.0,-0.0238,0.119,-0.0476,-0.1667,-0.0952,-0.0476
+Willingboro Family Dental,Willingboro,NJ,20,1.55,10.0,-0.3,-0.45,-0.5,-0.75,-0.35,-0.6
+Wills Eye Hospital,Philadelphia,PA,102,2.16,26.47,-0.2941,-0.1667,-0.1961,-0.3235,-0.2549,-0.1569
+Wink iBoutique Lash & Brow Bar,Clayton,MO,30,3.83,70.0,0.0333,0.1,-0.1,-0.0333,-0.1,0.0667
+Winn-Dixie,New Orleans,LA,53,3.21,47.17,0.0189,0.1321,-0.0377,0.0377,0.0566,0.2453
+Wiregrass Family Dental Care,Wesley Chapel,FL,28,2.0,25.0,-0.3214,-0.0357,-0.3929,-0.2857,-0.25,-0.3571
+WobbeMassage,New Orleans,LA,31,5.0,100.0,0.129,0.3226,0.0968,0.0968,0.129,0.2903
+Wolgin Endodontic Group,Philadelphia,PA,35,4.86,97.14,0.4286,0.8,0.2,0.2571,0.3143,0.3429
+Women's Care Florida,Brandon,FL,59,1.95,20.34,-0.4576,-0.2203,-0.2712,-0.2203,-0.2542,-0.2542
+Womens Care Florida,Clearwater,FL,22,1.95,18.18,-0.4545,-0.3182,-0.1364,-0.4545,-0.3182,-0.3636
+Womens Group Of Franklin,Franklin,TN,22,2.55,36.36,-0.3182,-0.0455,-0.3182,0.0455,-0.1818,-0.1818
+Woodlands Healing Research Center,Quakertown,PA,21,3.43,57.14,0.0952,0.0952,0.0,0.0,0.0,-0.0476
+World Wellness Health Institute,Bala Cynwyd,PA,25,3.44,60.0,0.04,0.28,-0.12,-0.04,0.0,0.04
+Worlds Finest Vape Shop,Bridgeport,PA,35,4.11,80.0,0.0571,0.4571,0.2,0.0857,0.1429,0.1143
+Wright & Feusier Orthodontics,Santa Barbara,CA,20,5.0,100.0,0.55,0.8,0.25,0.3,0.3,0.55
+Wrigley Eye Associates,Philadelphia,PA,26,1.73,11.54,-0.2692,-0.5385,-0.6154,-0.1923,-0.2692,-0.2308
+Yasa Yoga,Santa Barbara,CA,75,4.48,86.67,0.0267,0.2133,0.0267,0.0533,0.0533,0.0533
+YouFit Gyms,Saint Petersburg,FL,44,2.3,20.45,-0.0682,-0.1818,-0.3409,-0.0455,-0.1818,-0.0227
+YouFit Gyms,Tampa,FL,38,3.29,57.89,0.0,0.1053,-0.0789,0.0,-0.1316,0.2895
+Young Chiropractic & Acupuncture Center,Saint Louis,MO,24,5.0,100.0,0.5417,0.25,0.1667,0.125,0.1667,0.375
+Your Family Walk-In Clinic,Lutz,FL,31,3.97,74.19,0.3871,0.4516,0.0323,0.0968,0.0323,0.3226
+Yoyo Healing Touch,Bryn Mawr,PA,34,4.29,79.41,0.1176,0.1765,0.1176,0.0588,-0.0294,0.1176
+ZL MedAesthetics,Tucson,AZ,29,4.72,93.1,0.3103,0.5862,0.069,0.2414,0.2759,0.4138
+Zak Dental - Santa Barbara,Santa Barbara,CA,123,2.94,48.78,-0.0813,0.0163,-0.2033,-0.2276,-0.187,-0.2114
+Zarett Rehab and Fitness,Philadelphia,PA,58,4.1,75.86,0.2586,0.3793,-0.0172,0.0345,-0.0172,0.2069
+Zen Massage Place,Santa Barbara,CA,155,4.41,83.87,0.0323,0.2581,0.2,0.0387,0.0258,0.2968
+Zen Reflexology & Massage Spa,Tucson,AZ,24,3.08,54.17,0.0,0.0,0.0417,0.0833,-0.0833,-0.0417
+ZenSpa,Santa Barbara,CA,26,4.5,88.46,0.3462,0.1154,0.0,0.0769,0.0,0.1538
+Zionsville Eyecare,Zionsville,IN,26,4.46,88.46,0.5769,0.5769,0.2692,0.1154,0.1923,0.2692
+Zugan Health Urgent Care,Santa Barbara,CA,77,3.97,74.03,0.4026,0.3506,0.039,0.2078,0.0519,0.2857
+breTH Nail Bar,Gallatin,TN,26,2.65,34.62,0.0,-0.1923,-0.1538,-0.4231,-0.2692,-0.0769
+iSmile Dental Team,Philadelphia,PA,30,3.5,63.33,0.2,0.2333,-0.1667,-0.0667,-0.0333,-0.0333
+iSmile Tucson,Tucson,AZ,21,2.71,42.86,0.0,0.1429,-0.2381,0.0,-0.0952,-0.0476
+myDoc Urgent Care,Philadelphia,PA,93,3.17,52.69,0.0,0.1505,-0.2258,-0.0538,-0.1183,-0.0215
+reYOU massage,Philadelphia,PA,63,3.9,77.78,0.0317,0.1587,0.0,-0.0317,0.2063,0.0635
+skinspa,Saint Louis,MO,28,4.54,85.71,0.25,0.3571,0.1786,0.1429,0.1786,0.2143
+sunshine foot spa,Tampa,FL,39,4.36,84.62,-0.0513,0.1026,0.1795,0.1282,-0.0256,0.2564
+vir tú,Sewell,NJ,23,4.09,78.26,0.0,0.3913,0.0,0.2609,-0.087,0.3913
+vybe urgent care,Philadelphia,PA,95,2.92,45.26,-0.0105,0.0632,-0.1789,-0.0842,-0.1684,0.0526
+​Silent Stay Meditation & Retreat Center,Montecito,CA,35,4.86,97.14,0.0571,0.1143,0.1429,0.1429,0.1714,0.2286

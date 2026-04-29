@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import pydeck as pdk
-from utils import inject_css, render_top_nav, hero, metric_card, load_aspect_data, calculate_cqi, quality_badge, quality_label
+from utils import PEER_FEATURES_PATH, PROVIDER_SCORES_PATH, inject_css, render_top_nav, hero, metric_card, load_aspect_data, calculate_cqi, quality_badge, quality_label
 
 st.set_page_config(page_title="Provider Details", page_icon="C", layout="wide")
 inject_css()
@@ -33,7 +33,12 @@ hero(
 
 top_bar_left, top_bar_right = st.columns([2.2, 1])
 with top_bar_left:
-    selected_provider = st.selectbox("Search provider", provider_names, index=0)
+    default_provider = st.session_state.get("selected_provider", provider_names[0])
+selected_provider = st.selectbox(
+    "Search provider",
+    provider_names,
+    index=provider_names.index(default_provider) if default_provider in provider_names else 0
+)
 with top_bar_right:
     sort_reviews = st.selectbox("Review sort", ["Newest first", "Highest stars", "Lowest stars"])
 

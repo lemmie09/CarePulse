@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 from pathlib import Path
@@ -6,9 +7,21 @@ import torch
 from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
 from healthcare_filter import is_healthcare_category
 
-DATA_PATH = Path("data/processed/healthcare_reviews_min20_labeled.csv")
-ASPECT_PATH = Path("data/processed/healthcare_reviews_min20_aspects.csv")
-BIZ_PATH = Path("data/processed/healthcare_businesses_min20.csv")
+USE_DEMO_DATA = os.getenv("CAREPULSE_DEMO", "0") == "1"
+
+if USE_DEMO_DATA:
+    DATA_PATH = Path("data/demo/healthcare_reviews_demo_aspects.csv")
+    ASPECT_PATH = Path("data/demo/healthcare_reviews_demo_aspects.csv")
+    BIZ_PATH = Path("data/demo/healthcare_businesses_demo.csv")
+    PROVIDER_SCORES_PATH = Path("data/demo/provider_aspect_scores_demo.csv")
+    PEER_FEATURES_PATH = Path("data/demo/provider_peer_features_demo.csv")
+else:
+    DATA_PATH = Path("data/processed/healthcare_reviews_min20_labeled.csv")
+    ASPECT_PATH = Path("data/processed/healthcare_reviews_min20_aspects.csv")
+    BIZ_PATH = Path("data/processed/healthcare_businesses_min20.csv")
+    PROVIDER_SCORES_PATH = Path("data/processed/provider_aspect_scores.csv")
+    PEER_FEATURES_PATH = Path("data/processed/provider_peer_features.csv")
+
 MODEL_PATH = Path("models/logreg_model.pkl")
 VECTORIZER_PATH = Path("models/tfidf_vectorizer.pkl")
 DISTILBERT_DIR = Path("models/distilbert_sentiment")

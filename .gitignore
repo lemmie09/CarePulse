@@ -6,3 +6,14 @@ data/processed/
 .DS_Store
 __pycache__/
 .venv/
+
+# Keep full local data/model out of GitHub
+data/processed/
+data/raw/
+models/distilbert_sentiment/
+*.safetensors
+*.bin
+
+# Allow lightweight demo data
+!data/demo/
+!data/demo/*.csv
