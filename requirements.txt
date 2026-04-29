@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+plotly
+pydeck
+folium
+streamlit-folium
+scikit-learn
+joblib
+torch
+transformers
+datasets
+evaluate
+accelerate

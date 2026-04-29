@@ -17,3 +17,4 @@ models/distilbert_sentiment/
 # Allow lightweight demo data
 !data/demo/
 !data/demo/*.csv
+.streamlit/secrets.toml
