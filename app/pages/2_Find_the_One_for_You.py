@@ -4,6 +4,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 from utils import PEER_FEATURES_PATH, PROVIDER_SCORES_PATH, inject_css, render_top_nav, hero, metric_card, load_data, load_aspect_data
 
 st.set_page_config(page_title="Find the One for You", page_icon="C", layout="wide")
@@ -514,85 +515,194 @@ with m4:
     metric_card("Model Layer", "Care-Fit Engine", "Peer comparison + evidence strength")
 
 st.markdown("---")
+
+
+
+
+st.markdown("""
+<style>
+div[data-testid="stVerticalBlock"] div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255,255,255,0.96) !important;
+    border: 1px solid rgba(148,163,184,0.18) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 14px 30px rgba(15,23,42,0.08) !important;
+}
+
+[data-testid="stMetric"] {
+    background: #f8fafc;
+    border-radius: 14px;
+    padding: 10px 12px;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.78rem !important;
+    color: #64748b !important;
+    font-weight: 800 !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 1.45rem !important;
+    color: #0f172a !important;
+    font-weight: 900 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+<style>
+/* Cleaner recommendation container cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255,255,255,0.97) !important;
+    border: 1px solid rgba(203,213,225,0.95) !important;
+    border-radius: 22px !important;
+    box-shadow: 0 18px 38px rgba(15,23,42,0.10) !important;
+}
+
+/* Keep metric boxes soft but readable */
+[data-testid="stMetric"] {
+    background: #f8fafc !important;
+    border: 1px solid rgba(226,232,240,0.95) !important;
+    border-radius: 16px !important;
+    padding: 12px 14px !important;
+}
+
+/* Recommendation info banner */
+div[data-testid="stAlert"] {
+    background: rgba(255,255,255,0.94) !important;
+    border: 1px solid rgba(203,213,225,0.8) !important;
+    border-radius: 16px !important;
+    color: #334155 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+<style>
+/* Strong readable recommendation cards */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255,255,255,0.96) !important;
+    border: 1px solid rgba(203,213,225,0.95) !important;
+    border-radius: 22px !important;
+    box-shadow: 0 18px 40px rgba(15,23,42,0.12) !important;
+    padding: 18px !important;
+}
+
+/* Inner card content */
+div[data-testid="stVerticalBlockBorderWrapper"] > div {
+    background: transparent !important;
+}
+
+/* Metric boxes */
+[data-testid="stMetric"] {
+    background: rgba(248,250,252,0.98) !important;
+    border: 1px solid rgba(226,232,240,1) !important;
+    border-radius: 16px !important;
+    padding: 12px 14px !important;
+}
+
+/* Make text stronger */
+div[data-testid="stVerticalBlockBorderWrapper"] h3,
+div[data-testid="stVerticalBlockBorderWrapper"] p,
+div[data-testid="stVerticalBlockBorderWrapper"] span {
+    color: #0f172a;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
 st.markdown("## Top recommendations")
+st.info("Ranked using patient sentiment, review depth, care-specific aspect signals, and peer comparison.")
 
-top_recs = rec_df.head(3)
-cols = st.columns(3)
+top_recs = rec_df.head(3).copy()
 
-for idx, (_, row) in enumerate(top_recs.iterrows()):
-    with cols[idx]:
-        pos_snippet, neg_snippet = get_review_snippets(row["business_name"])
+def safe_num(value, default=0.0):
+    try:
+        return float(value)
+    except Exception:
+        return default
 
-        st.markdown('<div class="provider-card">', unsafe_allow_html=True)
-        st.markdown(f'<div class="provider-name">{row["business_name"]}</div>', unsafe_allow_html=True)
-        st.markdown(f'<div class="provider-sub">{row["city"]}, {row["state"]}</div>', unsafe_allow_html=True)
+def pct_value(row, *cols):
+    for col in cols:
+        if col in row and pd.notna(row[col]):
+            value = safe_num(row[col])
+            return round(value * 100, 1) if value <= 1 else round(value, 1)
+    return 0.0
 
-        badges_html = ""
-        for label, kind in trust_badges(row):
-            cls = "badge-verified" if kind == "verified" else "badge-top" if kind == "top" else "badge-board"
-            badges_html += f'<span class="trust-badge {cls}">{label}</span>'
-        if not badges_html:
-            badges_html = '<span class="trust-badge badge-board">Patient-reviewed provider</span>'
-        st.markdown(badges_html, unsafe_allow_html=True)
+def match_label(score):
+    score = safe_num(score)
+    if score >= 75:
+        return "Excellent Match"
+    if score >= 60:
+        return "Good Match"
+    if score >= 45:
+        return "Fair Match"
+    return "Emerging Match"
 
-        left, right = st.columns([1, 1])
+def top_strengths(row):
+    signals = {
+        "Doctor care": pct_value(row, "doctor_quality", "doctor_care_score"),
+        "Communication": pct_value(row, "communication_quality", "communication_score"),
+        "Staff experience": pct_value(row, "staff_quality", "staff_behavior_score"),
+        "Clean facility": pct_value(row, "cleanliness_quality", "cleanliness_facility_score"),
+    }
+    ranked = sorted(signals.items(), key=lambda x: x[1], reverse=True)
+    return [name for name, value in ranked[:2] if value > 0] or ["Balanced feedback"]
+
+def main_watchout(row):
+    wait = pct_value(row, "wait_concern", "wait_time_score")
+    billing = pct_value(row, "billing_concern", "billing_cost_score")
+    if wait >= billing and wait > 20:
+        return "Wait time"
+    if billing > wait and billing > 12:
+        return "Billing"
+    return "No major concern"
+
+for idx, (_, row) in enumerate(top_recs.iterrows(), start=1):
+    name = row.get("business_name", "")
+    city = row.get("city", "")
+    state = row.get("state", "")
+
+    score = round(safe_num(row.get("match_score", row.get("recommendation_score", 0))), 2)
+    percentile = round(safe_num(row.get("recommendation_percentile", 0)), 1)
+    stars = round(safe_num(row.get("avg_stars", 0)), 2)
+    reviews = int(safe_num(row.get("total_reviews", 0)))
+    positive = pct_value(row, "positive_review_ratio", "positive_review_pct")
+    evidence = row.get("evidence_strength", "N/A")
+    strengths = ", ".join(top_strengths(row))
+    watchout = main_watchout(row)
+    label = match_label(score)
+
+    with st.container(border=True):
+        left, right = st.columns([4, 1.2])
+
         with left:
-            st.markdown('<div class="soft-panel">', unsafe_allow_html=True)
-            st.markdown('<div class="metric-kicker">Care-Fit Score</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="metric-main">{row["match_score"]}</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="metric-sub">Peer percentile: {row["recommendation_percentile"]:.1f}</div>', unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
+            st.caption(f"RECOMMENDATION {idx}")
+            st.subheader(name)
+            st.caption(f"{city}, {state}")
+
+            m1, m2, m3, m4 = st.columns(4)
+            m1.metric("Stars", stars)
+            m2.metric("Reviews", reviews)
+            m3.metric("Positive", f"{positive}%")
+            m4.metric("Peer rank", percentile)
+
+            st.write(f"Evidence strength: {evidence}")
+            st.write(f"Best strengths: {strengths}")
+            st.write(f"Main watchout: {watchout}")
+
         with right:
-            st.markdown('<div class="soft-panel">', unsafe_allow_html=True)
-            st.markdown('<div class="metric-kicker">Trust Snapshot</div>', unsafe_allow_html=True)
-            st.markdown(
-                f'<div class="metric-sub">Average stars: <b>{row["avg_stars"]:.2f}</b><br/>Positive review ratio: <b>{row["positive_review_ratio"]:.1f}%</b><br/>Evidence strength: <b>{row["evidence_strength"]}</b></div>',
-                unsafe_allow_html=True
-            )
-            st.markdown('</div>', unsafe_allow_html=True)
-
-        st.markdown('<div class="section-title">Multi-dimensional review scores</div>', unsafe_allow_html=True)
-        scores = sub_scores(row)
-        st.markdown("".join([f'<span class="score-chip">{k}: {v}</span>' for k, v in scores.items()]), unsafe_allow_html=True)
-
-        st.markdown('<div class="section-title">Review tags</div>', unsafe_allow_html=True)
-        pos_html = "".join([f'<span class="review-tag-positive">{t}</span>' for t in positive_tags(row)])
-        neg_html = "".join([f'<span class="review-tag-concern">{t}</span>' for t in concern_tags(row)])
-        if not pos_html:
-            pos_html = '<span class="review-tag-positive">Balanced sentiment</span>'
-        st.markdown(pos_html + neg_html, unsafe_allow_html=True)
-
-        st.markdown('<div class="section-title">Why it matches</div>', unsafe_allow_html=True)
-        st.markdown(f'<div class="concierge-strip">{rationale(row)}</div>', unsafe_allow_html=True)
-
-        st.markdown('<div class="section-title">Review evidence</div>', unsafe_allow_html=True)
-        if pos_snippet:
-            st.markdown(
-                f'''
-                <div class="snippet-box">
-                    <div class="snippet-label-pos">Positive highlight</div>
-                    “{pos_snippet}”
-                </div>
-                ''',
-                unsafe_allow_html=True
-            )
-        if neg_snippet:
-            st.markdown(
-                f'''
-                <div class="snippet-box">
-                    <div class="snippet-label-neg">Concern highlight</div>
-                    “{neg_snippet}”
-                </div>
-                ''',
-                unsafe_allow_html=True
-            )
-
-        st.markdown('</div>', unsafe_allow_html=True)
+            st.metric(label, score)
+            if st.button("View Details", key=f"top_rec_fixed_{idx}_{name}"):
+                st.session_state["selected_provider"] = name
+                st.switch_page("pages/1_Provider_Analysis.py")
 
 st.markdown("---")
 st.markdown("## Compare providers")
 
-compare_options = rec_df["business_name"].head(12).tolist()
+compare_options = rec_df["business_name"].dropna().head(15).tolist()
 default_compare = compare_options[:3] if len(compare_options) >= 3 else compare_options
 
 selected_compare = st.multiselect(
@@ -602,31 +712,131 @@ selected_compare = st.multiselect(
     max_selections=3
 )
 
+def safe_num(value, default=0.0):
+    try:
+        return float(value)
+    except Exception:
+        return default
+
+def pct_from_ratio(value):
+    value = safe_num(value)
+    if value <= 1:
+        return round(value * 100, 1)
+    return round(value, 1)
+
+def compact_best(row):
+    signals = {
+        "Doctor care": pct_from_ratio(row.get("doctor_quality", row.get("doctor_care_score", 0))),
+        "Communication": pct_from_ratio(row.get("communication_quality", row.get("communication_score", 0))),
+        "Staff": pct_from_ratio(row.get("staff_quality", row.get("staff_behavior_score", 0))),
+        "Cleanliness": pct_from_ratio(row.get("cleanliness_quality", row.get("cleanliness_facility_score", 0))),
+    }
+    best = max(signals, key=signals.get)
+    return best if signals[best] > 0 else "Balanced"
+
+def compact_watch(row):
+    wait = pct_from_ratio(row.get("wait_concern", row.get("wait_time_score", 0)))
+    billing = pct_from_ratio(row.get("billing_concern", row.get("billing_cost_score", 0)))
+    if wait >= billing and wait > 10:
+        return "Wait time"
+    if billing > wait and billing > 10:
+        return "Billing"
+    return "Low concern"
+
 if selected_compare:
     compare_df = rec_df[rec_df["business_name"].isin(selected_compare)].copy()
-    compare_cols = st.columns(len(compare_df))
 
-    for col, (_, row) in zip(compare_cols, compare_df.iterrows()):
+    summary_rows = []
+    for _, row in compare_df.iterrows():
+        summary_rows.append({
+            "Provider": row.get("business_name", ""),
+            "Location": f"{row.get('city', '')}, {row.get('state', '')}",
+            "Care-Fit": round(safe_num(row.get("match_score", row.get("recommendation_score", 0))), 2),
+            "Stars": round(safe_num(row.get("avg_stars", 0)), 2),
+            "Reviews": int(safe_num(row.get("total_reviews", 0))),
+            "Positive %": pct_from_ratio(row.get("positive_review_ratio", row.get("positive_review_pct", 0))),
+            "Best For": compact_best(row),
+            "Watch": compact_watch(row),
+        })
+
+    summary_df = pd.DataFrame(summary_rows)
+
+    st.markdown(
+        """
+        <div style="background:rgba(255,255,255,0.88); border:1px solid rgba(148,163,184,0.16); border-radius:18px; padding:15px 18px; margin-bottom:18px; color:#334155; line-height:1.55;">
+            Compare providers using care-fit score, patient sentiment, review volume, and care-specific signals. This view is designed to support quick decision-making instead of reading many reviews manually.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.dataframe(summary_df, use_container_width=True, hide_index=True)
+
+    st.markdown("### Care signal comparison")
+
+    radar_rows = []
+    for _, row in compare_df.iterrows():
+        provider = row.get("business_name", "")
+        radar_rows.extend([
+            {"Provider": provider, "Signal": "Doctor care", "Score": pct_from_ratio(row.get("doctor_quality", row.get("doctor_care_score", 0)))},
+            {"Provider": provider, "Signal": "Communication", "Score": pct_from_ratio(row.get("communication_quality", row.get("communication_score", 0)))},
+            {"Provider": provider, "Signal": "Staff", "Score": pct_from_ratio(row.get("staff_quality", row.get("staff_behavior_score", 0)))},
+            {"Provider": provider, "Signal": "Low wait concern", "Score": max(0, 100 - pct_from_ratio(row.get("wait_concern", row.get("wait_time_score", 0))))},
+            {"Provider": provider, "Signal": "Low billing concern", "Score": max(0, 100 - pct_from_ratio(row.get("billing_concern", row.get("billing_cost_score", 0))))},
+        ])
+
+    radar_df = pd.DataFrame(radar_rows)
+
+    fig_compare = px.line_polar(
+        radar_df,
+        r="Score",
+        theta="Signal",
+        color="Provider",
+        line_close=True,
+        range_r=[0, 100],
+        title="Provider Strength Profile"
+    )
+    fig_compare.update_traces(fill="toself")
+    fig_compare.update_layout(height=520)
+    st.plotly_chart(fig_compare, use_container_width=True)
+
+    st.markdown("### Quick decision cards")
+
+    cols = st.columns(len(compare_df))
+    for col, (_, row) in zip(cols, compare_df.iterrows()):
         with col:
-            st.markdown('<div class="compare-card">', unsafe_allow_html=True)
-            st.markdown(f'<div class="compare-title">{row["business_name"]}</div>', unsafe_allow_html=True)
-            st.markdown(f'<div class="compare-sub">{row["city"]}, {row["state"]}</div>', unsafe_allow_html=True)
+            provider = row.get("business_name", "")
+            city = row.get("city", "")
+            state = row.get("state", "")
+            care = round(safe_num(row.get("match_score", row.get("recommendation_score", 0))), 2)
+            stars = round(safe_num(row.get("avg_stars", 0)), 2)
+            reviews = int(safe_num(row.get("total_reviews", 0)))
+            positive = pct_from_ratio(row.get("positive_review_ratio", row.get("positive_review_pct", 0)))
+            best = compact_best(row)
+            watch = compact_watch(row)
 
-            st.markdown(f'''
-            <div class="compare-row"><span class="compare-label">Care-Fit Score</span><span class="compare-value">{row["match_score"]}</span></div>
-            <div class="compare-row"><span class="compare-label">Peer Percentile</span><span class="compare-value">{row["recommendation_percentile"]:.1f}</span></div>
-            <div class="compare-row"><span class="compare-label">Evidence Strength</span><span class="compare-value">{row["evidence_strength"]}</span></div>
-            <div class="compare-row"><span class="compare-label">Average Stars</span><span class="compare-value">{row["avg_stars"]:.2f}</span></div>
-            <div class="compare-row"><span class="compare-label">Reviews</span><span class="compare-value">{int(row["total_reviews"])}</span></div>
-            <div class="compare-row"><span class="compare-label">Doctor Care</span><span class="compare-value">{max(row["doctor_care_score"], 0) * 100:.1f}</span></div>
-            <div class="compare-row"><span class="compare-label">Communication</span><span class="compare-value">{max(row["communication_score"], 0) * 100:.1f}</span></div>
-            <div class="compare-row"><span class="compare-label">Staff Experience</span><span class="compare-value">{max(row["staff_behavior_score"], 0) * 100:.1f}</span></div>
-            <div class="compare-row"><span class="compare-label">Wait-Time Concern</span><span class="compare-value">{max(row["wait_concern"], 0) * 100:.1f}</span></div>
-            <div class="compare-row"><span class="compare-label">Billing Concern</span><span class="compare-value">{max(row["billing_concern"], 0) * 100:.1f}</span></div>
-            ''', unsafe_allow_html=True)
-
-            st.markdown(f'<div class="small-note"><b>Verdict:</b> {verdict(row)}<br/><b>Summary:</b> {rationale(row)}</div>', unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
+            st.markdown(
+                f"""
+                <div style="background:rgba(255,255,255,0.90); border:1px solid rgba(148,163,184,0.16); border-radius:20px; padding:18px; box-shadow:0 10px 24px rgba(15,23,42,0.05); min-height:260px;">
+                    <div style="font-size:0.78rem; color:#0f766e; font-weight:900; text-transform:uppercase; letter-spacing:0.05em;">Decision card</div>
+                    <div style="font-size:1.05rem; font-weight:900; color:#0f172a; margin-top:8px; line-height:1.25;">{provider}</div>
+                    <div style="font-size:0.9rem; color:#64748b; margin-top:4px;">{city}, {state}</div>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:14px;">
+                        <div style="background:#f8fafc; border-radius:14px; padding:10px;"><b>Care-Fit</b><br>{care}</div>
+                        <div style="background:#f8fafc; border-radius:14px; padding:10px;"><b>Stars</b><br>{stars}</div>
+                        <div style="background:#f8fafc; border-radius:14px; padding:10px;"><b>Reviews</b><br>{reviews}</div>
+                        <div style="background:#f8fafc; border-radius:14px; padding:10px;"><b>Positive</b><br>{positive}%</div>
+                    </div>
+                    <div style="margin-top:14px; padding:12px; border-left:4px solid #0f766e; background:#f8fafc; border-radius:12px; color:#334155;">
+                        <b>Best for:</b> {best}<br>
+                        <b>Watch:</b> {watch}
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+else:
+    st.info("Select providers to compare.")
 
 st.markdown("---")
 st.caption("Results are restricted to healthcare providers using a strict eligibility filter, then ranked using peer percentile, evidence strength, sentiment, provider quality, and aspect-level experience signals.")

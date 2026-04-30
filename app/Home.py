@@ -1,3 +1,4 @@
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -185,13 +186,40 @@ else:
 
 st.markdown("---")
 
+
+
+
+
+
 st.markdown("## Explore care themes")
-aspect_cols = st.columns(6)
-for col, label in zip(aspect_cols, ASPECT_LABELS.values()):
-    with col:
-        st.markdown(f'<span class="chip">{label}</span>', unsafe_allow_html=True)
+st.info("CarePulse converts patient review text into care-specific signals so users can understand what patients actually mention across provider experiences.")
+
+theme_cards = [
+    ("Doctor Care", "Clinical quality", "Diagnosis, treatment confidence, attention, and patient trust.", "app/assets/doctor_care.png"),
+    ("Staff Behavior", "Service experience", "Front-desk support, friendliness, professionalism, and responsiveness.", "app/assets/staff_behavior.png"),
+    ("Billing / Cost", "Cost transparency", "Insurance issues, charges, billing confusion, and payment concerns.", "app/assets/billing_cost.png"),
+    ("Wait Time", "Access friction", "Appointment delays, long waits, scheduling pain points, and urgency.", "app/assets/wait_time.png"),
+    ("Communication", "Patient clarity", "Clear explanations, follow-up instructions, and question handling.", "app/assets/communication.png"),
+    ("Cleanliness", "Facility trust", "Clean rooms, comfort, physical environment, and overall care setting.", "app/assets/cleanliness.png"),
+]
+
+for i in range(0, len(theme_cards), 3):
+    cols = st.columns(3)
+    for col, (title, label, desc, img_path) in zip(cols, theme_cards[i:i+3]):
+        with col:
+            with st.container(border=True):
+                if Path(img_path).exists():
+                    st.image(img_path, use_container_width=True)
+                st.subheader(title)
+                st.caption(label)
+                st.write(desc)
 
 st.markdown("---")
+
+
+
+
+
 
 f1, f2, f3 = st.columns(3)
 with f1:
