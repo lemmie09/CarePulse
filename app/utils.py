@@ -92,7 +92,7 @@ def inject_css():
     st.markdown("""
     <style>
     .stApp {
-        background: linear-gradient(180deg, #f8fafc 0%, #eef7f5 100%);
+        background: linear-gradient(180deg, #f8fafc 0%, #eef7f5 100%) !important;
     }
 
     .main > div {
