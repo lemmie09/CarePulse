@@ -3,6 +3,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import plotly.express as px
 from utils import PEER_FEATURES_PATH, PROVIDER_SCORES_PATH, inject_css, render_top_nav, hero, metric_card, load_data, load_aspect_data
@@ -613,6 +614,61 @@ div[data-testid="stVerticalBlockBorderWrapper"] span {
 
 
 
+
+st.markdown("""
+<style>
+/* Recommendation cards: soft teal theme */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: linear-gradient(135deg, rgba(236,253,245,0.98), rgba(240,253,250,0.96)) !important;
+    border: 1px solid rgba(15,118,110,0.28) !important;
+    border-radius: 22px !important;
+    box-shadow: 0 16px 34px rgba(15,118,110,0.12) !important;
+}
+
+/* Metric cards inside recommendation boxes */
+[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.92) !important;
+    border: 1px solid rgba(15,118,110,0.18) !important;
+    border-radius: 16px !important;
+    padding: 12px 14px !important;
+}
+
+/* Match score box */
+div[data-testid="stVerticalBlockBorderWrapper"] button {
+    background: #0f766e !important;
+    color: white !important;
+    border-radius: 14px !important;
+    border: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+<style>
+/* Darker recommendation card panels */
+section.main div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: linear-gradient(135deg, #dff3ef 0%, #e8f7f4 100%) !important;
+    border: 1.5px solid rgba(15,118,110,0.35) !important;
+    border-radius: 22px !important;
+    box-shadow: 0 18px 36px rgba(15,118,110,0.16) !important;
+}
+
+/* Metric boxes inside recommendation cards */
+section.main div[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.94) !important;
+    border: 1px solid rgba(15,118,110,0.24) !important;
+    border-radius: 16px !important;
+}
+
+/* Match score card on right */
+section.main div[data-testid="stVerticalBlockBorderWrapper"] div[data-testid="stMetric"]:has(div[data-testid="stMetricLabel"]) {
+    box-shadow: 0 8px 18px rgba(15,118,110,0.08) !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 st.markdown("## Top recommendations")
 st.info("Ranked using patient sentiment, review depth, care-specific aspect signals, and peer comparison.")
 
@@ -675,29 +731,83 @@ for idx, (_, row) in enumerate(top_recs.iterrows(), start=1):
     watchout = main_watchout(row)
     label = match_label(score)
 
-    with st.container(border=True):
-        left, right = st.columns([4, 1.2])
+    card_html = f"""
+    <div style="
+        background: linear-gradient(135deg, #d4f2ed 0%, #e0f7f3 50%, #c7ebe5 100%);
+        border: 1.8px solid rgba(15,118,110,0.42);
+        border-radius: 24px;
+        padding: 26px 28px;
+        margin-bottom: 10px;
+        box-shadow: 0 18px 40px rgba(15,118,110,0.18);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    ">
+        <div style="display:grid; grid-template-columns: 1fr 240px; gap:28px; align-items:center;">
+            <div>
+                <div style="font-size:13px; color:#0f766e; font-weight:900; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:18px;">
+                    Recommendation {idx}
+                </div>
 
-        with left:
-            st.caption(f"RECOMMENDATION {idx}")
-            st.subheader(name)
-            st.caption(f"{city}, {state}")
+                <div style="font-size:31px; line-height:1.15; font-weight:950; color:#0f172a; margin-bottom:12px;">
+                    {name}
+                </div>
 
-            m1, m2, m3, m4 = st.columns(4)
-            m1.metric("Stars", stars)
-            m2.metric("Reviews", reviews)
-            m3.metric("Positive", f"{positive}%")
-            m4.metric("Peer rank", percentile)
+                <div style="font-size:16px; color:#475569; margin-bottom:24px;">
+                    {city}, {state}
+                </div>
 
-            st.write(f"Evidence strength: {evidence}")
-            st.write(f"Best strengths: {strengths}")
-            st.write(f"Main watchout: {watchout}")
+                <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:14px; margin-bottom:22px;">
+                    <div style="background:rgba(255,255,255,0.82); border:1px solid rgba(15,118,110,0.22); border-radius:16px; padding:14px 16px;">
+                        <div style="font-size:13px; color:#64748b; font-weight:800;">Stars</div>
+                        <div style="font-size:24px; color:#0f172a; font-weight:950;">{stars}</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.82); border:1px solid rgba(15,118,110,0.22); border-radius:16px; padding:14px 16px;">
+                        <div style="font-size:13px; color:#64748b; font-weight:800;">Reviews</div>
+                        <div style="font-size:24px; color:#0f172a; font-weight:950;">{reviews}</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.82); border:1px solid rgba(15,118,110,0.22); border-radius:16px; padding:14px 16px;">
+                        <div style="font-size:13px; color:#64748b; font-weight:800;">Positive</div>
+                        <div style="font-size:24px; color:#0f172a; font-weight:950;">{positive}%</div>
+                    </div>
+                    <div style="background:rgba(255,255,255,0.82); border:1px solid rgba(15,118,110,0.22); border-radius:16px; padding:14px 16px;">
+                        <div style="font-size:13px; color:#64748b; font-weight:800;">Peer rank</div>
+                        <div style="font-size:24px; color:#0f172a; font-weight:950;">{percentile}</div>
+                    </div>
+                </div>
 
-        with right:
-            st.metric(label, score)
-            if st.button("View Details", key=f"top_rec_fixed_{idx}_{name}"):
-                st.session_state["selected_provider"] = name
-                st.switch_page("pages/1_Provider_Analysis.py")
+                <div style="font-size:16px; color:#0f172a; line-height:1.8;">
+                    <b>Evidence strength:</b> {evidence}<br>
+                    <b>Best strengths:</b> {strengths}<br>
+                    <b>Main watchout:</b> {watchout}
+                </div>
+            </div>
+
+            <div style="
+                background: linear-gradient(180deg, #0f766e 0%, #115e59 100%);
+                color:white;
+                border-radius:22px;
+                padding:26px 22px;
+                text-align:center;
+                box-shadow:0 16px 32px rgba(15,118,110,0.28);
+            ">
+                <div style="font-size:15px; opacity:0.88; font-weight:800; margin-bottom:8px;">
+                    {label}
+                </div>
+                <div style="font-size:42px; font-weight:950; line-height:1;">
+                    {score}
+                </div>
+                <div style="font-size:13px; opacity:0.82; margin-top:9px;">
+                    Care-fit score
+                </div>
+            </div>
+        </div>
+    </div>
+    """
+
+    components.html(card_html, height=310)
+
+    if st.button("View Details", key=f"top_rec_dark_card_{idx}_{name}"):
+        st.session_state["selected_provider"] = name
+        st.switch_page("pages/1_Provider_Analysis.py")
 
 st.markdown("---")
 st.markdown("## Compare providers")
